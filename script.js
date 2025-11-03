@@ -301,71 +301,49 @@ document.addEventListener('keydown', (e) => {
 // ===========================
 // Responsive Menu Toggle (for mobile)
 // ===========================
-function createMobileMenuToggle() {
-    const nav = document.querySelector('.main-nav');
-    const header = document.querySelector('.main-header .container');
-    
-    // Check if we're on mobile
-    if (window.innerWidth <= 768) {
-        // Create toggle button if it doesn't exist
-        if (!document.querySelector('.menu-toggle')) {
-            const toggle = document.createElement('button');
-            toggle.className = 'menu-toggle';
-            toggle.innerHTML = '☰';
-            toggle.style.cssText = `
-                background: none;
-                border: none;
-                color: white;
-                font-size: 1.5rem;
-                cursor: pointer;
-                padding: 0.5rem;
-                display: block;
-                margin: 0 auto;
-            `;
-            
-            toggle.addEventListener('click', () => {
-                nav.classList.toggle('mobile-open');
-            });
-            
-            header.appendChild(toggle);
-            
-            // Add mobile styles to nav
-            nav.style.cssText = `
-                max-height: 0;
-                overflow: hidden;
-                transition: max-height 0.3s ease;
-            `;
-        }
-        
-        // Toggle mobile menu
-        if (nav.classList.contains('mobile-open')) {
-            nav.style.maxHeight = nav.scrollHeight + 'px';
-        } else {
-            nav.style.maxHeight = '0';
-        }
-    }
+function toggleMobileMenu() {
+    const nav = document.getElementById('mainNav');
+    nav.classList.toggle('show');
 }
 
-window.addEventListener('resize', createMobileMenuToggle);
-window.addEventListener('load', createMobileMenuToggle);
+// Close menu when clicking on a link
+document.addEventListener('DOMContentLoaded', () => {
+    const navLinks = document.querySelectorAll('.main-nav a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            const nav = document.getElementById('mainNav');
+            if (nav.classList.contains('show')) {
+                nav.classList.remove('show');
+            }
+        });
+    });
+});
 
 // ===========================
 // Initialize Everything
 // ===========================
-document.addEventListener('DOMContentLoaded', () => {
-    console.log('🔍 Observatorio de Riesgos de IA - Sistema Inicializado');
+// Log initialization
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeApp);
+} else {
+    initializeApp();
+}
+
+function initializeApp() {
+    console.log('🔍 VIGÍA - Sistema Inicializado');
     console.log('📊 Análisis cargado exitosamente');
-    
+
     // Add any initialization code here
     initializeSearch();
-    createMobileMenuToggle();
-    
+
     // Log statistics
     const findingsCount = document.querySelectorAll('.finding-card').length;
     const risksCount = document.querySelectorAll('.risk-badge').length;
-    console.log(`📋 ${findingsCount} hallazgos cargados`);
-    console.log(`⚠️ ${risksCount} categorías de riesgo identificadas`);
-});
+    if (findingsCount > 0) {
+        console.log(`📋 ${findingsCount} hallazgos cargados`);
+        console.log(`⚠️ ${risksCount} categorías de riesgo identificadas`);
+    }
+}
 
 // ===========================
 // Performance Monitoring

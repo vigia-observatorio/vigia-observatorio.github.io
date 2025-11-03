@@ -184,6 +184,24 @@ body {
     font-weight: 700;
 }
 
+/* Mobile Menu Toggle Button */
+.mobile-menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.75rem;
+    cursor: pointer;
+    padding: var(--spacing-xs);
+    line-height: 1;
+}
+
+@media (max-width: 768px) {
+    .mobile-menu-toggle {
+        display: block;
+    }
+}
+
 /* ===========================
    Alert Banner
    =========================== */
@@ -985,19 +1003,41 @@ body {
     }
 
     .header-content {
-        flex-direction: column;
-        gap: var(--spacing-sm);
-        align-items: stretch;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .main-nav {
-        justify-content: center;
-        gap: var(--spacing-xs);
+        position: fixed;
+        top: 80px;
+        left: 0;
+        right: 0;
+        background: var(--primary-color);
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+        z-index: 999;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .main-nav.show {
+        max-height: 400px;
     }
 
     .main-nav a {
-        padding: var(--spacing-xs) var(--spacing-sm);
-        font-size: 0.875rem;
+        text-align: center;
+        padding: var(--spacing-md);
+        font-size: 1rem;
+        width: 100%;
+        border-bottom: 1px solid var(--primary-light);
+    }
+
+    .main-nav a:last-child {
+        border-bottom: none;
     }
     
     .alert-banner .container {
