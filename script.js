@@ -82,7 +82,11 @@ async function loadAnalysis(dateString, event) {
 
     // Load data from JSON
     const lang = document.documentElement.lang || 'es';
-    const dataUrl = `data/${dateString}-${lang}.json`;
+    // Use absolute path from root for GitHub Pages compatibility
+    const baseUrl = window.location.pathname.includes('vigia-webpage')
+        ? '/vigia-webpage/'
+        : '/';
+    const dataUrl = `${baseUrl}data/${dateString}-${lang}.json`;
 
     try {
         const response = await fetch(dataUrl);
@@ -800,7 +804,11 @@ function initializeApp() {
 // Load analysis without event (for initialization)
 async function loadAnalysisOnInit(dateString) {
     const lang = document.documentElement.lang || 'es';
-    const dataUrl = `data/${dateString}-${lang}.json`;
+    // Use absolute path from root for GitHub Pages compatibility
+    const baseUrl = window.location.pathname.includes('vigia-webpage')
+        ? '/vigia-webpage/'
+        : '/';
+    const dataUrl = `${baseUrl}data/${dateString}-${lang}.json`;
 
     try {
         const response = await fetch(dataUrl);
