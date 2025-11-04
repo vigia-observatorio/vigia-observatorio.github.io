@@ -1,0 +1,386 @@
+{
+  "metadata_documento": {
+    "tipo_documento": "Compilación de Avisos, Anexos, Programas y Convenios",
+    "dependencia_emisora": "Varias (Secretaría de Gobernación, SHCP, SICT, Salud, SEDATU, Mujeres, SCJN, Banxico, TFJA)",
+    "fecha_publicacion": "2025-11-03",
+    "titulo_completo": "Diario Oficial de la Federación, Lunes 3 de noviembre de 2025",
+    "ambito_aplicacion": "Federal",
+    "sector": "Multisectorial (Religioso, Fiscal, Automotriz, Manufactura, Educación, Salud, Desarrollo Urbano, Justicia, Financiero)"
+  },
+  "hallazgos_ai": [
+    {
+      "id_hallazgo": "H1",
+      "tipo_hallazgo": "Implícito - Tecnología",
+      "categorias_riesgo": [
+        {
+          "id_riesgo": "R1",
+          "nombre_riesgo": "Malfunctions & Errors",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R9",
+          "nombre_riesgo": "Authoritarian Surveillance",
+          "nivel_severidad": "Muy Alta"
+        },
+        {
+          "id_riesgo": "R13",
+          "nombre_riesgo": "Gradual Loss of Control",
+          "nivel_severidad": "Extrema"
+        }
+      ],
+      "dominio_regulatorio": "Fiscal y Control de Productos (Tabaco)",
+      "fragmento_original": "Acceso en línea: Entrada disponible en forma permanente, de manera remota y automatizada a los registros de los Códigos de Seguridad impresos en las cajetillas, estuches, empaques, envolturas o cualquier otro objeto que contenga cigarros u otros tabacos labrados con excepción de puros y otros tabacos labrados hechos enteramente a mano y a la información derivada de los códigos de seguridad.",
+      "ubicacion_documento": "Anexo 26, I. Definiciones, numeral 1",
+      "analisis_relevancia": "El término 'automatizada' y el procesamiento de 'información derivada' de códigos de seguridad en un sistema de acceso en línea para la industria tabacalera sugieren fuertemente el uso de algoritmos avanzados, posiblemente incluyendo IA/ML para la detección de fraudes, análisis de patrones o identificación de anomalías. La naturaleza masiva de los datos y la necesidad de procesamiento en 'tiempo real' (mencionado más adelante en el Anexo) refuerzan esta inferencia. La ausencia de mención explícita de IA en un sistema tan crítico para el control fiscal y de productos representa un gap regulatorio significativo. En el contexto mexicano, la opacidad de estos sistemas podría generar desconfianza en la industria y dificultar la impugnación de decisiones automatizadas.",
+      "es_gap_regulatorio": true,
+      "recomendaciones": [
+        "Exigir transparencia sobre los algoritmos utilizados para la generación y verificación de códigos de seguridad, así como para el análisis de la información derivada.",
+        "Establecer mecanismos de auditoría independiente para evaluar la precisión, equidad y robustez de los sistemas automatizados.",
+        "Definir protocolos claros para la revisión y apelación de decisiones automatizadas que afecten a los contribuyentes.",
+        "Implementar supervisión humana efectiva en los procesos críticos de verificación y detección de anomalías."
+      ]
+    },
+    {
+      "id_hallazgo": "H2",
+      "tipo_hallazgo": "Implícito - Tecnología",
+      "categorias_riesgo": [
+        {
+          "id_riesgo": "R1",
+          "nombre_riesgo": "Malfunctions & Errors",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R9",
+          "nombre_riesgo": "Authoritarian Surveillance",
+          "nivel_severidad": "Muy Alta"
+        },
+        {
+          "id_riesgo": "R13",
+          "nombre_riesgo": "Gradual Loss of Control",
+          "nivel_severidad": "Extrema"
+        }
+      ],
+      "dominio_regulatorio": "Fiscal y Control de Productos (Tabaco)",
+      "fragmento_original": "Plataforma de verificación del SAT: Conjunto de aplicaciones del SAT que permite verificar la validez de los códigos de seguridad a través de la consulta de la información derivada.",
+      "ubicacion_documento": "Anexo 26, I. Definiciones, numeral 7",
+      "analisis_relevancia": "La 'Plataforma de verificación del SAT' es el componente que permite a las autoridades y consumidores verificar la autenticidad de los productos. Si esta plataforma utiliza IA/ML para 'verificar la validez' de los códigos de seguridad basándose en la 'información derivada' (que incluye datos de manufactura, marca, tipo de producto, etc.), los riesgos de mal funcionamiento, sesgo o vigilancia son inherentes. La falta de especificación sobre el uso de IA en esta plataforma es un gap, ya que las decisiones de validez pueden tener impactos económicos directos en las empresas y en la confianza del consumidor. En México, la capacidad de los ciudadanos para impugnar decisiones de una 'caja negra' algorítmica es limitada.",
+      "es_gap_regulatorio": true,
+      "recomendaciones": [
+        "Exigir transparencia sobre los algoritmos utilizados para la generación y verificación de códigos de seguridad, así como para el análisis de la información derivada.",
+        "Establecer mecanismos de auditoría independiente para evaluar la precisión, equidad y robustez de los sistemas automatizados.",
+        "Definir protocolos claros para la revisión y apelación de decisiones automatizadas que afecten a los contribuyentes.",
+        "Implementar supervisión humana efectiva en los procesos críticos de verificación y detección de anomalías."
+      ]
+    },
+    {
+      "id_hallazgo": "H3",
+      "tipo_hallazgo": "Implícito - Tecnología",
+      "categorias_riesgo": [
+        {
+          "id_riesgo": "R1",
+          "nombre_riesgo": "Malfunctions & Errors",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R13",
+          "nombre_riesgo": "Gradual Loss of Control",
+          "nivel_severidad": "Extrema"
+        }
+      ],
+      "dominio_regulatorio": "Fiscal y Control de Productos (Tabaco)",
+      "fragmento_original": "Características técnicas y de seguridad del Sistema de códigos de seguridad... 2. Validación de datos requeridos. Se validarán los campos obligatorios de los esquemas de Códigos de Seguridad que cumplan con el esquema de datos definido. 3. Validaciones adicionales. Se validarán reglas de negocio aplicables. 4. Validación de flujos. Se validará el cumplimiento del paso por cada componente que integre el servicio de punta a punta.",
+      "ubicacion_documento": "Anexo 26, II. Características técnicas y de seguridad del Sistema de códigos de seguridad",
+      "analisis_relevancia": "Las 'validaciones adicionales' y la 'validación de flujos' en un sistema que maneja un volumen masivo de códigos de seguridad para productos de tabaco son áreas donde la IA/ML podría ser implementada para detectar patrones complejos de fraude o incumplimiento que no serían evidentes con reglas simples. La descripción es genérica ('reglas de negocio aplicables', 'cumplimiento del paso por cada componente'), lo que oculta la posible complejidad algorítmica. Si se utiliza IA, los riesgos de errores en la validación o de una pérdida gradual de control sobre sistemas demasiado complejos son altos. La falta de especificación es un gap regulatorio.",
+      "es_gap_regulatorio": true,
+      "recomendaciones": [
+        "Especificar si las 'validaciones adicionales' o 'validación de flujos' incorporan algoritmos de IA/ML y, de ser así, detallar su funcionamiento.",
+        "Establecer un marco de gobernanza para el desarrollo, prueba y despliegue de cualquier algoritmo de IA/ML en estas validaciones.",
+        "Garantizar la explicabilidad de las decisiones tomadas por estos sistemas, especialmente cuando resulten en sanciones o requerimientos para los contribuyentes."
+      ]
+    },
+    {
+      "id_hallazgo": "H4",
+      "tipo_hallazgo": "Implícito - Tecnología",
+      "categorias_riesgo": [
+        {
+          "id_riesgo": "R1",
+          "nombre_riesgo": "Malfunctions & Errors",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R3",
+          "nombre_riesgo": "Privacy Invasions",
+          "nivel_severidad": "Muy Alta"
+        },
+        {
+          "id_riesgo": "R9",
+          "nombre_riesgo": "Authoritarian Surveillance",
+          "nivel_severidad": "Muy Alta"
+        },
+        {
+          "id_riesgo": "R13",
+          "nombre_riesgo": "Gradual Loss of Control",
+          "nivel_severidad": "Extrema"
+        }
+      ],
+      "dominio_regulatorio": "Fiscal",
+      "fragmento_original": "Actualizar los sistemas de validación con el insumo de la LCO. Realizar las validaciones referentes al estatus del CSD y lo referente a las marcas de obligaciones vinculadas a las claves de RFC.",
+      "ubicacion_documento": "Anexo 29, III.1 Listado de Contribuyentes Obligados (LCO), B. Procedimiento, numeral 5 y 6",
+      "analisis_relevancia": "Los 'sistemas de validación' para el Listado de Contribuyentes Obligados (LCO) y el estatus del Certificado de Sello Digital (CSD) son fundamentales para la operación fiscal de todas las empresas en México. Dada la complejidad y el volumen de transacciones fiscales, es altamente probable que estos sistemas utilicen IA/ML para detectar inconsistencias, fraudes o riesgos de incumplimiento. La falta de mención explícita de IA en este contexto es un gap regulatorio. Errores o sesgos en estos algoritmos podrían paralizar operaciones comerciales legítimas, violar la privacidad de datos fiscales masivos y, en un contexto de recursos limitados para el enforcement, generar un alto riesgo de abuso o ineficiencia.",
+      "es_gap_regulatorio": true,
+      "recomendaciones": [
+        "Exigir la divulgación de si los sistemas de validación de CFDI y CSD utilizan IA/ML.",
+        "Implementar auditorías de sesgo y equidad para asegurar que los algoritmos no discriminen a ciertos contribuyentes o sectores.",
+        "Establecer un proceso claro para que los contribuyentes puedan impugnar decisiones automatizadas de validación.",
+        "Garantizar la seguridad y privacidad de los datos personales y fiscales procesados por estos sistemas."
+      ]
+    },
+    {
+      "id_hallazgo": "H5",
+      "tipo_hallazgo": "Implícito - Tecnología",
+      "categorias_riesgo": [
+        {
+          "id_riesgo": "R1",
+          "nombre_riesgo": "Malfunctions & Errors",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R9",
+          "nombre_riesgo": "Authoritarian Surveillance",
+          "nivel_severidad": "Muy Alta"
+        },
+        {
+          "id_riesgo": "R13",
+          "nombre_riesgo": "Gradual Loss of Control",
+          "nivel_severidad": "Extrema"
+        }
+      ],
+      "dominio_regulatorio": "Fiscal y Energía (Hidrocarburos)",
+      "fragmento_original": "El procesamiento de la información consiste en someter la información generada, recopilada y almacenada a una serie de operaciones programadas que permitan:...",
+      "ubicacion_documento": "Anexo 30, 30.6.1.4. Requerimientos del procesamiento de la información y la generación de reportes",
+      "analisis_relevancia": "Las 'operaciones programadas' para el procesamiento de información de controles volumétricos de hidrocarburos y petrolíferos son un área crítica donde la IA/ML podría ser utilizada para detectar anomalías, prevenir el robo de combustible ('huachicoleo') o asegurar la correcta tributación. La frase 'operaciones programadas' es un eufemismo burocrático que puede encubrir algoritmos complejos. La falta de transparencia sobre si se utiliza IA en este procesamiento es un gap regulatorio. Errores en estos sistemas podrían tener un impacto económico masivo, afectar la seguridad energética nacional y, en el contexto mexicano, donde el robo de combustible es un problema grave, la opacidad podría generar desconfianza o ser explotada.",
+      "es_gap_regulatorio": true,
+      "recomendaciones": [
+        "Requerir la especificación de si las 'operaciones programadas' incluyen algoritmos de IA/ML.",
+        "Establecer requisitos de transparencia y auditabilidad para los algoritmos utilizados en el procesamiento de información volumétrica.",
+        "Desarrollar mecanismos de revisión humana y apelación para decisiones automatizadas que afecten a las empresas del sector.",
+        "Evaluar el impacto de estos sistemas en la seguridad operativa y la prevención de fraudes, asegurando que no introduzcan nuevos riesgos."
+      ]
+    },
+    {
+      "id_hallazgo": "H6",
+      "tipo_hallazgo": "Implícito - Riesgo/Gap Regulatorio",
+      "categorias_riesgo": [
+        {
+          "id_riesgo": "R1",
+          "nombre_riesgo": "Malfunctions & Errors",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R7",
+          "nombre_riesgo": "Labor Displacement",
+          "nivel_severidad": "Muy Alta"
+        },
+        {
+          "id_riesgo": "R13",
+          "nombre_riesgo": "Gradual Loss of Control",
+          "nivel_severidad": "Extrema"
+        }
+      ],
+      "dominio_regulatorio": "Manufactura (Acuñación de Moneda)",
+      "fragmento_original": "incorporando innovaciones tecnológicas que optimicen los procesos de acuñación y eleven los estándares de calidad.",
+      "ubicacion_documento": "Programa Institucional de Casa de Moneda de México 2025-2030, 4.3 PROYECTOS SUSTANTIVOS – PROGRAMAS PRIORITARIOS",
+      "analisis_relevancia": "La Casa de Moneda de México busca 'innovaciones tecnológicas' para 'optimizar los procesos de acuñación y elevar los estándares de calidad'. En la manufactura moderna, la IA/ML es una herramienta clave para la optimización de procesos (ej. mantenimiento predictivo, control de calidad automatizado, eficiencia energética). La falta de mención explícita de IA en este programa estratégico es un gap. Si se implementa IA sin una gobernanza clara, podría haber riesgos de errores en la producción de moneda (R1), desplazamiento laboral (R7) debido a la automatización, y una pérdida gradual de control sobre sistemas complejos en una función crítica del Estado (R13).",
+      "es_gap_regulatorio": true,
+      "recomendaciones": [
+        "Desarrollar una política de IA para la Casa de Moneda de México que aborde la ética, la seguridad, la transparencia y la responsabilidad en el uso de IA en la acuñación.",
+        "Realizar estudios de impacto laboral y establecer programas de reconversión o capacitación para los trabajadores afectados por la automatización, considerando la alta informalidad laboral en México.",
+        "Implementar mecanismos de supervisión humana y 'kill switches' para sistemas de IA críticos en la producción de moneda.",
+        "Evaluar la dependencia de proveedores externos de tecnología de IA y fomentar el desarrollo de capacidades nacionales para la soberanía tecnológica."
+      ]
+    },
+    {
+      "id_hallazgo": "H7",
+      "tipo_hallazgo": "Implícito - Riesgo/Gap Regulatorio",
+      "categorias_riesgo": [
+        {
+          "id_riesgo": "R1",
+          "nombre_riesgo": "Malfunctions & Errors",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R7",
+          "nombre_riesgo": "Labor Displacement",
+          "nivel_severidad": "Muy Alta"
+        },
+        {
+          "id_riesgo": "R13",
+          "nombre_riesgo": "Gradual Loss of Control",
+          "nivel_severidad": "Extrema"
+        }
+      ],
+      "dominio_regulatorio": "Manufactura (Acuñación de Moneda) y Sostenibilidad",
+      "fragmento_original": "ESTRATEGIA 2.2 PROMOVER LA ACUÑACIÓN RESPONSABLE, CON BASE EN CRITERIOS ESG (MEDIO AMBIENTE, SOCIAL Y GOBERNANZA), CON EL OBJETIVO DE LOGRAR UNA PRODUCCIÓN SUSTENTABLE Y AMBIENTALMENTE RESPONSABLE. Línea de acción 2.2.1 Incorporar los criterios ESG en la producción de moneda metálica, a partir de la obtención de las certificaciones ISO en diversas materias. Línea de acción 2.2.2 Incorporar el Análisis del Ciclo de Vida para desarrollar una producción sustentable y ambientalmente responsable. Línea de acción 2.2.3 Reducir la huella de carbono en la producción de moneda metálica, así como lograr el manejo eficiente de recursos naturales.",
+      "ubicacion_documento": "Programa Institucional de Casa de Moneda de México 2025-2030, 6. ESTRATEGIAS Y LÍNEAS DE ACCIÓN, OBJETIVO 2",
+      "analisis_relevancia": "La promoción de la 'acuñación responsable' basada en criterios ESG, la incorporación del 'Análisis del Ciclo de Vida' y la 'reducción de la huella de carbono' son objetivos que se benefician enormemente de la IA/ML para la optimización de recursos, monitoreo ambiental y eficiencia energética. La Casa de Moneda busca 'soluciones innovadoras' (p. 99) en este ámbito. La ausencia de una mención explícita de IA en estas estrategias de sostenibilidad es un gap. Si se utilizan sistemas de IA para estas optimizaciones, existen riesgos de errores en las mediciones o decisiones (R1), y la complejidad de estos sistemas podría llevar a una pérdida de control (R13).",
+      "es_gap_regulatorio": true,
+      "recomendaciones": [
+        "Establecer directrices para el uso ético y responsable de IA en la optimización de procesos ESG, incluyendo la validación de modelos y la mitigación de sesgos.",
+        "Asegurar la transparencia en los datos y algoritmos utilizados para reportar el desempeño ESG y la huella de carbono.",
+        "Capacitar al personal en la supervisión y gestión de sistemas de IA aplicados a la sostenibilidad."
+      ]
+    },
+    {
+      "id_hallazgo": "H8",
+      "tipo_hallazgo": "Implícito - Riesgo/Gap Regulatorio",
+      "categorias_riesgo": [
+        {
+          "id_riesgo": "R1",
+          "nombre_riesgo": "Malfunctions & Errors",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R2",
+          "nombre_riesgo": "Discrimination & Bias",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R3",
+          "nombre_riesgo": "Privacy Invasions",
+          "nivel_severidad": "Muy Alta"
+        }
+      ],
+      "dominio_regulatorio": "Salud Pública",
+      "fragmento_original": "Servicios integrales para Diagnóstico de personas en situación de vulnerabilidad y condiciones de las unidades de salud que implementan el MoASMI",
+      "ubicacion_documento": "Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Tabasco, Anexo 4, L00 CENTRO NACIONAL DE EQUIDAD DE GÉNERO, SALUD SEXUAL Y REPRODUCTIVA, numeral 3 Igualdad de Género, partida 1.2.2",
+      "analisis_relevancia": "El 'Diagnóstico de personas en situación de vulnerabilidad' y de 'condiciones de las unidades de salud' son tareas que, por su complejidad y volumen de datos, son candidatas ideales para el uso de IA/ML para identificar patrones, predecir riesgos o asignar recursos. La ausencia de mención explícita de IA en este contexto es un gap regulatorio crítico. En el sector salud, especialmente con poblaciones vulnerables, los riesgos de sesgo algorítmico (R2) son muy altos, pudiendo llevar a la discriminación en el acceso a servicios o a la asignación desigual de recursos. Además, el procesamiento de datos de salud altamente sensibles (R3) sin salvaguardas específicas de IA es preocupante. Un mal funcionamiento (R1) en estos diagnósticos podría tener consecuencias directas en la salud y bienestar de las personas.",
+      "es_gap_regulatorio": true,
+      "recomendaciones": [
+        "Exigir la divulgación de si se utilizan algoritmos de IA/ML en los 'servicios integrales para Diagnóstico de personas en situación de vulnerabilidad'.",
+        "Implementar evaluaciones de impacto en derechos humanos y auditorías de sesgo para cualquier sistema de IA/ML utilizado en la identificación de vulnerabilidad, considerando la desigualdad digital y el acceso tecnológico en México.",
+        "Establecer salvaguardas robustas para la privacidad y seguridad de los datos de salud, incluyendo consentimiento informado y anonimización, bajo la supervisión del INAI.",
+        "Definir mecanismos de revisión humana y apelación para las decisiones o clasificaciones generadas por sistemas de IA."
+      ]
+    },
+    {
+      "id_hallazgo": "H9",
+      "tipo_hallazgo": "Implícito - Riesgo/Gap Regulatorio",
+      "categorias_riesgo": [
+        {
+          "id_riesgo": "R2",
+          "nombre_riesgo": "Discrimination & Bias",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R3",
+          "nombre_riesgo": "Privacy Invasions",
+          "nivel_severidad": "Muy Alta"
+        }
+      ],
+      "dominio_regulatorio": "Salud Pública",
+      "fragmento_original": "Mide la cantidad de unidades de salud que implementan el Modelo de Atención a la Salud con Mecanismos Incluyentes en sus instalaciones y operación de los servicios de salud",
+      "ubicacion_documento": "Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Tabasco, Anexo 7, L00 CENTRO NACIONAL DE EQUIDAD DE GÉNERO, SALUD SEXUAL Y REPRODUCTIVA, numeral 3 Igualdad de Género, indicador 1.2.2",
+      "analisis_relevancia": "El 'Modelo de Atención a la Salud con Mecanismos Incluyentes' (MoASMI) busca mejorar la atención a la salud. Si este modelo utiliza IA para identificar necesidades de inclusión, personalizar servicios o asignar recursos, existe un riesgo significativo de sesgo algorítmico (R2) si los datos de entrenamiento no son representativos o si los algoritmos refuerzan estereotipos. La privacidad de los datos de salud (R3) también es una preocupación central. La falta de regulación específica para el uso de IA en un modelo de salud inclusivo es un gap, especialmente en un país con alta desigualdad digital y acceso tecnológico.",
+      "es_gap_regulatorio": true,
+      "recomendaciones": [
+        "Desarrollar directrices éticas para el uso de IA en modelos de salud incluyentes, asegurando que promuevan la equidad y no perpetúen la discriminación.",
+        "Realizar pruebas de sesgo rigurosas en los algoritmos del MoASMI y establecer mecanismos de monitoreo continuo.",
+        "Garantizar la transparencia sobre cómo el MoASMI utiliza los datos y algoritmos para tomar decisiones que afectan a los pacientes, y asegurar la protección de datos personales sensibles."
+      ]
+    },
+    {
+      "id_hallazgo": "H10",
+      "tipo_hallazgo": "Implícito - Riesgo/Gap Regulatorio",
+      "categorias_riesgo": [
+        {
+          "id_riesgo": "R1",
+          "nombre_riesgo": "Malfunctions & Errors",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R2",
+          "nombre_riesgo": "Discrimination & Bias",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R13",
+          "nombre_riesgo": "Gradual Loss of Control",
+          "nivel_severidad": "Extrema"
+        }
+      ],
+      "dominio_regulatorio": "Desarrollo Urbano y Gestión de Riesgos",
+      "fragmento_original": "El presente Convenio tiene por objeto establecer las bases de coordinación y cooperación entre “LAS PARTES”, para el debido ejercicio de los recursos que otorga el Programa de Mejoramiento Urbano para el Ejercicio Fiscal 2025, para la Vertiente “GIRCC”, cuyo Objetivo Específico es contribuir a incentivar el ordenamiento territorial a través de acciones relacionadas con la prevención y mitigación de riesgos. Los recursos del Programa bajo la “VERTIENTE GIRCC” se aplicarán para la elaboración de los Proyectos denominados 1) “Estudio hidrológico para el análisis de riesgo por inundación, en la Unidad Habitacional “Rinconada Acolapa”, en el municipio de Tepoztlán, en el Estado de Morelos” y 2) “Fortalecimiento de capacidades para el seguimiento al análisis del riesgo por inundación, en la Unidad Habitacional “Rinconada Acolapa”, en el municipio de Tepoztlán, en el Estado de Morelos”...",
+      "ubicacion_documento": "Convenio Específico de Coordinación para la ejecución del Programa de Mejoramiento Urbano para el ejercicio fiscal 2025, Vertiente Gestión Integral de Riesgos y Cambio Climático, que celebran la Secretaría de Desarrollo Agrario, Territorial y Urbano y el Municipio de Tepoztlán, Estado de Morelos, CLÁUSULAS, PRIMERA. - OBJETO Y ÁMBITO DE APLICACIÓN.",
+      "analisis_relevancia": "Los 'Estudios hidrológicos para el análisis de riesgo por inundación' y el 'Fortalecimiento de capacidades para el seguimiento al análisis del riesgo' son tareas que se benefician enormemente de la IA/ML para la modelización predictiva de riesgos, el análisis de grandes volúmenes de datos geográficos y climáticos, y la optimización de estrategias de mitigación. La ausencia de mención explícita de IA en este contexto es un gap regulatorio. Errores (R1) o sesgos (R2) en los modelos predictivos de riesgo de inundación podrían tener consecuencias catastróficas para la planificación urbana y la seguridad de las comunidades, especialmente en un país con alta vulnerabilidad a desastres naturales y desigualdad social. La dependencia tecnológica de proveedores extranjeros (R10) para estas herramientas también es un riesgo.",
+      "es_gap_regulatorio": true,
+      "recomendaciones": [
+        "Exigir la especificación de si se utilizan algoritmos de IA/ML en los estudios de riesgo hidrológico y en el seguimiento de riesgos.",
+        "Establecer requisitos de transparencia y auditabilidad para los modelos predictivos de riesgo, incluyendo la fuente de datos, la metodología y la validación independiente.",
+        "Implementar evaluaciones de impacto en derechos humanos y análisis de sesgo para asegurar que los modelos no discriminen a comunidades vulnerables o informales.",
+        "Desarrollar mecanismos de revisión humana y validación independiente para las predicciones de riesgo generadas por IA, y asegurar la capacidad local para interpretar y actuar sobre estas predicciones."
+      ]
+    },
+    {
+      "id_hallazgo": "H11",
+      "tipo_hallazgo": "Implícito - Riesgo/Gap Regulatorio",
+      "categorias_riesgo": [
+        {
+          "id_riesgo": "R2",
+          "nombre_riesgo": "Discrimination & Bias",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R3",
+          "nombre_riesgo": "Privacy Invasions",
+          "nivel_severidad": "Muy Alta"
+        }
+      ],
+      "dominio_regulatorio": "Justicia y Derechos Humanos (Violencia de Género)",
+      "fragmento_original": "Colaborar con “MUJERES” proporcionando la información trimestral mediante el reporte denominado “Informe de Mujeres Atendidas”, de forma electrónica, de las mujeres, así como, de sus hijas e hijos atendidas por primera vez y en seguimiento, así como los servicios brindados por el CJM, una vez que se encuentre prestando servicios a las mujeres en situación de violencias. Colaborar con “MUJERES” proporcionando la información correspondiente respecto de la atención a mujeres víctimas de violencias de género, así como, de sus hijas e hijos para la recopilación de información del Banco Nacional de Datos e Información sobre Casos de Violencia contra las Mujeres (BANAVIM);",
+      "ubicacion_documento": "Convenio de Coordinación y Adhesión que celebran la Secretaría de las Mujeres y la Ciudad de México, que tiene por objeto el otorgamiento de subsidios para la operación del Centro de Justicia para las Mujeres con sede en la alcaldía La Magdalena Contreras, QUINTA. COMPROMISOS DEL “GOBIERNO DEL ESTADO”, incisos k y l.",
+      "analisis_relevancia": "La recopilación masiva de datos sensibles sobre 'mujeres atendidas' y 'víctimas de violencias de género' en el 'Banco Nacional de Datos e Información sobre Casos de Violencia contra las Mujeres (BANAVIM)' es un área de altísimo riesgo. Si se utiliza IA/ML para analizar esta información (ej. para identificar patrones de violencia, evaluar riesgos para las víctimas, o asignar recursos), los riesgos de discriminación algorítmica (R2) y de invasión de la privacidad (R3) son extremadamente altos. Un sesgo en los algoritmos podría llevar a la revictimización, a la asignación inadecuada de protección o a la perpetuación de desigualdades. La falta de mención de IA y de salvaguardas específicas para su uso en este contexto es un gap regulatorio crítico, especialmente en un país con altos índices de violencia de género y un sistema legal civilista que requiere garantías procesales claras.",
+      "es_gap_regulatorio": true,
+      "recomendaciones": [
+        "Exigir la divulgación de si se utilizan algoritmos de IA/ML para el análisis de datos en el 'Informe de Mujeres Atendidas' o BANAVIM.",
+        "Implementar evaluaciones de impacto en derechos humanos y auditorías de sesgo obligatorias para cualquier sistema de IA/ML que procese datos de víctimas de violencia de género.",
+        "Establecer protocolos estrictos de privacidad y seguridad de datos, incluyendo anonimización, cifrado y acceso restringido, bajo la supervisión del INAI.",
+        "Desarrollar mecanismos de revisión humana y apelación para cualquier decisión o recomendación generada por IA que afecte directamente a las víctimas.",
+        "Capacitar al personal en el uso ético y responsable de la IA en la atención a víctimas de violencia de género."
+      ]
+    }
+  ],
+  "analisis_general": {
+    "contiene_mencion_explicita_ai": false,
+    "numero_menciones_explicitas": 0,
+    "numero_menciones_implicitas": 11,
+    "numero_gaps_identificados": 11,
+    "nivel_riesgo_maximo": "Extrema",
+    "categorias_riesgo_presentes": [
+      "R1",
+      "R2",
+      "R3",
+      "R7",
+      "R9",
+      "R13"
+    ],
+    "requiere_atencion_urgente": true,
+    "justificacion_urgencia": "Se identifican múltiples gaps regulatorios en áreas críticas como la fiscalización, la producción de moneda nacional, la salud pública (especialmente en el diagnóstico de vulnerabilidad y modelos de atención inclusivos) y la justicia (atención a víctimas de violencia de género). Estos gaps implican riesgos de mal funcionamiento, discriminación algorítmica, invasión de la privacidad y pérdida de control, con potencial de afectar derechos fundamentales y la estabilidad económica y social. La ausencia de mención explícita de IA en estos contextos de alto riesgo, donde su uso es altamente probable, requiere atención inmediata para establecer marcos de gobernanza adecuados."
+  },
+  "sintesis_ejecutiva": "El Diario Oficial de la Federación del 3 de noviembre de 2025 contiene diversas publicaciones de Secretarías y organismos autónomos. Aunque ninguna de ellas menciona explícitamente la 'Inteligencia Artificial' o 'IA', un análisis forense revela múltiples contextos donde su aplicación es altamente probable o inminente, generando importantes riesgos regulatorios y gaps significativos.\n\nLos hallazgos más críticos se concentran en sistemas de alta automatización y procesamiento masivo de datos. En el ámbito fiscal (SAT), los sistemas de códigos de seguridad para tabacaleras y la validación de CFDI/CSD, así como los controles volumétricos de hidrocarburos, presentan riesgos de mal funcionamiento, vigilancia autoritaria y pérdida de control si se implementa IA sin transparencia ni auditoría. En la Casa de Moneda de México, el programa institucional 2025-2030 busca 'innovaciones tecnológicas' y 'optimización de procesos' para la acuñación y sostenibilidad, lo que abre la puerta a la IA con riesgos de desplazamiento laboral y errores en una función crítica del Estado.\n\nParticularmente preocupantes son los convenios de la Secretaría de Salud y la Secretaría de las Mujeres. En Salud, el 'Diagnóstico de personas en situación de vulnerabilidad' y el 'Modelo de Atención a la Salud con Mecanismos Incluyentes' son áreas de alto riesgo de discriminación algorítmica e invasión de la privacidad. En la Secretaría de las Mujeres, la recopilación de datos en el 'Banco Nacional de Datos e Información sobre Casos de Violencia contra las Mujeres (BANAVIM)' y el 'tratamiento de la violencia de género' con posibles herramientas tecnológicas, si involucran IA, conllevan riesgos extremos de sesgo y privacidad para víctimas vulnerables. La falta de regulación específica para la IA en estos dominios sensibles es un llamado urgente a la acción para proteger los derechos fundamentales y asegurar la rendición de cuentas.",
+  "contexto_mexicano": {
+    "consideraciones_especiales": [
+      "La alta informalidad laboral (~60%) en México agrava el riesgo de desplazamiento laboral por automatización (R7) y de discriminación algorítmica (R2) en sistemas fiscales o de salud que no consideren patrones financieros o sociales atípicos.",
+      "La desigualdad digital y el acceso tecnológico significativo pueden limitar la capacidad de los ciudadanos para comprender o impugnar decisiones automatizadas, exacerbando los riesgos de mal funcionamiento (R1) y sesgo (R2).",
+      "Los recursos limitados para el enforcement regulatorio en México hacen que la transparencia y la auditabilidad de los sistemas de IA sean aún más críticas para prevenir abusos o ineficiencias.",
+      "La dependencia tecnológica de proveedores extranjeros (R10) para soluciones de IA podría comprometer la soberanía digital y la capacidad de respuesta regulatoria del país.",
+      "El sistema legal de tradición civilista requiere que las regulaciones sean explícitas y detalladas, lo que hace que los gaps regulatorios implícitos en el uso de IA sean particularmente problemáticos."
+    ],
+    "capacidad_enforcement": "Media-Baja. La ausencia de un marco regulatorio específico para la IA en estos documentos, sumada a la complejidad técnica de los sistemas y la limitación de recursos humanos y financieros para la supervisión, sugiere una capacidad de enforcement limitada para los riesgos de IA. La identificación de riesgos implícitos en áreas críticas como la fiscalización, la salud y la justicia requiere una inversión significativa en capacidades técnicas y legales para la supervisión y auditoría de algoritmos.",
+    "precedentes_relevantes": [
+      "Ley Federal de Protección de Datos Personales en Posesión de los Particulares y Ley General de Protección de Datos Personales en Posesión de Sujetos Obligados (fundamentales para R3).",
+      "Ley General de Acceso de las Mujeres a una Vida Libre de Violencia (relevante para R2 y R3 en el contexto de la Secretaría de las Mujeres).",
+      "Jurisprudencia de la SCJN sobre derechos humanos y debido proceso (aplicable a R1, R2, R3, R9).",
+      "Recomendaciones del INAI sobre el uso de datos personales y tecnologías emergentes."
+    ]
+  }
+}

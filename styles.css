@@ -474,6 +474,52 @@ body {
 }
 
 /* ===========================
+   Contexto Mexicano
+   =========================== */
+.contexto-content {
+    padding: var(--spacing-md) 0;
+}
+
+.contexto-section {
+    margin-bottom: var(--spacing-lg);
+}
+
+.contexto-section h4 {
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing-md);
+    color: var(--accent-color);
+}
+
+.contexto-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.contexto-list li {
+    padding-left: 1.5rem;
+    margin-bottom: var(--spacing-md);
+    position: relative;
+    line-height: 1.6;
+}
+
+.contexto-list li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    color: var(--accent-color);
+    font-size: 1.2rem;
+}
+
+.contexto-text {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    padding: var(--spacing-sm);
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: var(--radius-sm);
+}
+
+/* ===========================
    Findings
    =========================== */
 .findings-container {

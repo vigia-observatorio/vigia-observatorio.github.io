@@ -1,0 +1,562 @@
+{
+  "document_metadata": {
+    "document_type": "Compilation of Agreements, Notices, Circulars, Calls, and Resolutions",
+    "issuing_agency": "Various Secretariats and Autonomous Bodies",
+    "publication_date": "2025-11-04",
+    "full_title": "OFFICIAL GAZETTE Tuesday, November 4, 2025",
+    "scope_of_application": "Federal",
+    "sector": "Multisectoral (Interior, Treasury, Welfare, Environment, Energy, Economy, Infrastructure, Anticorruption, Health, Agrarian Development, Women, Financial, Defense, Security, Electoral, Education, Water)"
+  },
+  "ai_findings": [
+    {
+      "finding_id": "H1",
+      "finding_type": "Implicit - Regulatory Risk/Gap",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R10",
+          "risk_name": "Concentration of Power",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R13",
+          "risk_name": "Gradual Loss of Control",
+          "severity_level": "Extreme"
+        }
+      ],
+      "regulatory_domain": "Financial and Retirement Savings",
+      "original_fragment": "For the purposes of investing in Structured Instruments, compliance with the provisions of the General Financial Provisions of the Retirement Savings Systems regarding the authorization and monitoring of methodologies for measuring the profitability and performance of said Instruments, the proper monitoring of net returns, risks and investment decisions, the timely submission of reports to the corresponding Committees and the Commission, as well as the definition of clear policies and procedures for the resolution of discrepancies between the costs paid and those foreseen in the issuance documents of the Structured Instruments, shall be considered part of the investment regime.",
+      "document_location": "Page 13, \"VIGÉSIMA CUARTA\" (TWENTY-FOURTH), fraction IV, final paragraph",
+      "relevance_analysis": "This fragment describes the regulation of complex financial instruments and the need for \"methodologies for measuring profitability and performance\" and \"investment decisions.\" In the modern financial sector, these functions are increasingly assisted or executed by Artificial Intelligence and Machine Learning algorithms for predictive analysis, portfolio optimization, and risk management. The absence of explicit mention of AI in this context creates a significant regulatory gap. Risks include malfunction and errors (R1) of AI models that could generate massive losses in retirement funds, concentration of power (R10) if few technology providers dominate these tools, and a gradual loss of control (R13) if the complexity of algorithmic decisions exceeds the capacity for human oversight, affecting financial stability and the well-being of pensioners. The severity is extreme due to the potential impact on critical financial infrastructure and the savings of millions of people.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Require transparency regarding the use of AI/ML algorithms in the investment methodologies, performance measurement, and risk management of Siefores (Retirement Fund Administrators).",
+        "Establish independent audit requirements for the AI models used, including bias, robustness, and explainability testing.",
+        "Define clear responsibilities between AI developers, service providers, and Siefores in case of algorithmic errors or failures that generate losses.",
+        "Promote the diversification of technology providers and the development of internal capabilities to reduce technological dependence (R10)."
+      ]
+    },
+    {
+      "finding_id": "H2",
+      "finding_type": "Implicit - Technology",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R3",
+          "risk_name": "Privacy Invasions",
+          "severity_level": "High"
+        }
+      ],
+      "regulatory_domain": "Social Development and Solidarity Economy",
+      "original_fragment": "The Certification Model system will automatically validate the fulfillment of previous requirements, according to the requested level.",
+      "document_location": "Page 24, Article 22, fourth paragraph",
+      "relevance_analysis": "The phrase \"will automatically validate the fulfillment of previous requirements\" suggests the use of automated systems, which may include AI/ML algorithms to process and evaluate information from cooperatives. Although AI is not explicitly mentioned, the automation of decisions regarding entities (cooperatives) is a risk indicator. This presents risks of malfunction and errors (R1) if the system contains logical or programming flaws, which could unfairly deny certifications. There is also a risk of algorithmic discrimination (R2) if the validation criteria or the system's training data reflect historical or structural biases, affecting access to opportunities for certain cooperatives. Furthermore, the processing of personal data of cooperative members for this validation implies risks of privacy invasion (R3).",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Specify the technology used for \"automatic validation\" and, if it is AI, establish transparency and explainability requirements for the decisions.",
+        "Conduct algorithmic impact assessments to detect and mitigate biases in the certification process, ensuring equitable access.",
+        "Implement mandatory human review mechanisms for automated decisions that negatively affect cooperatives.",
+        "Ensure the protection of personal data used in the certification system, in compliance with privacy regulations."
+      ]
+    },
+    {
+      "finding_id": "H3",
+      "finding_type": "Implicit - Regulatory Risk/Gap",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R9",
+          "risk_name": "Authoritarian Surveillance",
+          "severity_level": "Very High"
+        }
+      ],
+      "regulatory_domain": "Urban Development, Risk Management, and Climate Change",
+      "original_fragment": "Hydrological study for flood risk analysis in the Cerro Hueco micro-watershed in the municipality of Tuxtla Gutiérrez, in the State of Chiapas,\" \"Geological study for flood risk analysis in the Cerro Hueco micro-watershed in the municipality of Tuxtla Gutiérrez, in the State of Chiapas",
+      "document_location": "Page 198, Background IX",
+      "relevance_analysis": "\"Flood risk analysis\" and \"geological studies\" are complex tasks that, in the context of \"Comprehensive Risk Management and Climate Change,\" may involve the use of advanced predictive and simulation models, often powered by AI/ML. The accuracy of these models is crucial for public safety and urban planning. A malfunction or errors (R1) in the algorithms could lead to incorrect risk assessments, resulting in construction in hazardous areas or lack of protection in vulnerable areas. If the models are trained with biased data (R2), they could underestimate or overestimate risks for certain communities. Furthermore, the massive collection of geographical and demographic data for these studies could, in a scenario of misuse, facilitate authoritarian surveillance (R9).",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Establish clear guidelines for the use of AI in environmental and urban risk studies, including model validation, uncertainty management, and explainability of results.",
+        "Require social and ethical impact assessments to ensure that models do not exacerbate existing inequalities or discriminate against vulnerable communities.",
+        "Guarantee transparency regarding the data used and the methodology of the AI models, as well as human oversight of critical decisions based on these analyses."
+      ]
+    },
+    {
+      "finding_id": "H4",
+      "finding_type": "Implicit - Technology",
+      "risk_categories": [
+        {
+          "risk_id": "R3",
+          "risk_name": "Privacy Invasions",
+          "severity_level": "Very High"
+        },
+        {
+          "risk_id": "R9",
+          "risk_name": "Authoritarian Surveillance",
+          "severity_level": "Very High"
+        }
+      ],
+      "regulatory_domain": "Public Security, Justice, Personal Data Protection",
+      "original_fragment": "Installation of a video surveillance system: A video surveillance system will be installed for constant monitoring of the main areas of the center. This system is vital to prevent risks and ensure a peaceful and safe environment for all users.\" and \"WD102PURP Purple Pro Hard Drive 10 TB / 7200 RPM / Optimized for Video Surveillance Solutions with Analytics (Meta Data) / 24-7 Use / 5 Year Warranty",
+      "document_location": "Page 222, Project Description; Page 225, Catalog of Expense Concepts",
+      "relevance_analysis": "The installation of a \"video surveillance system\" in a Women's Justice Center, combined with \"Analytics (Meta Data)\" on the hard drives, is a strong indicator of the use of AI for video analysis (e.g., facial recognition, behavior pattern detection). In a context as sensitive as a center for supporting victims of violence, this poses very high risks of privacy invasion (R3) for a vulnerable population. The use of \"analytics\" without clear safeguards could lead to authoritarian surveillance (R9), profiling, or misuse of sensitive information, which could re-victimize users or deter them from seeking help. The severity is very high due to the nature of the affected population and the sensitivity of the data.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Prohibit the use of facial recognition or biometrics in these centers, unless strictly necessary, with explicit informed consent and under judicial supervision.",
+        "Establish clear and strict policies on the retention, access, use, and sharing of video surveillance data and metadata, with independent oversight (e.g., INAI).",
+        "Conduct a human rights and privacy impact assessment before implementing any video surveillance system with AI capabilities.",
+        "Train personnel on the ethical and legal use of these technologies, emphasizing privacy protection and non-re-victimization."
+      ]
+    },
+    {
+      "finding_id": "H5",
+      "finding_type": "Implicit - Regulatory Risk/Gap",
+      "risk_categories": [
+        {
+          "risk_id": "R9",
+          "risk_name": "Authoritarian Surveillance",
+          "severity_level": "Very High"
+        },
+        {
+          "risk_id": "R12",
+          "risk_name": "War Escalation",
+          "severity_level": "Extreme"
+        }
+      ],
+      "regulatory_domain": "National Defense, National Security",
+      "original_fragment": "Maintenance and update service for the satellite systems of Territorial Commands and Dependencies of the Army and Air Force (Ejto. y F.A.M.).",
+      "document_location": "Page 254, Call No. LA-07-110-007000999-N-20-2026",
+      "relevance_analysis": "The \"update to the satellite systems\" in the military and defense field (SEDENA) implies a high probability of incorporating AI capabilities for intelligence processing, surveillance, reconnaissance, or even the improvement of weapons systems. This carries very high risks of authoritarian surveillance (R9) if applied to the civilian population or for social control purposes, and war escalation (R12) if integrated into military decision systems without significant human oversight, increasing the speed of decision and reducing the time for de-escalation. The severity is extreme due to the potential impact on national and international security.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Establish a strict regulatory framework for the use of AI in military and national security systems, including prohibitions on lethal autonomous weapons without meaningful human control.",
+        "Require ethical and human rights impact assessments for any AI technology implemented in these systems, especially if they have surveillance capabilities.",
+        "Promote transparency and accountability in the development and deployment of AI in the defense sector, with adequate democratic controls."
+      ]
+    },
+    {
+      "finding_id": "H6",
+      "finding_type": "Implicit - Regulatory Risk/Gap",
+      "risk_categories": [
+        {
+          "risk_id": "R4",
+          "risk_name": "Disinformation & Deepfakes",
+          "severity_level": "Very High"
+        },
+        {
+          "risk_id": "R9",
+          "risk_name": "Authoritarian Surveillance",
+          "severity_level": "Very High"
+        }
+      ],
+      "regulatory_domain": "National Security, Public Information",
+      "original_fragment": "Mass media monitoring service: press, radio, television, and internet.",
+      "document_location": "Page 255, Call No. LA-07-138-007000995-N-173-2025",
+      "relevance_analysis": "\"Mass media monitoring,\" especially of the \"internet,\" is a common application of AI for sentiment analysis, trend detection, disinformation identification, or user profiling. In the context of SEDENA, this presents very high risks of disinformation and deepfakes (R4) if AI is used to generate or amplify false content, or authoritarian surveillance (R9) if used to monitor public opinion, identify dissenters, or influence public discourse. The ability of AI to scale these operations threatens democratic stability and fundamental rights.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Establish clear limits on the use of AI for media monitoring, prohibiting the profiling of citizens or the manipulation of information.",
+        "Require independent audits to ensure that monitoring systems do not introduce bias, censorship, or amplification of disinformation.",
+        "Guarantee transparency about the purpose and scope of these systems, as well as accountability mechanisms for their use."
+      ]
+    },
+    {
+      "finding_id": "H7",
+      "finding_type": "Implicit - Regulatory Risk/Gap",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R3",
+          "risk_name": "Privacy Invasions",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R9",
+          "risk_name": "Authoritarian Surveillance",
+          "severity_level": "Very High"
+        },
+        {
+          "risk_id": "R13",
+          "risk_name": "Gradual Loss of Control",
+          "severity_level": "Extreme"
+        }
+      ],
+      "regulatory_domain": "Financial Services, Cybersecurity",
+      "original_fragment": "RENEWAL OF THE COMPUTER PROTECTION AND SECURITY SYSTEM",
+      "document_location": "Page 261, Tender No. LA-06-KCZ-006KCZ002-N-66-2025",
+      "relevance_analysis": "The \"renewal of the computer protection and security system\" in a financial institution like Financiera para el Bienestar implies the probable integration of AI/ML for advanced threat detection, user behavior analysis, and automated incident response. This carries risks of malfunction (R1) that could compromise the security of sensitive financial data, privacy invasions (R3) if users are excessively monitored, authoritarian surveillance (R9) if information is shared with the State without control, and gradual loss of control (R13) if security systems become too autonomous. The severity is high to extreme due to the criticality of the infrastructure and the sensitivity of the data.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Establish audit and certification requirements for AI-based computer security systems in the financial sector.",
+        "Define clear protocols for human intervention in critical security decisions made by AI.",
+        "Ensure the protection of personal data and user privacy in the design and operation of these systems, with special attention to the inference of sensitive data.",
+        "Implement accountability and oversight mechanisms to prevent the misuse of these tools."
+      ]
+    },
+    {
+      "finding_id": "H8",
+      "finding_type": "Implicit - Regulatory Risk/Gap",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "High"
+        }
+      ],
+      "regulatory_domain": "Health",
+      "original_fragment": "Subrogated Service for the Processing and Interpretation of Histopathology and Immunohistochemistry Antibodies for Hospitals and Medical Units...\" (Page 262) and \"Subrogated Service for the Performance and Interpretation of Mammographies through fixed mammography...\" (Page 265)",
+      "document_location": "Page 262, Tender LA-50-GYR-050GYR024-N-5-2026; Page 265, Tender LA-50-GYR-050GYR030-N-3-2026",
+      "relevance_analysis": "The \"processing and interpretation of histopathology\" and the \"interpretation of mammographies\" are fields of medical diagnosis where AI/ML, especially deep learning, is increasingly used for image analysis and disease detection. The subrogation of these services to third parties implies that these providers could use AI. This presents critical risks of malfunction and errors (R1) that could lead to incorrect diagnoses, with direct and serious consequences for patient health. There is also a high risk of discrimination and bias (R2) if the algorithms are trained with data not representative of the Mexican population or if their performance varies across different demographic groups, exacerbating health access inequalities.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Establish a specific regulatory framework for the use of AI in medical diagnosis, including requirements for rigorous clinical validation, algorithmic transparency, and mandatory human oversight.",
+        "Require equity testing and bias analysis for AI algorithms used in these services, with special attention to the diversity of the Mexican population.",
+        "Define clear responsibilities between the service provider, the AI developer, and medical personnel in case of errors or incorrect diagnoses.",
+        "Ensure informed consent from patients about the use of AI in their diagnosis, explaining the benefits and risks."
+      ]
+    },
+    {
+      "finding_id": "H9",
+      "finding_type": "Implicit - Regulatory Risk/Gap",
+      "risk_categories": [
+        {
+          "risk_id": "R3",
+          "risk_name": "Privacy Invasions",
+          "severity_level": "Very High"
+        },
+        {
+          "risk_id": "R9",
+          "risk_name": "Authoritarian Surveillance",
+          "severity_level": "Very High"
+        },
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        }
+      ],
+      "regulatory_domain": "Public Security, Critical Infrastructure, Privacy",
+      "original_fragment": "ACQUISITION FOR THE EXPANSION AND REINFORCEMENT OF THE CCTV SYSTEMS OF THE BENITO JUAREZ INTERNATIONAL AIRPORT OF MEXICO CITY",
+      "document_location": "Page 271, Tender No. LA-13-KDN-013KDN001-I-94-2025",
+      "relevance_analysis": "The expansion and reinforcement of \"CCTV systems\" at an international airport, which is critical infrastructure, implies a high probability of integrating AI capabilities such as facial recognition, anomaly detection, person tracking, or behavior analysis. This carries very high risks of privacy invasion (R3) and authoritarian surveillance (R9) for millions of users and workers, especially if biometric data is collected and processed without informed consent and strict safeguards. There are also risks of malfunction (R1) that could compromise security or generate false positives, affecting operational efficiency and user experience. The severity is very high due to the nature of the infrastructure and the scale of the surveillance.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Establish a strict regulatory framework for the use of AI in video surveillance systems in public and critical spaces, including prohibitions on mass facial recognition without legal justification and judicial oversight.",
+        "Require human rights and privacy impact assessments before implementing any CCTV system with AI capabilities.",
+        "Guarantee transparency about the AI capabilities of these systems, the data collected, its use, and accountability mechanisms.",
+        "Implement strict data access and retention controls, with independent audits."
+      ]
+    },
+    {
+      "finding_id": "H10",
+      "finding_type": "Implicit - Regulatory Risk/Gap",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R3",
+          "risk_name": "Privacy Invasions",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R9",
+          "risk_name": "Authoritarian Surveillance",
+          "severity_level": "Very High"
+        },
+        {
+          "risk_id": "R13",
+          "risk_name": "Gradual Loss of Control",
+          "severity_level": "Extreme"
+        }
+      ],
+      "regulatory_domain": "National Security, Cybersecurity, Financial Services",
+      "original_fragment": "Multi-year Contract for the Renewal of Licensing, Support, and Maintenance Services for Security Event Correlation Tools (Second).",
+      "document_location": "Page 272, Tender LA-06-G1H-006G1H001-N-95-2025",
+      "relevance_analysis": "\"Security Event Correlation Tools\" (SIEM) in an institution like BANJERCITO, which handles sensitive military and financial information, use AI/ML to detect cyberattack patterns and anomalies. This implies risks of malfunction (R1) that could leave critical systems and data vulnerable, privacy invasions (R3) if user activity is excessively monitored, authoritarian surveillance (R9) if used for purposes unrelated to cybersecurity, and gradual loss of control (R13) if the autonomy of these systems increases without oversight. The severity is high to extreme due to the criticality of the information and infrastructure.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Establish audit and certification requirements for AI-based cybersecurity systems in the defense and financial sectors.",
+        "Define clear protocols for human intervention in critical security decisions made by AI.",
+        "Ensure the protection of personal data and user privacy in the design and operation of these systems, with special attention to the inference of sensitive data.",
+        "Implement accountability and oversight mechanisms to prevent the misuse of these tools."
+      ]
+    },
+    {
+      "finding_id": "H11",
+      "finding_type": "Implicit - Regulatory Risk/Gap",
+      "risk_categories": [
+        {
+          "risk_id": "R3",
+          "risk_name": "Privacy Invasions",
+          "severity_level": "Very High"
+        },
+        {
+          "risk_id": "R9",
+          "risk_name": "Authoritarian Surveillance",
+          "severity_level": "Very High"
+        },
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        }
+      ],
+      "regulatory_domain": "Critical Infrastructure, Public Security, Privacy",
+      "original_fragment": "Acquisition of a multirotor unmanned aerial vehicle system for the Physical Security Corps",
+      "document_location": "Page 272, Competition CFE-0001-CAAAT-0085-2025",
+      "relevance_analysis": "The acquisition of \"multirotor unmanned aerial vehicles\" (drones) for the physical security of CFE (critical infrastructure) implies the use of AI for autonomous navigation, object detection, and surveillance. This carries very high risks of privacy invasion (R3) if used to monitor people without justification, authoritarian surveillance (R9) if integrated with population control systems, and malfunction (R1) that could cause accidents or security failures. The severity is very high due to the nature of the infrastructure and the potential for mass surveillance.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Establish a strict regulatory framework for the use of AI-enabled drones in critical infrastructure surveillance, including clear limits on the collection, use, and retention of data.",
+        "Require human rights and privacy impact assessments before implementation.",
+        "Define operating protocols and human oversight to prevent misuse or errors, and ensure accountability."
+      ]
+    },
+    {
+      "finding_id": "H12",
+      "finding_type": "Implicit - Regulatory Risk/Gap",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R13",
+          "risk_name": "Gradual Loss of Control",
+          "severity_level": "Extreme"
+        }
+      ],
+      "regulatory_domain": "Critical Infrastructure, Energy",
+      "original_fragment": "CONSOLIDATED ACQUISITION OF SUPERVISORY CONTROL EQUIPMENT\" (Page 273) and \"Replacement of the Turbine Control System for Unit 17 of the C.G. Los Azufres.\" (Page 274)",
+      "document_location": "Page 273, Competition CFE-0001-CAAAT-0086-2025; Page 274, Competition CFE-0500-CASAT-0005-2025",
+      "relevance_analysis": "\"Supervisory control equipment\" and \"Turbine Control Systems\" at CFE (critical energy infrastructure) are complex systems where AI/ML is increasingly used for optimization, predictive maintenance, and anomaly detection. Delegating control to AI in these systems carries very high risks of malfunction and errors (R1) that could cause massive disruptions in energy supply, affecting millions of users and the national economy. Furthermore, there is a risk of gradual loss of control (R13) if the complexity and autonomy of the AI exceed the capacity for human oversight, making intervention difficult in case of failure. The severity is extreme due to the potential impact on critical infrastructure and national security.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Establish strict certification and audit requirements for AI systems in critical infrastructure, including testing for robustness and resilience against failures or cyberattacks.",
+        "Implement \"kill switches\" and reversal mechanisms for autonomous control systems, ensuring the capacity for human intervention at all times.",
+        "Define permitted autonomy levels and the need for meaningful human oversight in all critical decisions.",
+        "Promote research and development of safe and reliable AI for critical infrastructure in the Mexican context."
+      ]
+    },
+    {
+      "finding_id": "H13",
+      "finding_type": "Explicit",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R4",
+          "risk_name": "Disinformation & Deepfakes",
+          "severity_level": "Very High"
+        },
+        {
+          "risk_id": "R13",
+          "risk_name": "Gradual Loss of Control",
+          "severity_level": "Extreme"
+        }
+      ],
+      "regulatory_domain": "Digital Government, Public Services, Public Information",
+      "original_fragment": "Subscription to Artificial Intelligence Chatbot and Subscription Service for PDF Management Software.",
+      "document_location": "Page 278, International Public Tender Number ASF-DGRMS-LPIA-07/2025",
+      "relevance_analysis": "The acquisition of an \"Artificial Intelligence Chatbot\" by the Superior Audit Office of the Federation (ASF) is an explicit mention of AI. Chatbots can interact with the public or internally, providing information or assistance. This presents risks of malfunction and errors (R1) if the chatbot provides incorrect or biased information, which could affect public trust in the ASF or administrative efficiency. There is also a very high risk of disinformation (R4) if the chatbot generates false or misleading content, and gradual loss of control (R13) if its autonomy increases without oversight, especially in an auditing body. The severity is high to extreme due to the potential impact on governance and public information.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Establish clear guidelines for the design, training, and deployment of AI chatbots in the public sector, including transparency requirements about its nature (that it is an AI, not a human).",
+        "Implement human oversight and error correction mechanisms, with a clear process for challenging decisions or information provided by the chatbot.",
+        "Conduct thorough bias and accuracy testing before deployment, and continuous monitoring of its performance.",
+        "Define clear responsibilities in case of errors or damage caused by the chatbot, and ensure accountability."
+      ]
+    },
+    {
+      "finding_id": "H14",
+      "finding_type": "Implicit - Regulatory Risk/Gap",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R3",
+          "risk_name": "Privacy Invasions",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R9",
+          "risk_name": "Authoritarian Surveillance",
+          "severity_level": "Very High"
+        }
+      ],
+      "regulatory_domain": "Cybersecurity, Government, Data Protection",
+      "original_fragment": "Renewal of the licensing of Trend Micro solutions and managed service",
+      "document_location": "Page 277, International Public Tender Number ASF-DGRMS-LPIA-06/2025",
+      "relevance_analysis": "The \"renewal of the licensing of Trend Micro solutions\" for the Superior Audit Office of the Federation implies the use of cybersecurity products that commonly integrate AI/ML for threat detection, behavior analysis, and data protection. In an auditing body, this involves handling sensitive governmental information. Risks include malfunction (R1) that could compromise data security, privacy invasions (R3) if monitoring systems are too intrusive or collect excessive data, and authoritarian surveillance (R9) if used for purposes unrelated to cybersecurity. The severity is high to very high due to the sensitivity of the information and the role of the body.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Require security audits and transparency regarding the AI capabilities of cybersecurity solutions, including how data is used and what inferences are made.",
+        "Establish clear policies on the use, retention, and access to data collected by these tools, ensuring compliance with privacy regulations.",
+        "Ensure that the implementation of these solutions does not infringe on the privacy rights of employees or citizens, and that human oversight mechanisms exist."
+      ]
+    },
+    {
+      "finding_id": "H15",
+      "finding_type": "Implicit - Regulatory Risk/Gap",
+      "risk_categories": [
+        {
+          "risk_id": "R3",
+          "risk_name": "Privacy Invasions",
+          "severity_level": "Very High"
+        },
+        {
+          "risk_id": "R9",
+          "risk_name": "Authoritarian Surveillance",
+          "severity_level": "Very High"
+        }
+      ],
+      "regulatory_domain": "Public Security, Surveillance, Data Protection",
+      "original_fragment": "ACQUISITION OF REMOTE MONITORING KITS AND DATA TRANSMISSION SERVICE FOR THE STATE PUBLIC SECURITY SECRETARIAT.",
+      "document_location": "Page 292, Tender LA-64-O78-905002984-I-20-2025",
+      "relevance_analysis": "The acquisition of \"remote monitoring kits and data transmission service\" for the Public Security Secretariat implies the collection and analysis of information remotely. It is highly probable that these kits include or integrate with AI systems for surveillance, pattern recognition, or predictive analysis. This carries very high risks of privacy invasion (R3) and authoritarian surveillance (R9) if used to monitor citizens without legal justification, or for profiling. In a country with limited enforcement resources, the risk of abuse is high. The severity is very high due to the potential for massive infringement of fundamental rights.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Establish a strict regulatory framework for the use of AI in remote monitoring systems for public security, including clear limits on the collection, use, and retention of data.",
+        "Require human rights and privacy impact assessments before implementation, with civil society participation.",
+        "Guarantee transparency about the AI capabilities of these systems and accountability mechanisms, with judicial and INAI oversight.",
+        "Prohibit the use of these systems for predictive or discriminatory profiling."
+      ]
+    },
+    {
+      "finding_id": "H16",
+      "finding_type": "Implicit - Regulatory Risk/Gap",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R13",
+          "risk_name": "Gradual Loss of Control",
+          "severity_level": "Extreme"
+        }
+      ],
+      "regulatory_domain": "Justice, Digital Government",
+      "original_fragment": "Licensing of technological tools for the performance of activities carried out by the jurisdictional and administrative areas of the TECDMX (Electoral Tribunal of Mexico City).",
+      "document_location": "Page 294, Tender TECDMX/LPN/008/2025",
+      "relevance_analysis": "The \"licensing of technological tools\" for \"jurisdictional and administrative areas\" of an Electoral Tribunal may include AI-based software for legal document analysis, case outcome prediction, or process automation. This presents risks of malfunction and errors (R1) that could affect the impartiality or efficiency of electoral justice. There is a high risk of algorithmic discrimination (R2) if the models introduce biases into judicial decisions or case evaluation, which could undermine trust in democratic institutions. There is also a risk of gradual loss of control (R13) if the autonomy of these tools increases without adequate human oversight in such a critical domain. The severity is high to extreme due to the impact on justice and democracy.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Establish a specific regulatory framework for the use of AI in the judicial and electoral system, including transparency, explainability, and bias audit requirements.",
+        "Define the need for meaningful human oversight in all critical AI-assisted decisions, with clear appeal mechanisms.",
+        "Conduct ethical and human rights impact assessments to ensure fairness and due process in the use of these tools.",
+        "Train judicial personnel in the use and limitations of AI, and in the detection of algorithmic bias."
+      ]
+    },
+    {
+      "finding_id": "H17",
+      "finding_type": "Implicit - Regulatory Risk/Gap",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R13",
+          "risk_name": "Gradual Loss of Control",
+          "severity_level": "Extreme"
+        }
+      ],
+      "regulatory_domain": "Critical Infrastructure, Environment, Public Health",
+      "original_fragment": "Second phase of expansion of the capacity of the 'SAN MIGUELITO' WWTP (Wastewater Treatment Plant) to increase from 110 to 230 l/s by equipping the new pretreatment module and equipping the activated sludge biological reactor tank with a nutrient removal system to comply with the new NOM-001-SEMARNAT-2021.\" and \"Equipping of line 2 of the pretreatment module of the “BICENTENARIO” WWTP in the City of Tulum, Quintana Roo.",
+      "document_location": "Page 301, Tender LO-82-009-923022998-N-20-2025; Page 302, Tender LO-82-009-923022998-N-23-2025",
+      "relevance_analysis": "The modernization and equipping of Wastewater Treatment Plants (WWTPs), which are critical infrastructure for public health and the environment, often incorporates control and optimization systems based on AI/ML for the management of biological and chemical processes (\"nutrient removal system,\" \"activated sludge biological reactor\"). This carries very high risks of malfunction and errors (R1) that could result in environmental pollution or large-scale public health problems. Furthermore, there is a risk of gradual loss of control (R13) if the autonomy of AI systems exceeds the capacity for human oversight, making intervention difficult in case of failure. The severity is extreme due to the potential impact on public health and the environment.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Establish strict certification and audit requirements for AI systems in critical water treatment infrastructure, including testing for robustness and resilience against failures or cyberattacks.",
+        "Implement \"kill switches\" and reversal mechanisms for autonomous control systems, ensuring the capacity for human intervention at all times.",
+        "Define permitted autonomy levels and the need for meaningful human oversight in all critical decisions that affect water quality.",
+        "Promote research and development of safe and reliable AI for critical infrastructure in the Mexican context, considering the particularities of each region."
+      ]
+    }
+  ],
+  "general_analysis": {
+    "contains_explicit_ai_mention": true,
+    "number_of_explicit_mentions": 1,
+    "number_of_implicit_mentions": 16,
+    "number_of_identified_gaps": 17,
+    "maximum_risk_level": "Extreme",
+    "present_risk_categories": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R9",
+      "R10",
+      "R12",
+      "R13"
+    ],
+    "requires_urgent_attention": true,
+    "urgency_justification": "The document reveals multiple AI risks, including implicit applications in critical infrastructure (financial, energy, water, airport), national security, health, and justice. The presence of 'Extreme' (R12, R13) and 'Very High' (R3, R4, R9, R10) level risks in fundamental sectors, coupled with the general lack of explicit AI regulation in these contexts, creates a situation of significant vulnerability. The acquisition of an AI chatbot by an auditing body (ASF) without a specific regulatory framework is a clear example of the urgency. The potential for malfunction, bias, privacy invasion, authoritarian surveillance, and loss of control in these critical domains demands immediate regulatory attention to protect citizen rights and the country's stability."
+  },
+  "executive_summary": "This issue of the Official Gazette of the Federation, dated November 4, 2025, contains a series of agreements, notices, and calls from various dependencies and autonomous bodies. Although only one explicit mention of \"Artificial Intelligence\" was found (in an ASF tender for a chatbot), the forensic analysis revealed a significant number of implicit AI applications in high-risk domains, which underscores a critical regulatory gap in Mexico.\n\nThe most critical risks identified range from the financial sector (retirement fund management), health (medical diagnosis), public security (airport video surveillance, remote monitoring), national defense (satellite systems, media monitoring), critical infrastructure (energy, water) to the judicial system (jurisdictional technological tools). These risks include algorithmic malfunction and errors (R1), discrimination and bias (R2), privacy invasions (R3), disinformation (R4), authoritarian surveillance (R9), concentration of power (R10), war escalation (R12), and gradual loss of control over critical systems (R13), with severity levels reaching \"Very High\" and \"Extreme.\"\n\nThe main recommended action is the urgent development of a transversal regulatory framework for AI in Mexico, addressing transparency, explainability, bias auditing, human oversight, and accountability in all identified sectors. It is crucial that this framework considers the particularities of the Mexican context, such as digital inequality and labor informality, to mitigate the negative impacts of AI on fundamental rights and the country's socioeconomic stability.",
+  "mexican_context": {
+    "special_considerations": [
+      "The high labor informality (~60% of the labor force) in Mexico can exacerbate the risks of algorithmic discrimination (R2) in scoring or evaluation systems, such as in the certification of cooperatives or financial monitoring.",
+      "Digital inequality and significant technological access can limit the ability of citizens to understand and appeal automated decisions, increasing vulnerability to AI errors or biases.",
+      "Technological dependence on foreign providers (R10) in areas such as cybersecurity or critical control systems can make it difficult to audit and demand transparency regarding AI algorithms.",
+      "Limited capacity for regulatory enforcement in a developing country requires AI regulations to be clear, pragmatic, and focused on the most critical risks, with accessible and effective oversight mechanisms.",
+      "Federalism with shared competencies implies the need for coordination between different levels of government for coherent and effective AI regulation, especially in public security and critical services."
+    ],
+    "enforcement_capacity": "Medium-Low. The implementation and oversight of AI regulations in the various identified sectors will require a significant investment in technical, human, and financial capacities by regulatory authorities. The lack of explicit AI mentions in most documents suggests low current regulatory awareness or preparedness. The capacity to audit complex algorithms, detect biases, or ensure explainability is limited.",
+    "relevant_precedents": [
+      "Federal Law on Protection of Personal Data Held by Private Parties and General Law on Protection of Personal Data Held by Obligated Subjects (fundamental for addressing R3 and R9).",
+      "General Law on Transparency and Access to Public Information (relevant for algorithmic transparency).",
+      "Existing legal framework on cybersecurity and critical infrastructure protection, which must be updated to include specific AI considerations.",
+      "Jurisprudence on human rights and non-discrimination, which will lay the groundwork for addressing R2."
+    ]
+  }
+}
