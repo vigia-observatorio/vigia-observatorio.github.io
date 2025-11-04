@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIGÍA - Government AI Impact Assessment</title>
+    <link rel="stylesheet" href="styles.css?v=20250115p">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="header-brand">
+                    <img src="logo-vigia.png" alt="VIGÍA Logo" class="header-logo">
+                    <h1>VIGÍA</h1>
+                </div>
+                <button class="mobile-menu-toggle" onclick="toggleMobileMenu()" aria-label="Toggle menu">
+                    ☰
+                </button>
+                <nav class="main-nav" id="mainNav">
+                    <a href="#risk-overviews">Risk Categories</a>
+                    <a href="#research-data">Research Data</a>
+                    <a href="#about">About</a>
+                    <a href="#team">Team</a>
+                    <a href="index.html" class="language-link">ES</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h2 class="hero-title">Government AI Impact Assessment</h2>
+            <p class="hero-description">
+                We monitor Mexico's Official Gazette (Diario Oficial de la Federación) to identify implicit
+                and explicit mentions of AI, assess regulatory gaps, and provide actionable analysis for
+                policymakers, researchers, journalists, and the general public.
+            </p>
+            <div class="hero-actions">
+                <a href="#risk-overviews" class="btn btn-primary">View Risk Categories</a>
+                <a href="#research-data" class="btn btn-secondary">Explore Findings</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Risk Overviews Section -->
+    <section id="risk-overviews" class="risk-overviews-section">
+        <div class="container">
+            <h2>Risk Categories</h2>
+            <p class="section-description">
+                Our observatory classifies identified AI risks into 15 main categories,
+                based on the frameworks "What Risks Does AI Pose?" (2023) and "Future Risks of Frontier AI"
+                (UK Government, 2023), adapted to the Mexican regulatory context.
+            </p>
+
+            <div class="risk-overview-grid">
+                <!-- R1: Malfunctions & Errors -->
+                <div class="risk-overview-card">
+                    <div class="risk-overview-header risk-r1">
+                        <h3>Malfunctions & Errors</h3>
+                        <span class="risk-code">R1</span>
+                    </div>
+                    <p class="risk-overview-description">
+                        AI systems that commit critical errors in essential infrastructure: autonomous vehicles
+                        causing accidents, incorrect medical diagnoses, failures in smart electrical grids,
+                        or erroneous decisions in financial systems, resulting in physical, economic harm or loss of life.
+                    </p>
+                </div>
+
+                <!-- R2: Discrimination & Bias -->
+                <div class="risk-overview-card">
+                    <div class="risk-overview-header risk-r2">
+                        <h3>Discrimination & Bias</h3>
+                        <span class="risk-code">R2</span>
+                    </div>
+                    <p class="risk-overview-description">
+                        Systems that learn and perpetuate historical biases, generating systemic discrimination in
+                        hiring, credit, insurance, criminal justice, and public services based on protected
+                        characteristics such as race, gender, age, or geographic location.
+                    </p>
+                </div>
+
+                <!-- R3: Privacy Invasions -->
+                <div class="risk-overview-card">
+                    <div class="risk-overview-header risk-r3">
+                        <h3>Privacy Invasions</h3>
+                        <span class="risk-code">R3</span>
+                    </div>
+                    <p class="risk-overview-description">
+                        AI technologies that infer sensitive information without consent: facial recognition
+                        in public spaces, behavior analysis without transparency, massive collection of
+                        biometric data, and predictive profiling that violates fundamental privacy rights.
+                    </p>
+                </div>
+
+                <!-- R4: Disinformation & Deepfakes -->
+                <div class="risk-overview-card">
+                    <div class="risk-overview-header risk-r4">
+                        <h3>Disinformation & Deepfakes</h3>
+                        <span class="risk-code">R4</span>
+                    </div>
+                    <p class="risk-overview-description">
+                        Large-scale generation of hyper-realistic fake content: deepfakes of public officials,
+                        audio and video manipulation for electoral disinformation, identity impersonation,
+                        and erosion of trust in authentic digital evidence.
+                    </p>
+                </div>
+
+                <!-- R5: Copyright Infringement -->
+                <div class="risk-overview-card">
+                    <div class="risk-overview-header risk-r5">
+                        <h3>Copyright Infringement</h3>
+                        <span class="risk-code">R5</span>
+                    </div>
+                    <p class="risk-overview-description">
+                        AI models trained with protected content without authorization, reproducing artistic,
+                        literary, or musical works without compensating creators, generating tensions
+                        between technological innovation and intellectual property rights.
+                    </p>
+                </div>
+
+                <!-- R6: Worker Exploitation -->
+                <div class="risk-overview-card">
+                    <div class="risk-overview-header risk-r6">
+                        <h3>Worker Exploitation</h3>
+                        <span class="risk-code">R6</span>
+                    </div>
+                    <p class="risk-overview-description">
+                        Exploitation of workers in the AI value chain: data labelers with precarious wages,
+                        content moderators exposed to traumatic material without protections,
+                        and degrading working conditions in massive dataset annotation.
+                    </p>
+                </div>
+
+                <!-- R7: Labor Displacement -->
+                <div class="risk-overview-card">
+                    <div class="risk-overview-header risk-r7">
+                        <h3>Labor Displacement</h3>
+                        <span class="risk-code">R7</span>
+                    </div>
+                    <p class="risk-overview-description">
+                        Mass automation without social safety nets: job losses in sectors such as
+                        transportation, customer service, data analysis, and creative professions, without
+                        retraining programs or just transition for displaced workers.
+                    </p>
+                </div>
+
+                <!-- R8: Reduced Social Connection -->
+                <div class="risk-overview-card">
+                    <div class="risk-overview-header risk-r8">
+                        <h3>Reduced Social Connection</h3>
+                        <span class="risk-code">R8</span>
+                    </div>
+                    <p class="risk-overview-description">
+                        Erosion of genuine human interactions by automated systems: virtual assistants
+                        replacing human connection, algorithms prioritizing engagement over well-being,
+                        and technological dependence that fragments social and community bonds.
+                    </p>
+                </div>
+
+                <!-- R9: Authoritarian Surveillance -->
+                <div class="risk-overview-card">
+                    <div class="risk-overview-header risk-r9">
+                        <h3>Authoritarian Surveillance</h3>
+                        <span class="risk-code">R9</span>
+                    </div>
+                    <p class="risk-overview-description">
+                        Use of AI for mass surveillance without democratic controls: facial recognition systems
+                        in public spaces, monitoring of digital communications, profiling of dissidents,
+                        and suppression of civil liberties through social control technology.
+                    </p>
+                </div>
+
+                <!-- R10: Concentration of Power -->
+                <div class="risk-overview-card">
+                    <div class="risk-overview-header risk-r10">
+                        <h3>Concentration of Power</h3>
+                        <span class="risk-code">R10</span>
+                    </div>
+                    <p class="risk-overview-description">
+                        Accumulation of AI capabilities in few entities without accountability: technological
+                        monopolies controlling critical infrastructure, government dependence on private
+                        providers, and power asymmetries between AI developers and the rest of society.
+                    </p>
+                </div>
+
+                <!-- R11: Bioterrorism Facilitation -->
+                <div class="risk-overview-card">
+                    <div class="risk-overview-header risk-r11">
+                        <h3>Bioterrorism Facilitation</h3>
+                        <span class="risk-code">R11</span>
+                    </div>
+                    <p class="risk-overview-description">
+                        AI that facilitates the creation of biological weapons or pathogens through DNA synthesis,
+                        identification of biological vulnerabilities, or democratization of access to dangerous
+                        knowledge without adequate biosafety controls.
+                    </p>
+                </div>
+
+                <!-- R12: War Escalation -->
+                <div class="risk-overview-card">
+                    <div class="risk-overview-header risk-r12">
+                        <h3>War Escalation</h3>
+                        <span class="risk-code">R12</span>
+                    </div>
+                    <p class="risk-overview-description">
+                        Autonomous weapons systems that make lethal decisions without adequate human supervision,
+                        accelerating armed conflicts through automated responses, reducing critical
+                        decision times and increasing risks of unintended escalation.
+                    </p>
+                </div>
+
+                <!-- R13: Gradual Loss of Control -->
+                <div class="risk-overview-card">
+                    <div class="risk-overview-header risk-r13">
+                        <h3>Gradual Loss of Control</h3>
+                        <span class="risk-code">R13</span>
+                    </div>
+                    <p class="risk-overview-description">
+                        Progressive loss of human capacity to understand, supervise, and control increasingly
+                        complex and autonomous AI systems, creating critical dependencies on infrastructure
+                        that can no longer be managed without AI assistance.
+                    </p>
+                </div>
+
+                <!-- R14: Autonomous Agent Misalignment -->
+                <div class="risk-overview-card">
+                    <div class="risk-overview-header risk-r14">
+                        <h3>Autonomous Agent Misalignment</h3>
+                        <span class="risk-code">R14</span>
+                    </div>
+                    <p class="risk-overview-description">
+                        Advanced AI agents pursuing objectives not aligned with human values,
+                        optimizing incorrect metrics in unexpected and potentially catastrophic ways,
+                        especially in high-impact decision-making systems.
+                    </p>
+                </div>
+
+                <!-- R15: Unknown & Emerging Risks -->
+                <div class="risk-overview-card">
+                    <div class="risk-overview-header risk-r15">
+                        <h3>Unknown & Emerging Risks</h3>
+                        <span class="risk-code">R15</span>
+                    </div>
+                    <p class="risk-overview-description">
+                        Risks not yet identified or fully understood that emerge from unforeseen
+                        capabilities of AI systems, complex interactions between multiple systems,
+                        or applications in novel domains without historical precedents.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Data Section -->
+    <section id="research-data" class="research-data-section">
+        <div class="container">
+            <h2>Research Data</h2>
+            <p class="section-description">
+                Access our complete database of findings, analysis, and timeline of risks
+                identified in Mexico's Official Gazette.
+            </p>
+
+            <div class="research-data-single">
+                <!-- Hallazgos -->
+                <div class="research-data-card">
+                    <h3>Findings</h3>
+                    <p>
+                        Complete database with implicit and explicit mentions of AI in Mexican
+                        regulation, including gap analysis and recommendations.
+                    </p>
+                    <a href="ai-regulatory-risks.html#timeline" class="btn btn-outline">View Findings</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About VIGÍA</h2>
+
+            <div class="about-grid">
+                <!-- Motivation -->
+                <div class="about-card">
+                    <h3>Motivation</h3>
+                    <p>
+                        Mexico faces a regulatory vacuum in AI matters. While technology advances
+                        rapidly, legal frameworks are not prepared. Our observatory proactively identifies
+                        these gaps to inform evidence-based policymaking.
+                    </p>
+                </div>
+
+                <!-- Content -->
+                <div class="about-card">
+                    <h3>Content</h3>
+                    <p>
+                        We analyze the Official Gazette daily using a classification adapted from "What Risks Does AI Pose?"
+                        (2023) and "Future Risks of Frontier AI" (UK Government, 2023). We identify implicit
+                        and explicit mentions, assess risks, and generate actionable recommendations.
+                    </p>
+                </div>
+
+                <!-- Audience -->
+                <div class="about-card">
+                    <h3>Audience</h3>
+                    <p>
+                        Designed for <strong>policymakers</strong> who need information to legislate,
+                        <strong>researchers</strong> studying AI governance, <strong>journalists</strong>
+                        covering technology and regulation, and the <strong>general public</strong> interested in
+                        government transparency.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Methodology -->
+            <div class="methodology-preview">
+                <h3>Methodology</h3>
+                <p>
+                    Our process includes: (1) Search for explicit and implicit mentions of AI,
+                    (2) Classification according to risk categories, (3) Analysis of regulatory gaps,
+                    (4) Severity assessment, and (5) Generation of specific recommendations.
+                </p>
+                <a href="ai-regulatory-risks.html#metodologia" class="btn btn-outline">View Complete Methodology</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team-section">
+        <div class="container">
+            <h2>Our Team</h2>
+            <p class="section-description">
+                An initiative by AI Safety Mexico
+            </p>
+            <div class="team-contact">
+                <p>For more information, collaborations, or to report additional findings:</p>
+                <a href="mailto:contact@aismx.org" class="btn btn-primary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>VIGÍA</h4>
+                    <p>Government AI Impact Assessment in Mexican regulation.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="#risk-overviews">Risk Categories</a></li>
+                        <li><a href="#research-data">Research Data</a></li>
+                        <li><a href="ai-regulatory-risks.html">View Full Analysis</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Sources</h4>
+                    <ul>
+                        <li><a href="https://dof.gob.mx" target="_blank">Official Gazette of the Federation</a></li>
+                        <li><a href="https://bluedot.org/blog/ai-risks" target="_blank">What Risks Does AI Pose?</a></li>
+                        <li><a href="https://assets.publishing.service.gov.uk/media/653bc393d10f3500139a6ac5/future-risks-of-frontier-ai-annex-a.pdf" target="_blank">Future Risks of Frontier AI</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <p>Follow us for daily updates</p>
+                    <!-- Social links can be added here -->
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 VIGÍA - Government AI Impact Assessment. An initiative by AI Safety Mexico</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Mark that user has manually selected a language
+        sessionStorage.setItem('languageSelected', 'en');
+    </script>
+</body>
+</html>

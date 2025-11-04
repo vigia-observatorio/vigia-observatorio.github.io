@@ -23,6 +23,7 @@
                     <a href="#research-data">Datos de Investigación</a>
                     <a href="#about">Acerca de</a>
                     <a href="#team">Equipo</a>
+                    <a href="index-en.html" class="language-link">EN</a>
                 </nav>
             </div>
         </div>
@@ -379,5 +380,21 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        // Auto-detect browser language and redirect to English version if needed
+        (function() {
+            // Only run on first visit (check if user manually selected language)
+            if (!sessionStorage.getItem('languageSelected')) {
+                const userLang = navigator.language || navigator.userLanguage;
+                // Check if browser language is English
+                if (userLang.startsWith('en')) {
+                    // Redirect to English version
+                    window.location.href = 'index-en.html';
+                }
+            }
+            // Mark that user has selected Spanish (either manually or by staying)
+            sessionStorage.setItem('languageSelected', 'es');
+        })();
+    </script>
 </body>
 </html>
