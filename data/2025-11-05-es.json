@@ -1,0 +1,421 @@
+{
+  "metadata_documento": {
+    "tipo_documento": "Diario Oficial de la Federación",
+    "dependencia_emisora": "Multisectorial",
+    "fecha_publicacion": "2025-11-05",
+    "titulo_completo": "Diario Oficial de la Federación del Miércoles 5 de noviembre de 2025",
+    "ambito_aplicacion": "Federal",
+    "sector": "Multisectorial (Financiero, Medio Ambiente, Salud, Justicia, Empleo, Gobierno Digital)"
+  },
+  "hallazgos_ai": [
+    {
+      "id_hallazgo": "H1",
+      "tipo_hallazgo": "Implícito - Riesgo/Gap Regulatorio",
+      "categorias_riesgo": [
+        {
+          "id_riesgo": "R1",
+          "nombre_riesgo": "Malfunctions & Errors",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R2",
+          "nombre_riesgo": "Discrimination & Bias",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R7",
+          "nombre_riesgo": "Labor Displacement",
+          "nivel_severidad": "Media-Alta"
+        }
+      ],
+      "dominio_regulatorio": "Financiero, Empleo, Educación (certificación)",
+      "fragmento_original": "Que, con el fin de fortalecer la certidumbre, confiabilidad y rigor en los procesos de evaluación, así como fomentar la responsabilidad e integridad académica de las personas que fungirán como Asesores Previsionales o Agentes Promotores, en las convocatorias de Certificación, Recertificación, Cursos de Actualización y Programas de Profesionalización, es necesario establecer que, en caso de conductas contrarias a las reglas de comportamiento ético a las que deben sujetarse los sustentantes, la Institución Evaluadora o Educativa procederá a la cancelación del Examen o proceso de evaluación correspondiente;",
+      "ubicacion_documento": "SECRETARIA DE HACIENDA Y CREDITO PUBLICO, Modificaciones y adiciones a las Disposiciones de carácter general a las que deberán sujetarse las administradoras de fondos para el retiro en relación con sus agentes promotores, CONSIDERANDO, párrafo segundo",
+      "analisis_relevancia": "Este fragmento establece la necesidad de fortalecer los procesos de evaluación y la integridad académica para la certificación de asesores financieros. Aunque no menciona explícitamente la IA, las 'técnicas avanzadas de análisis de datos' y los 'procesos de evaluación' son dominios donde la IA/ML (ej. software de proctoring, detección de plagio, análisis de desempeño) es cada vez más común. Si se implementan sistemas de IA en estos procesos, existe un riesgo significativo de errores (R1) que podrían llevar a la descalificación injusta de candidatos. También hay un riesgo de discriminación algorítmica (R2) si los sistemas se entrenan con datos sesgados, afectando el acceso a oportunidades laborales. Aunque R7 se refiere a desplazamiento laboral, la afectación al acceso a una profesión por sistemas de IA puede considerarse un riesgo asociado.",
+      "es_gap_regulatorio": true,
+      "recomendaciones": [
+        "Establecer requisitos de transparencia para cualquier sistema automatizado de evaluación o proctoring utilizado en la certificación de agentes promotores.",
+        "Implementar auditorías de sesgos algorítmicos obligatorias para asegurar la equidad en los procesos de certificación y evitar la discriminación.",
+        "Garantizar la supervisión humana y mecanismos de apelación claros y accesibles para las decisiones automatizadas de cancelación de exámenes o procesos de evaluación.",
+        "Desarrollar guías éticas para el uso de IA en la evaluación de competencias profesionales en el sector financiero."
+      ]
+    },
+    {
+      "id_hallazgo": "H2",
+      "tipo_hallazgo": "Implícito - Riesgo/Gap Regulatorio",
+      "categorias_riesgo": [
+        {
+          "id_riesgo": "R1",
+          "nombre_riesgo": "Malfunctions & Errors",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R2",
+          "nombre_riesgo": "Discrimination & Bias",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R3",
+          "nombre_riesgo": "Privacy Invasions",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R13",
+          "nombre_riesgo": "Gradual Loss of Control",
+          "nivel_severidad": "Extrema"
+        }
+      ],
+      "dominio_regulatorio": "Gobierno digital, Servicios públicos, Medio Ambiente, Modernización administrativa",
+      "fragmento_original": "Que el 16 de julio de 2025, se publicó en el Diario Oficial de la Federación la Ley Nacional para Eliminar Trámites Burocráticos en la cual se establece el marco legal para la simplificación administrativa, digitalización de los trámites y servicios, buenas prácticas regulatorias, y el fortalecimiento de capacidades tecnológicas en los tres órdenes de gobierno (federal, estatal y municipal), y señala que son objetivos de la propia Ley, entre otros: Habilitar los Modelos Nacionales para Eliminar Trámites Burocráticos; para la Digitalización; de Homologación de Trámites y Servicios, Compartición de Soluciones Tecnológicas y Desarrollo de Capacidades Públicas; y de Atención Ciudadana.",
+      "ubicacion_documento": "SECRETARIA DE MEDIO AMBIENTE Y RECURSOS NATURALES, ACUERDO por el que se establecen acciones de simplificación para trámites..., CONSIDERANDO, párrafo sexto",
+      "analisis_relevancia": "La 'Ley Nacional para Eliminar Trámites Burocráticos' promueve la 'digitalización de los trámites y servicios' y el 'fortalecimiento de capacidades tecnológicas'. Estos son eufemismos burocráticos que implican fuertemente el uso de IA/ML para automatizar procesos, analizar documentos, ofrecer asistencia virtual o tomar decisiones. En el contexto de la SEMARNAT, esto podría aplicarse a la gestión de permisos ambientales, monitoreo de cumplimiento o evaluación de riesgos. Errores (R1) en sistemas de IA podrían llevar a decisiones incorrectas con graves consecuencias ambientales o económicas. La discriminación algorítmica (R2) podría afectar el acceso a servicios o imponer cargas injustas. La recopilación masiva de datos para la digitalización plantea riesgos de invasión de la privacidad (R3). Una dependencia excesiva de sistemas automatizados podría resultar en una pérdida gradual de control humano (R13) sobre funciones críticas.",
+      "es_gap_regulatorio": true,
+      "recomendaciones": [
+        "Desarrollar un marco regulatorio específico para el uso de IA en la digitalización de trámites gubernamentales, con requisitos de transparencia, explicabilidad y auditabilidad.",
+        "Implementar evaluaciones de impacto algorítmico obligatorias para identificar y mitigar sesgos en sistemas de IA que afecten a ciudadanos o empresas.",
+        "Establecer requisitos de supervisión humana y mecanismos de apelación claros para decisiones automatizadas en trámites críticos.",
+        "Fortalecer la ciberseguridad y la protección de datos personales en todos los sistemas digitalizados, especialmente en el ámbito ambiental."
+      ]
+    },
+    {
+      "id_hallazgo": "H3",
+      "tipo_hallazgo": "Implícito - Riesgo/Gap Regulatorio",
+      "categorias_riesgo": [
+        {
+          "id_riesgo": "R1",
+          "nombre_riesgo": "Malfunctions & Errors",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R2",
+          "nombre_riesgo": "Discrimination & Bias",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R3",
+          "nombre_riesgo": "Privacy Invasions",
+          "nivel_severidad": "Alta"
+        }
+      ],
+      "dominio_regulatorio": "Salud, Servicios públicos, Datos personales",
+      "fragmento_original": "Sin clave de Compendio | Tableta para registro de información en ventanillas incluyentes para uso de las unidades que implementan el Modelo MoASMI\", \"Sin clave de Compendio | Baumanómetro parlante para personas con discapacidad visual que asisten a unidades MoASMI\", \"Sin clave de Compendio | Servicios integrales para Diagnóstico de personas en situación de vulnerabilidad y condiciones de las unidades de salud que implementan el MoASMI",
+      "ubicacion_documento": "SECRETARIA DE SALUD, Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos..., ANEXO 4, L00 CENTRO NACIONAL DE EQUIDAD DE GÉNERO, SALUD SEXUAL Y REPRODUCTIVA",
+      "analisis_relevancia": "El 'Modelo de Atención a la Salud con Mecanismos Incluyentes (MoASMI)' implica la recolección de información mediante tabletas y el uso de tecnologías asistivas ('Baumanómetro parlante', 'Termómetro parlante', 'Glucómetro parlante'). Aunque no se menciona explícitamente la IA, el 'registro de información' y los 'Servicios integrales para Diagnóstico de personas en situación de vulnerabilidad' son áreas propicias para la aplicación de IA/ML. Esto implica el procesamiento de datos de salud altamente sensibles, lo que conlleva riesgos significativos de invasión de la privacidad (R3). Si la IA se utiliza para diagnósticos o asignación de recursos, errores (R1) podrían llevar a diagnósticos erróneos o atención inadecuada, y sesgos algorítmicos (R2) podrían exacerbar las desigualdades en salud para poblaciones vulnerables.",
+      "es_gap_regulatorio": true,
+      "recomendaciones": [
+        "Establecer un marco ético y regulatorio para el uso de IA en el sector salud, con un enfoque estricto en la protección de datos sensibles y la equidad en la atención.",
+        "Requerir evaluaciones de impacto en derechos humanos y auditorías de sesgos para cualquier sistema de IA utilizado en diagnóstico o asignación de recursos para poblaciones vulnerables.",
+        "Implementar mecanismos de consentimiento informado específicos para el uso de datos en sistemas de IA, especialmente para poblaciones vulnerables.",
+        "Garantizar la supervisión humana y la capacidad de impugnar decisiones asistidas por IA en el ámbito de la salud."
+      ]
+    },
+    {
+      "id_hallazgo": "H4",
+      "tipo_hallazgo": "Implícito - Riesgo/Gap Regulatorio",
+      "categorias_riesgo": [
+        {
+          "id_riesgo": "R1",
+          "nombre_riesgo": "Malfunctions & Errors",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R2",
+          "nombre_riesgo": "Discrimination & Bias",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R3",
+          "nombre_riesgo": "Privacy Invasions",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R9",
+          "nombre_riesgo": "Authoritarian Surveillance",
+          "nivel_severidad": "Muy Alta"
+        }
+      ],
+      "dominio_regulatorio": "Justicia, Seguridad pública, Datos personales, Derechos humanos",
+      "fragmento_original": "Colaborar con “MUJERES” proporcionando la información correspondiente respecto de la atención a mujeres víctimas de violencias de género, así como, de sus hijas e hijos para la recopilación de información del Banco Nacional de Datos e Información sobre Casos de Violencia contra las Mujeres (BANAVIM);",
+      "ubicacion_documento": "SECRETARIA DE LAS MUJERES, Convenio de Coordinación y Adhesión..., QUINTA. COMPROMISOS DEL “GOBIERNO DEL ESTADO”, inciso j)",
+      "analisis_relevancia": "El BANAVIM es una base de datos nacional crítica que contiene información altamente sensible sobre víctimas de violencia de género. La recopilación y el análisis de esta información, especialmente si se utilizan herramientas de IA/ML para análisis de patrones, evaluación de riesgos o perfilamiento predictivo, conllevan riesgos severos. Existe un alto riesgo de invasión de la privacidad (R3) a través de la re-identificación o inferencias no autorizadas de datos sensibles. La discriminación algorítmica (R2) podría perpetuar sesgos en la evaluación de riesgos o la asignación de recursos de protección, afectando negativamente a las víctimas. Además, un sistema tan poderoso con capacidades de IA podría ser mal utilizado para vigilancia o control autoritario (R9). Errores (R1) en el análisis de IA podrían tener consecuencias críticas para la seguridad y el acceso a la justicia de las víctimas.",
+      "es_gap_regulatorio": true,
+      "recomendaciones": [
+        "Prohibir el uso de IA para perfilamiento predictivo o scoring de riesgo en BANAVIM sin un marco regulatorio robusto, transparente y con supervisión humana obligatoria.",
+        "Establecer protocolos estrictos de privacidad y seguridad de datos para cualquier sistema de IA que acceda a BANAVIM, incluyendo la anonimización y seudonimización de datos.",
+        "Requerir evaluaciones de impacto en derechos humanos y auditorías de sesgos algorítmicos para cualquier uso de IA en la justicia de género.",
+        "Garantizar mecanismos de impugnación efectivos y accesibles para las víctimas afectadas por decisiones asistidas por IA."
+      ]
+    },
+    {
+      "id_hallazgo": "H5",
+      "tipo_hallazgo": "Implícito - Tecnología",
+      "categorias_riesgo": [
+        {
+          "id_riesgo": "R1",
+          "nombre_riesgo": "Malfunctions & Errors",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R2",
+          "nombre_riesgo": "Discrimination & Bias",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R13",
+          "nombre_riesgo": "Gradual Loss of Control",
+          "nivel_severidad": "Extrema"
+        }
+      ],
+      "dominio_regulatorio": "Medio Ambiente, Gobierno digital, Análisis de datos",
+      "fragmento_original": "APLICAR TECNICAS ESTADISTICAS DESCRIPTIVAS E INFERENCIALES (MEDIA, MEDIANA, DESVIACION ESTANDAR, PRUEBAS DE HIPOTESIS, REGRESION) PARA ANALIZAR LOS DATOS Y EXTRAER CONCLUSIONES SIGNIFICATIVAS.\", \"DESARROLLAR MODELOS PREDICTIVOS Y DE CLASIFICACION PARA PRONOSTICAR TENDENCIAS FUTURAS Y TOMAR DECISIONES BASADAS EN DATOS.\", \"IMPLEMENTAR SCRIPTS Y HERRAMIENTAS PARA AUTOMATIZAR TAREAS REPETITIVAS Y MEJORAR LA EFICIENCIA DEL PROCESO DE ANALISIS.",
+      "ubicacion_documento": "SECRETARIA DE MEDIO AMBIENTE Y RECURSOS NATURALES, CONVOCATORIA PUBLICA Y ABIERTA No. SEMARNAT/2025/13, Puesto SUBDIRECCION DE ESTUDIOS Y PROYECTOS TERRITORIALES EN LAS ORES, Funciones Principales",
+      "analisis_relevancia": "La descripción de este puesto en SEMARNAT detalla explícitamente el uso de 'técnicas estadísticas descriptivas e inferenciales', 'modelos predictivos y de clasificación para pronosticar tendencias futuras y tomar decisiones basadas en datos', y 'scripts y herramientas para automatizar tareas repetitivas'. Estas son aplicaciones directas de IA/ML en la gestión ambiental. Los riesgos incluyen errores (R1) en los modelos predictivos que podrían llevar a políticas ambientales incorrectas o asignación ineficiente de recursos. También existe el riesgo de sesgos algorítmicos (R2) si los datos de entrenamiento o los modelos reflejan desigualdades existentes, afectando desproporcionadamente a ciertas comunidades o regiones. Una dependencia excesiva de estos sistemas complejos podría llevar a una pérdida gradual de control humano (R13) sobre decisiones críticas de política ambiental.",
+      "es_gap_regulatorio": true,
+      "recomendaciones": [
+        "Establecer un marco regulatorio para el desarrollo, validación, despliegue y supervisión de modelos predictivos y de clasificación basados en IA en la gestión ambiental, incluyendo requisitos de transparencia y explicabilidad.",
+        "Requerir pruebas rigurosas de robustez y equidad para estos modelos, especialmente en la asignación de recursos o la identificación de riesgos ambientales.",
+        "Garantizar la supervisión humana experta y la capacidad de anular o corregir decisiones basadas en los resultados de la IA.",
+        "Invertir en la capacitación del personal para comprender, auditar y gestionar sistemas de IA en el ámbito ambiental."
+      ]
+    },
+    {
+      "id_hallazgo": "H6",
+      "tipo_hallazgo": "Implícito - Riesgo/Gap Regulatorio",
+      "categorias_riesgo": [
+        {
+          "id_riesgo": "R1",
+          "nombre_riesgo": "Malfunctions & Errors",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R2",
+          "nombre_riesgo": "Discrimination & Bias",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R3",
+          "nombre_riesgo": "Privacy Invasions",
+          "nivel_severidad": "Alta"
+        }
+      ],
+      "dominio_regulatorio": "Salud, Servicios críticos, Análisis de datos",
+      "fragmento_original": "COORDINAR LA OPERACION DEL SISTEMA NACIONAL DE INDICADORES DE CALIDAD EN SALUD QUE PERMITA PROPORCIONAR INFORMACION A LAS UNIDADES MEDICAS SOBRE LOS RESULTADOS DEL MONITOREO DE INDICADORES Y DE LA EVALUACION DE CALIDAD Y SEGURIDAD DEL PACIENTE EN LOS SERVICIOS DE SALUD A NIVEL NACIONAL E INTERINSTITUCIONAL, PARA LA TOMA DE DECISIONES DIRECTIVAS EN LAS UNIDADES MEDICAS.\", \"INSTRUIR SOBRE LA IMPLEMENTACION DE MECANISMOS DE EVOLUCION, MONITOREO MEJORA Y ESTANDARIZACION DE INDICADORES DE CALIDAD A FIN DE FAVORECER LA MEJORA DE LA CALIDAD DE LA ATENCION DE LA SALUD Y DE LA SEGURIDAD DE LOS PACIENTES.",
+      "ubicacion_documento": "SECRETARIA DE SALUD, CONVOCATORIA PUBLICA Y ABIERTA No. SSA/2025/06, Puesto DIRECCION DE MEJORA DE PROCESOS, Funciones Principales",
+      "analisis_relevancia": "La creación y coordinación de un 'Sistema Nacional de Indicadores de Calidad en Salud' para el 'monitoreo de indicadores' y la 'evaluación de calidad y seguridad del paciente' a nivel nacional sugiere fuertemente el uso de IA/ML para el análisis avanzado de datos, detección de anomalías y soporte a la toma de decisiones. Los riesgos incluyen errores (R1) en los sistemas de IA que podrían llevar a la identificación incorrecta de problemas de calidad o riesgos para la seguridad del paciente. El sesgo algorítmico (R2) podría perpetuar o amplificar las disparidades existentes en la calidad de la atención médica. El procesamiento de grandes volúmenes de datos de pacientes para estos indicadores plantea importantes preocupaciones de privacidad (R3).",
+      "es_gap_regulatorio": true,
+      "recomendaciones": [
+        "Desarrollar un marco regulatorio para el uso de IA en la evaluación de calidad y seguridad del paciente, con énfasis en la protección de datos y la equidad.",
+        "Requerir auditorías de sesgos para los algoritmos que definen o monitorean indicadores de calidad, para evitar la discriminación en la atención médica.",
+        "Establecer mecanismos de transparencia sobre cómo se calculan y utilizan estos indicadores para la toma de decisiones.",
+        "Garantizar la revisión humana de los resultados críticos generados por estos sistemas y la capacidad de impugnación."
+      ]
+    },
+    {
+      "id_hallazgo": "H7",
+      "tipo_hallazgo": "Implícito - Riesgo/Gap Regulatorio",
+      "categorias_riesgo": [
+        {
+          "id_riesgo": "R1",
+          "nombre_riesgo": "Malfunctions & Errors",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R2",
+          "nombre_riesgo": "Discrimination & Bias",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R3",
+          "nombre_riesgo": "Privacy Invasions",
+          "nivel_severidad": "Alta"
+        }
+      ],
+      "dominio_regulatorio": "Gobierno digital, Datos masivos, Justicia (propiedad)",
+      "fragmento_original": "Coordinar la integración, acopio, organización y resguardo de los insumos catastrales que conforman la base de datos del catastro rural a nivel nacional, así como los medios magnéticos producto de la delimitación al interior de los núcleos agrarios, contando con los datos y variables establecidas del inventario de la propiedad rural en sus diversas modalidades, a efecto de lograr la adecuada identificación y correlación de sus titulares, poseedores o usufructuarios con la información geoespacial.",
+      "ubicacion_documento": "Secretaría de Desarrollo Agrario, Territorial y Urbano, Registro Agrario Nacional, CONVOCATORIA PUBLICA Y ABIERTA No. 06-2025, Puesto SUBDIRECCION DE INTEGRACION DE INFORMACION CATASTRAL, Funciones Principales del Puesto",
+      "analisis_relevancia": "Este puesto implica la gestión de un catastro rural nacional, incluyendo 'medios magnéticos', 'información geoespacial' y la 'identificación y correlación' de titulares de tierras. La IA/ML es fundamental para procesar imágenes satelitales, datos GIS y grandes bases de datos para fines catastrales. Errores (R1) en el IA-análisis geoespacial o la correlación de datos podrían llevar a registros de propiedad incorrectos, afectando derechos agrarios y generando conflictos legales, especialmente para comunidades rurales e indígenas. El sesgo algorítmico (R2) podría perpetuar injusticias históricas en la distribución de tierras. La recopilación y procesamiento masivo de datos personales y geoespaciales plantea riesgos significativos de invasión de la privacidad (R3).",
+      "es_gap_regulatorio": true,
+      "recomendaciones": [
+        "Establecer un marco regulatorio para el uso de IA en la gestión catastral y geoespacial, con requisitos de transparencia, auditabilidad y explicabilidad.",
+        "Requerir evaluaciones de impacto en derechos humanos y auditorías de sesgos para sistemas de IA que afecten la propiedad de la tierra, especialmente para comunidades indígenas y rurales.",
+        "Implementar mecanismos robustos de verificación humana y apelación para decisiones basadas en IA sobre derechos agrarios.",
+        "Fortalecer la protección de datos personales y geoespaciales sensibles."
+      ]
+    },
+    {
+      "id_hallazgo": "H8",
+      "tipo_hallazgo": "Implícito - Riesgo/Gap Regulatorio",
+      "categorias_riesgo": [
+        {
+          "id_riesgo": "R1",
+          "nombre_riesgo": "Malfunctions & Errors",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R10",
+          "nombre_riesgo": "Concentration of Power",
+          "nivel_severidad": "Alta"
+        }
+      ],
+      "dominio_regulatorio": "Financiero, Energía, Análisis de datos",
+      "fragmento_original": "Efectuar estudios y proyectos de los productos petrolíferos, petroquímicos y gas natural, considerando los criterios de costo de oportunidad, eficiencia económica y saneamiento financiero, con el objeto de llevar a cabo el establecimiento de mecanismos de fijación de precios.\", \"Desarrollar modelos estadísticos y/o económicos, a través de la estimación del impacto sobre las finanzas públicas y considerando la información relacionada al sector energético, con el propósito de modificar la política de precios de productos petrolíferos, petroquímicos y gas natural.",
+      "ubicacion_documento": "Secretaría de Hacienda y Crédito Público, CONVOCATORIA PUBLICA Y ABIERTA No. 1139, Puesto Departamento de Evaluación de Precios del Sector Petrolero \"B\", Funciones",
+      "analisis_relevancia": "Este puesto implica 'desarrollar modelos estadísticos y/o económicos' para la 'estimación del impacto sobre las finanzas públicas' y la 'modificación de la política de precios de productos petrolíferos'. Estas son aplicaciones de alto impacto donde los modelos de IA/ML pueden ser utilizados para pronósticos complejos y simulaciones de políticas. Errores (R1) en estos modelos podrían generar inestabilidad económica significativa o políticas de precios incorrectas que afecten a toda la nación. Si el desarrollo o control de estos modelos recae en un número limitado de actores (ej. proveedores externos), podría conducir a una concentración indebida de poder económico y tecnológico (R10).",
+      "es_gap_regulatorio": true,
+      "recomendaciones": [
+        "Establecer requisitos de transparencia y explicabilidad para los modelos de IA/ML utilizados en la fijación de precios y la estimación de impactos fiscales en el sector energético.",
+        "Requerir auditorías independientes de estos modelos para verificar su precisión, robustez y ausencia de sesgos.",
+        "Desarrollar capacidades internas para la validación y supervisión de modelos complejos, reduciendo la dependencia de proveedores externos.",
+        "Implementar mecanismos de revisión humana para las decisiones basadas en los resultados de estos modelos."
+      ]
+    },
+    {
+      "id_hallazgo": "H9",
+      "tipo_hallazgo": "Implícito - Riesgo/Gap Regulatorio",
+      "categorias_riesgo": [
+        {
+          "id_riesgo": "R1",
+          "nombre_riesgo": "Malfunctions & Errors",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R2",
+          "nombre_riesgo": "Discrimination & Bias",
+          "nivel_severidad": "Alta"
+        }
+      ],
+      "dominio_regulatorio": "Educación, Empleo, Análisis de datos",
+      "fragmento_original": "Diseñar programas de formación continua para personal docente, con base en los datos del análisis y propuestas definidas por el personal docente, así como los derivados de las ciencias de la educación y los métodos pedagógicos, con la finalidad de fortalecer el proceso de enseñanza-aprendizaje de los alumnos para su desarrollo integral y para la adquisición de las competencias que una educación con equidad y excelencia requiere.\", \"Diseñar acciones y programas de formación continua y profesionalización docente que atiendan el rezago educativo, relacionados con los campos formativos de pensamiento matemático y lenguaje y comunicación, así como otras prioridades nacionales y regionales, dirigidos al personal docente.",
+      "ubicacion_documento": "Secretaría de Educación Pública, CONVOCATORIA 33/2025, Puesto JEFATURA DE DEPARTAMENTO DE DISEÑO DE OFERTA PARA DOCENTES, Funciones Principales",
+      "analisis_relevancia": "Este puesto implica 'diseñar programas de formación continua' y 'atender el rezago educativo' basándose en 'datos del análisis'. La IA/ML podría utilizarse para personalizar recomendaciones de formación para docentes, identificar patrones de 'rezago educativo' o para optimizar el contenido de los cursos. Errores (R1) en los sistemas de IA podrían llevar a programas de desarrollo profesional ineficaces o a una identificación incorrecta de las necesidades educativas. El sesgo algorítmico (R2) en la identificación del rezago o en las recomendaciones de formación podría afectar desproporcionadamente a ciertos docentes o perpetuar desigualdades educativas.",
+      "es_gap_regulatorio": true,
+      "recomendaciones": [
+        "Establecer un marco ético y regulatorio para el uso de IA en el diseño de programas educativos y la evaluación docente.",
+        "Requerir auditorías de sesgos para los algoritmos que identifican 'rezago educativo' o recomiendan formación, para asegurar la equidad.",
+        "Garantizar la transparencia en cómo se utilizan los datos y los algoritmos para influir en la formación docente.",
+        "Implementar mecanismos de revisión humana y apelación para decisiones que afecten la trayectoria profesional de los docentes."
+      ]
+    },
+    {
+      "id_hallazgo": "H10",
+      "tipo_hallazgo": "Implícito - Riesgo/Gap Regulatorio",
+      "categorias_riesgo": [
+        {
+          "id_riesgo": "R1",
+          "nombre_riesgo": "Malfunctions & Errors",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R13",
+          "nombre_riesgo": "Gradual Loss of Control",
+          "nivel_severidad": "Extrema"
+        }
+      ],
+      "dominio_regulatorio": "Gobierno digital, Infraestructura crítica, Operaciones",
+      "fragmento_original": "MANTENER Y ADMINISTRAR LAS APLICACIONES QUE SE ENCUENTRAN EN PRODUCCION (DISPONIBLE PARA LOS USUARIOS), ASI COMO ADMINISTRAR Y CONTROLAR SU USO DE ACUERDO A LAS NORMAS Y PROCEDIMIENTOS ESTABLECIDOS, CON EL FIN DE MEJORAR LA CALIDAD DE LOS SERVICIOS A LOS USUARIOS DE LA SECRETARIA.\", \"DETECTAR NUEVOS REQUERIMIENTOS Y MANTENER EL PLAN DE CRECIMIENTO DE LA INFRAESTRUCTURA Y DE LAS APLICACIONES. PARA CUBRIR LAS NECESIDADES FUTURAS DE LAS DIFERENTES AREAS USUARIAS.",
+      "ubicacion_documento": "Secretaría de Medio Ambiente y Recursos Naturales, CONVOCATORIA PUBLICA Y ABIERTA No. SEMARNAT/2025/13, Puesto SUBDIRECTOR DE APLICACIONES EN PRODUCCION, Funciones Principales",
+      "analisis_relevancia": "Este puesto se centra en el mantenimiento y la administración de 'aplicaciones en producción' y la gestión de 'infraestructura y aplicaciones'. Las operaciones de TI modernas utilizan IA/ML para monitoreo automatizado, respuesta a incidentes, optimización de recursos y predicción de fallas del sistema. Si estas aplicaciones soportan funciones ambientales críticas, errores (R1) en la gestión impulsada por IA podrían provocar interrupciones del servicio o pérdida de datos. Una automatización creciente en estas áreas también podría conducir a una pérdida gradual de control humano (R13) sobre sistemas de TI complejos.",
+      "es_gap_regulatorio": true,
+      "recomendaciones": [
+        "Desarrollar políticas para el uso seguro y responsable de IA en la administración de sistemas y aplicaciones críticas de la SEMARNAT.",
+        "Requerir auditorías de seguridad y rendimiento para sistemas de IA utilizados en operaciones de TI.",
+        "Establecer protocolos claros para la intervención humana y la reversión de decisiones automatizadas en caso de fallos.",
+        "Invertir en la capacitación del personal para supervisar y gestionar sistemas de IA en entornos de producción."
+      ]
+    },
+    {
+      "id_hallazgo": "H11",
+      "tipo_hallazgo": "Implícito - Riesgo/Gap Regulatorio",
+      "categorias_riesgo": [
+        {
+          "id_riesgo": "R1",
+          "nombre_riesgo": "Malfunctions & Errors",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R13",
+          "nombre_riesgo": "Gradual Loss of Control",
+          "nivel_severidad": "Extrema"
+        }
+      ],
+      "dominio_regulatorio": "Gobierno digital, Infraestructura crítica",
+      "fragmento_original": "Implementar sistemas informáticos para facilitar los trabajos que requieran sistematizarse.\", \"Proporcionar servicios de mantenimiento y/o correctivos a equipos y sistemas para mantenerlos en buen estado y funcionamiento.",
+      "ubicacion_documento": "Secretaría de Desarrollo Agrario, Territorial y Urbano, Registro Agrario Nacional, CONVOCATORIA PUBLICA Y ABIERTA No. 06-2025, Puesto JEFE DE AREA DE INFORMATICA, Funciones Principales del Puesto",
+      "analisis_relevancia": "Este puesto implica la 'implementación de sistemas informáticos' y el 'mantenimiento de equipos y sistemas' para el Registro Agrario Nacional, una institución crítica para los derechos sobre la tierra. La IA/ML podría utilizarse para automatizar la entrada de datos, el procesamiento de documentos o el mantenimiento del sistema. Errores (R1) en los sistemas de IA para el registro agrario podrían llevar a registros incorrectos, afectando los derechos de propiedad y generando disputas legales. Una dependencia excesiva de sistemas de IA complejos para funciones de TI centrales podría conducir a una pérdida gradual de control humano (R13) sobre datos y procesos críticos.",
+      "es_gap_regulatorio": true,
+      "recomendaciones": [
+        "Establecer un marco regulatorio para el uso de IA en sistemas informáticos de registro agrario, con requisitos de transparencia, auditabilidad y seguridad.",
+        "Requerir pruebas rigurosas de los sistemas de IA para garantizar la precisión y evitar errores que afecten los derechos de propiedad.",
+        "Garantizar la supervisión humana y mecanismos de apelación para decisiones automatizadas que impacten los registros de tierra.",
+        "Fortalecer la ciberseguridad de los sistemas informáticos que manejan datos agrarios sensibles."
+      ]
+    },
+    {
+      "id_hallazgo": "H12",
+      "tipo_hallazgo": "Implícito - Riesgo/Gap Regulatorio",
+      "categorias_riesgo": [
+        {
+          "id_riesgo": "R1",
+          "nombre_riesgo": "Malfunctions & Errors",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R2",
+          "nombre_riesgo": "Discrimination & Bias",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R13",
+          "nombre_riesgo": "Gradual Loss of Control",
+          "nivel_severidad": "Extrema"
+        }
+      ],
+      "dominio_regulatorio": "Empleo, Justicia (equidad en procesos), Gobierno digital",
+      "fragmento_original": "El resultado ponderado del examen de conocimientos generales de la Administración Pública Federal y el resultado ponderado del examen de conocimientos técnicos serán sumados, con el objetivo de obtener los puntos de la Subetapa de Exámenes de conocimientos. El resultado obtenido deberá ser igual o superior a 60 en una escala de 0 a 100, sin decimales. En caso de obtener un resultado menor a 60 en la sumatoria, el sistema procederá al descarte.",
+      "ubicacion_documento": "Secretaría de Hacienda y Crédito Público, CONVOCATORIA PUBLICA Y ABIERTA No. 1139, BASES DE PARTICIPACION, 5a. Presentación de Evaluaciones, párrafo 10",
+      "analisis_relevancia": "Múltiples convocatorias para puestos en el servicio público (SHCP, SEMARNAT, SEP, SENER, SECTUR, RAN, SSA, CENSIA, CONAMED, CONASAMA) describen procesos de evaluación altamente automatizados, incluyendo el 'descarte' de candidatos basado en la suma de puntajes de exámenes. Estos sistemas, que utilizan plataformas como 'TrabajaEn' y 'Módulo Generador de Exámenes', probablemente emplean IA/ML para la calificación automática, proctoring o perfilamiento de candidatos. Esto conlleva riesgos significativos: discriminación algorítmica (R2) si los datos de entrenamiento o los algoritmos están sesgados, lo que podría excluir a candidatos calificados de diversos orígenes. Errores (R1) en estos sistemas automatizados podrían llevar a la descalificación injusta. La dependencia de decisiones automatizadas de 'descarte' sin una revisión humana clara o mecanismos de apelación podría resultar en una pérdida gradual de control humano (R13) sobre prácticas de empleo justas.",
+      "es_gap_regulatorio": true,
+      "recomendaciones": [
+        "Desarrollar un marco regulatorio específico para el uso de IA en procesos de selección de personal en el sector público, incluyendo requisitos de transparencia algorítmica y explicabilidad.",
+        "Implementar auditorías de sesgos obligatorias para todos los sistemas de IA utilizados en la evaluación de candidatos, con especial atención a la equidad de género y la no discriminación.",
+        "Establecer puntos de intervención humana obligatorios y mecanismos de apelación claros para decisiones de 'descarte' automatizadas.",
+        "Invertir en la capacitación del personal de recursos humanos para comprender y gestionar los riesgos de la IA en la contratación."
+      ]
+    }
+  ],
+  "analisis_general": {
+    "contiene_mencion_explicita_ai": false,
+    "numero_menciones_explicitas": 0,
+    "numero_menciones_implicitas": 12,
+    "numero_gaps_identificados": 12,
+    "nivel_riesgo_maximo": "Extrema",
+    "categorias_riesgo_presentes": [
+      "R1",
+      "R2",
+      "R3",
+      "R7",
+      "R9",
+      "R10",
+      "R13"
+    ],
+    "requiere_atencion_urgente": true,
+    "justificacion_urgencia": "El documento revela múltiples usos implícitos de la IA en dominios críticos como la salud, la justicia, el empleo público, la gestión ambiental y financiera. La ausencia de regulación explícita para estos sistemas de IA, combinada con el potencial de errores algorítmicos, discriminación, invasión de la privacidad y pérdida gradual de control humano, representa un riesgo extremo para los derechos fundamentales de los ciudadanos y la estabilidad de las instituciones, especialmente en el contexto mexicano de alta informalidad y desigualdad digital."
+  },
+  "sintesis_ejecutiva": "Este número del Diario Oficial de la Federación, con fecha del 5 de noviembre de 2025, aunque no contiene menciones explícitas de 'Inteligencia Artificial', revela una profunda y creciente dependencia de sistemas automatizados y análisis de datos avanzados en diversas Secretarías Federales. Los hallazgos implícitos abarcan desde la digitalización de trámites y la evaluación de personal en convocatorias públicas, hasta la gestión de información catastral, el monitoreo de calidad en salud y el análisis económico para la fijación de precios.\n\nLos riesgos más críticos identificados son de nivel 'Extrema', principalmente debido a la potencial 'Pérdida gradual de control' (R13) sobre sistemas críticos en áreas como la gestión ambiental y la infraestructura informática, así como riesgos 'Muy Alta' de 'Vigilancia autoritaria' (R9) en bases de datos sensibles como el BANAVIM. Otros riesgos 'Alta' incluyen 'Malfunctions & Errors' (R1), 'Discrimination & Bias' (R2) e 'Privacy Invasions' (R3) en procesos de evaluación de personal, diagnósticos de salud y gestión de datos de víctimas de violencia. La falta de marcos regulatorios específicos para la IA en estos dominios crea vacíos legales que podrían tener consecuencias graves para los derechos ciudadanos y la gobernanza.\n\nSe recomienda una acción urgente para desarrollar una regulación integral de la IA que aborde la transparencia, la auditabilidad, la mitigación de sesgos, la supervisión humana y los mecanismos de apelación en todos los sistemas de IA identificados. Es crucial que México establezca salvaguardas robustas para proteger a sus ciudadanos, especialmente a las poblaciones vulnerables, de los posibles impactos negativos de la IA, al tiempo que aprovecha sus beneficios de manera responsable.",
+  "contexto_mexicano": {
+    "consideraciones_especiales": [
+      "La alta informalidad laboral (~60%) y la desigualdad digital en México aumentan el riesgo de discriminación algorítmica y dificultan el acceso a mecanismos de apelación para poblaciones vulnerables.",
+      "Los recursos limitados para el enforcement regulatorio exigen que cualquier marco de IA sea práctico, escalable y se centre en los riesgos de mayor impacto.",
+      "La dependencia tecnológica de proveedores extranjeros para sistemas de IA podría comprometer la soberanía digital y la capacidad de auditoría.",
+      "La tradición civilista del sistema legal mexicano requiere una regulación de IA basada en principios claros y derechos fundamentales, en contraste con enfoques más casuísticos del common law.",
+      "La sensibilidad de los datos manejados en salud, justicia de género y registro agrario, en un contexto de instituciones democráticas en consolidación, eleva la severidad de los riesgos de privacidad y vigilancia."
+    ],
+    "capacidad_enforcement": "Media-Baja. La capacidad institucional para hacer cumplir una regulación de IA es limitada debido a la escasez de personal especializado, recursos tecnológicos y presupuestarios. La complejidad técnica de la IA podría sobrepasar la capacidad de supervisión de las autoridades existentes, haciendo que la implementación de salvaguardas sea un desafío.",
+    "precedentes_relevantes": [
+      "Ley Federal de Protección de Datos Personales en Posesión de los Particulares y Ley General de Protección de Datos Personales en Posesión de Sujetos Obligados (fundamentales para abordar R3).",
+      "Ley General de Acceso de las Mujeres a una Vida Libre de Violencia (relevante para R2, R3, R9 en el contexto de BANAVIM).",
+      "Ley General de Bienes Nacionales y Ley Agraria (relevantes para R1, R2, R3 en el contexto de la gestión catastral).",
+      "Ley Federal del Trabajo y Ley del Servicio Profesional de Carrera en la Administración Pública Federal (relevantes para R1, R2 en procesos de selección de personal)."
+    ]
+  }
+}

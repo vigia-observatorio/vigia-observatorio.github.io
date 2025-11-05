@@ -1,0 +1,421 @@
+{
+  "document_metadata": {
+    "document_type": "Official Gazette of the Federation",
+    "issuing_agency": "Multisectoral",
+    "publication_date": "2025-11-05",
+    "full_title": "Official Gazette of the Federation, Wednesday, November 5, 2025",
+    "scope_of_application": "Federal",
+    "sector": "Multisectoral (Financial, Environment, Health, Justice, Employment, Digital Government)"
+  },
+  "ai_findings": [
+    {
+      "finding_id": "H1",
+      "finding_type": "Implicit - Regulatory Risk/Gap",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R7",
+          "risk_name": "Labor Displacement",
+          "severity_level": "Medium-High"
+        }
+      ],
+      "regulatory_domain": "Financial, Employment, Education (certification)",
+      "original_fragment": "That, in order to strengthen the certainty, reliability, and rigor in the evaluation processes, as well as to promote the responsibility and academic integrity of the people who will serve as Pension Advisors or Promoting Agents, in the Certification, Recertification, Update Courses, and Professionalization Programs calls, it is necessary to establish that, in case of conduct contrary to the ethical behavior rules to which the applicants must adhere, the Evaluating or Educational Institution will proceed to the cancellation of the corresponding Exam or evaluation process;",
+      "document_location": "SECRETARIAT OF FINANCE AND PUBLIC CREDIT, Modifications and additions to the General Provisions to which the retirement fund administrators must adhere in relation to their promoting agents, CONSIDERING, second paragraph",
+      "relevance_analysis": "This fragment establishes the need to strengthen evaluation processes and academic integrity for the certification of financial advisors. Although it does not explicitly mention AI, 'advanced data analysis techniques' and 'evaluation processes' are domains where AI/ML (e.g., proctoring software, plagiarism detection, performance analysis) is increasingly common. If AI systems are implemented in these processes, there is a significant risk of errors (R1) that could lead to the unfair disqualification of candidates. There is also a risk of algorithmic discrimination (R2) if systems are trained with biased data, affecting access to job opportunities. Although R7 refers to labor displacement, the affectation of access to a profession by AI systems can be considered an associated risk.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Establish transparency requirements for any automated evaluation or proctoring system used in the certification of promoting agents.",
+        "Implement mandatory algorithmic bias audits to ensure fairness in certification processes and prevent discrimination.",
+        "Ensure clear and accessible human oversight and appeal mechanisms for automated decisions to cancel exams or evaluation processes.",
+        "Develop ethical guidelines for the use of AI in the evaluation of professional competencies in the financial sector."
+      ]
+    },
+    {
+      "finding_id": "H2",
+      "finding_type": "Implicit - Regulatory Risk/Gap",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R3",
+          "risk_name": "Privacy Invasions",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R13",
+          "risk_name": "Gradual Loss of Control",
+          "severity_level": "Extreme"
+        }
+      ],
+      "regulatory_domain": "Digital Government, Public Services, Environment, Administrative Modernization",
+      "original_fragment": "That on July 16, 2025, the National Law for the Elimination of Bureaucratic Procedures was published in the Official Gazette of the Federation, which establishes the legal framework for administrative simplification, digitalization of procedures and services, good regulatory practices, and the strengthening of technological capabilities in the three levels of government (federal, state, and municipal), and states that the objectives of the Law itself include: Enabling the National Models for the Elimination of Bureaucratic Procedures; for Digitalization; for the Homologation of Procedures and Services, Sharing of Technological Solutions, and Development of Public Capabilities; and for Citizen Attention.",
+      "document_location": "SECRETARIAT OF THE ENVIRONMENT AND NATURAL RESOURCES, AGREEMENT establishing simplification actions for procedures..., CONSIDERING, sixth paragraph",
+      "relevance_analysis": "The 'National Law for the Elimination of Bureaucratic Procedures' promotes the 'digitalization of procedures and services' and the 'strengthening of technological capabilities.' These are bureaucratic euphemisms that strongly imply the use of AI/ML to automate processes, analyze documents, offer virtual assistance, or make decisions. In the context of SEMARNAT, this could apply to managing environmental permits, monitoring compliance, or risk assessment. Errors (R1) in AI systems could lead to incorrect decisions with serious environmental or economic consequences. Algorithmic discrimination (R2) could affect access to services or impose unfair burdens. The massive collection of data for digitalization poses risks of privacy invasion (R3). An excessive dependence on automated systems could result in a gradual loss of human control (R13) over critical functions.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Develop a specific regulatory framework for the use of AI in the digitalization of governmental procedures, with transparency, explainability, and auditability requirements.",
+        "Implement mandatory algorithmic impact assessments to identify and mitigate biases in AI systems that affect citizens or companies.",
+        "Establish human oversight requirements and clear appeal mechanisms for automated decisions in critical procedures.",
+        "Strengthen cybersecurity and personal data protection in all digitalized systems, especially in the environmental sphere."
+      ]
+    },
+    {
+      "finding_id": "H3",
+      "finding_type": "Implicit - Regulatory Risk/Gap",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R3",
+          "risk_name": "Privacy Invasions",
+          "severity_level": "High"
+        }
+      ],
+      "regulatory_domain": "Health, Public Services, Personal Data",
+      "original_fragment": "No Compendium Key | Tablet for information registration at inclusive windows for use by units implementing the MoASMI Model\", \"No Compendium Key | Talking sphygmomanometer for people with visual disabilities attending MoASMI units\", \"No Compendium Key | Comprehensive services for the Diagnosis of people in vulnerable situations and conditions of the health units that implement the MoASMI",
+      "document_location": "SECRETARIAT OF HEALTH, Amending Agreement to the Specific Coordination Agreement on the transfer of supplies..., ANNEX 4, L00 NATIONAL CENTER FOR GENDER EQUITY, SEXUAL AND REPRODUCTIVE HEALTH",
+      "relevance_analysis": "The 'Health Care Model with Inclusive Mechanisms (MoASMI)' involves the collection of information using tablets and the use of assistive technologies ('talking sphygmomanometer', 'talking thermometer', 'talking glucometer'). Although AI is not explicitly mentioned, 'information registration' and 'Comprehensive services for the Diagnosis of people in vulnerable situations' are areas conducive to the application of AI/ML. This involves the processing of highly sensitive health data, which carries significant risks of privacy invasion (R3). If AI is used for diagnoses or resource allocation, errors (R1) could lead to erroneous diagnoses or inadequate care, and algorithmic biases (R2) could exacerbate health inequalities for vulnerable populations.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Establish an ethical and regulatory framework for the use of AI in the health sector, with a strict focus on the protection of sensitive data and equity in care.",
+        "Require human rights impact assessments and bias audits for any AI system used in diagnosis or resource allocation for vulnerable populations.",
+        "Implement specific informed consent mechanisms for the use of data in AI systems, especially for vulnerable populations.",
+        "Ensure human oversight and the ability to appeal AI-assisted decisions in the health sector."
+      ]
+    },
+    {
+      "finding_id": "H4",
+      "finding_type": "Implicit - Regulatory Risk/Gap",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R3",
+          "risk_name": "Privacy Invasions",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R9",
+          "risk_name": "Authoritarian Surveillance",
+          "severity_level": "Very High"
+        }
+      ],
+      "regulatory_domain": "Justice, Public Security, Personal Data, Human Rights",
+      "original_fragment": "Collaborate with 'MUJERES' (Women's Secretariat) by providing the corresponding information regarding the attention to women victims of gender violence, as well as their daughters and sons, for the collection of information for the National Bank of Data and Information on Cases of Violence against Women (BANAVIM);",
+      "document_location": "SECRETARIAT OF WOMEN, Coordination and Adhesion Agreement..., FIFTH. COMMITMENTS OF THE 'STATE GOVERNMENT', subsection j)",
+      "relevance_analysis": "BANAVIM is a critical national database that contains highly sensitive information about victims of gender violence. The collection and analysis of this information, especially if AI/ML tools are used for pattern analysis, risk assessment, or predictive profiling, carry severe risks. There is a high risk of privacy invasion (R3) through re-identification or unauthorized inferences of sensitive data. Algorithmic discrimination (R2) could perpetuate biases in risk assessment or the allocation of protection resources, negatively affecting victims. Furthermore, such a powerful system with AI capabilities could be misused for surveillance or authoritarian control (R9). Errors (R1) in AI analysis could have critical consequences for the safety and access to justice of victims.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Prohibit the use of AI for predictive profiling or risk scoring in BANAVIM without a robust, transparent regulatory framework and mandatory human oversight.",
+        "Establish strict privacy and data security protocols for any AI system that accesses BANAVIM, including anonymization and pseudonymization of data.",
+        "Require human rights impact assessments and algorithmic bias audits for any use of AI in gender justice.",
+        "Guarantee effective and accessible appeal mechanisms for victims affected by AI-assisted decisions."
+      ]
+    },
+    {
+      "finding_id": "H5",
+      "finding_type": "Implicit - Technology",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R13",
+          "risk_name": "Gradual Loss of Control",
+          "severity_level": "Extreme"
+        }
+      ],
+      "regulatory_domain": "Environment, Digital Government, Data Analysis",
+      "original_fragment": "APPLY DESCRIPTIVE AND INFERENTIAL STATISTICAL TECHNIQUES (MEAN, MEDIAN, STANDARD DEVIATION, HYPOTHESIS TESTING, REGRESSION) TO ANALYZE DATA AND EXTRACT SIGNIFICANT CONCLUSIONS.\", \"DEVELOP PREDICTIVE AND CLASSIFICATION MODELS TO FORECAST FUTURE TRENDS AND MAKE DATA-DRIVEN DECISIONS.\", \"IMPLEMENT SCRIPTS AND TOOLS TO AUTOMATE REPETITIVE TASKS AND IMPROVE THE EFFICIENCY OF THE ANALYSIS PROCESS.",
+      "document_location": "SECRETARIAT OF THE ENVIRONMENT AND NATURAL RESOURCES, PUBLIC AND OPEN CALL No. SEMARNAT/2025/13, Position SUBDIRECTORATE OF TERRITORIAL STUDIES AND PROJECTS IN THE ORES, Main Functions",
+      "relevance_analysis": "The description of this position in SEMARNAT explicitly details the use of 'descriptive and inferential statistical techniques,' 'predictive and classification models to forecast future trends and make data-driven decisions,' and 'scripts and tools to automate repetitive tasks.' These are direct applications of AI/ML in environmental management. Risks include errors (R1) in predictive models that could lead to incorrect environmental policies or inefficient resource allocation. There is also a risk of algorithmic bias (R2) if training data or models reflect existing inequalities, disproportionately affecting certain communities or regions. An excessive dependence on these complex systems could lead to a gradual loss of human control (R13) over critical environmental policy decisions.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Establish a regulatory framework for the development, validation, deployment, and oversight of AI-based predictive and classification models in environmental management, including transparency and explainability requirements.",
+        "Require rigorous testing for robustness and fairness for these models, especially in resource allocation or the identification of environmental risks.",
+        "Ensure expert human oversight and the ability to override or correct decisions based on AI results.",
+        "Invest in staff training to understand, audit, and manage AI systems in the environmental field."
+      ]
+    },
+    {
+      "finding_id": "H6",
+      "finding_type": "Implicit - Regulatory Risk/Gap",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R3",
+          "risk_name": "Privacy Invasions",
+          "severity_level": "High"
+        }
+      ],
+      "regulatory_domain": "Health, Critical Services, Data Analysis",
+      "original_fragment": "COORDINATE THE OPERATION OF THE NATIONAL SYSTEM OF HEALTH QUALITY INDICATORS THAT ALLOWS PROVIDING INFORMATION TO MEDICAL UNITS ABOUT THE RESULTS OF INDICATOR MONITORING AND THE EVALUATION OF PATIENT QUALITY AND SAFETY IN HEALTH SERVICES AT THE NATIONAL AND INTERINSTITUTIONAL LEVEL, FOR MANAGERIAL DECISION-MAKING IN MEDICAL UNITS.\", \"INSTRUCT ON THE IMPLEMENTATION OF EVOLUTION, MONITORING, IMPROVEMENT, AND STANDARDIZATION MECHANISMS FOR QUALITY INDICATORS TO FAVOR THE IMPROVEMENT OF HEALTHCARE QUALITY AND PATIENT SAFETY.",
+      "document_location": "SECRETARIAT OF HEALTH, PUBLIC AND OPEN CALL No. SSA/2025/06, Position DIRECTORATE OF PROCESS IMPROVEMENT, Main Functions",
+      "relevance_analysis": "The creation and coordination of a 'National System of Health Quality Indicators' for the 'monitoring of indicators' and the 'evaluation of patient quality and safety' at the national level strongly suggests the use of AI/ML for advanced data analysis, anomaly detection, and decision support. Risks include errors (R1) in AI systems that could lead to the incorrect identification of quality problems or risks to patient safety. Algorithmic bias (R2) could perpetuate or amplify existing disparities in healthcare quality. The processing of large volumes of patient data for these indicators raises significant privacy concerns (R3).",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Develop a regulatory framework for the use of AI in patient quality and safety evaluation, with an emphasis on data protection and equity.",
+        "Require bias audits for algorithms that define or monitor quality indicators, to prevent discrimination in healthcare.",
+        "Establish transparency mechanisms on how these indicators are calculated and used for decision-making.",
+        "Ensure human review of critical results generated by these systems and the ability to appeal."
+      ]
+    },
+    {
+      "finding_id": "H7",
+      "finding_type": "Implicit - Regulatory Risk/Gap",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R3",
+          "risk_name": "Privacy Invasions",
+          "severity_level": "High"
+        }
+      ],
+      "regulatory_domain": "Digital Government, Massive Data, Justice (property)",
+      "original_fragment": "Coordinate the integration, collection, organization, and safeguarding of the cadastral inputs that make up the rural cadastre database at the national level, as well as the magnetic media resulting from the delimitation within agrarian nuclei, counting on the established data and variables of the inventory of rural property in its various modalities, in order to achieve the adequate identification and correlation of their holders, possessors, or usufructuaries with the geospatial information.",
+      "document_location": "Secretariat of Agrarian, Territorial and Urban Development, National Agrarian Registry, PUBLIC AND OPEN CALL No. 06-2025, Position SUBDIRECTORATE OF CADASTRAL INFORMATION INTEGRATION, Main Functions of the Position",
+      "relevance_analysis": "This position involves managing a national rural cadastre, including 'magnetic media,' 'geospatial information,' and the 'identification and correlation' of land holders. AI/ML is essential for processing satellite images, GIS data, and large databases for cadastral purposes. Errors (R1) in AI-geospatial analysis or data correlation could lead to incorrect property records, affecting agrarian rights and generating legal conflicts, especially for rural and indigenous communities. Algorithmic bias (R2) could perpetuate historical injustices in land distribution. The massive collection and processing of personal and geospatial data pose significant risks of privacy invasion (R3).",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Establish a regulatory framework for the use of AI in cadastral and geospatial management, with transparency, auditability, and explainability requirements.",
+        "Require human rights impact assessments and bias audits for AI systems that affect land ownership, especially for indigenous and rural communities.",
+        "Implement robust human verification and appeal mechanisms for AI-based decisions on agrarian rights.",
+        "Strengthen the protection of sensitive personal and geospatial data."
+      ]
+    },
+    {
+      "finding_id": "H8",
+      "finding_type": "Implicit - Regulatory Risk/Gap",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R10",
+          "risk_name": "Concentration of Power",
+          "severity_level": "High"
+        }
+      ],
+      "regulatory_domain": "Financial, Energy, Data Analysis",
+      "original_fragment": "Carry out studies and projects on petroleum products, petrochemicals, and natural gas, considering the criteria of opportunity cost, economic efficiency, and financial health, with the purpose of establishing price setting mechanisms.\", \"Develop statistical and/or economic models, through the estimation of the impact on public finances and considering information related to the energy sector, with the purpose of modifying the price policy for petroleum products, petrochemicals, and natural gas.",
+      "document_location": "Secretariat of Finance and Public Credit, PUBLIC AND OPEN CALL No. 1139, Position Department of Price Evaluation of the Oil Sector \"B\", Functions",
+      "relevance_analysis": "This position involves 'developing statistical and/or economic models' for the 'estimation of the impact on public finances' and the 'modification of the price policy for petroleum products.' These are high-impact applications where AI/ML models can be used for complex forecasts and policy simulations. Errors (R1) in these models could generate significant economic instability or incorrect pricing policies that affect the entire nation. If the development or control of these models falls to a limited number of actors (e.g., external providers), it could lead to an undue concentration of economic and technological power (R10).",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Establish transparency and explainability requirements for AI/ML models used in price setting and the estimation of fiscal impacts in the energy sector.",
+        "Require independent audits of these models to verify their accuracy, robustness, and absence of bias.",
+        "Develop internal capabilities for the validation and oversight of complex models, reducing dependence on external providers.",
+        "Implement human review mechanisms for decisions based on the results of these models."
+      ]
+    },
+    {
+      "finding_id": "H9",
+      "finding_type": "Implicit - Regulatory Risk/Gap",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "High"
+        }
+      ],
+      "regulatory_domain": "Education, Employment, Data Analysis",
+      "original_fragment": "Design continuous training programs for teaching staff, based on analysis data and proposals defined by the teaching staff, as well as those derived from education sciences and pedagogical methods, in order to strengthen the teaching-learning process of students for their comprehensive development and for the acquisition of the competencies that an education with equity and excellence requires.\", \"Design actions and continuous training and professionalization programs for teachers that address educational lag, related to the formative fields of mathematical thinking and language and communication, as well as other national and regional priorities, aimed at teaching staff.",
+      "document_location": "Secretariat of Public Education, CALL 33/2025, Position HEAD OF DEPARTMENT FOR DESIGNING OFFER FOR TEACHERS, Main Functions",
+      "relevance_analysis": "This position involves 'designing continuous training programs' and 'addressing educational lag' based on 'analysis data.' AI/ML could be used to personalize training recommendations for teachers, identify patterns of 'educational lag,' or to optimize course content. Errors (R1) in AI systems could lead to ineffective professional development programs or incorrect identification of educational needs. Algorithmic bias (R2) in the identification of lag or in training recommendations could disproportionately affect certain teachers or perpetuate educational inequalities.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Establish an ethical and regulatory framework for the use of AI in the design of educational programs and teacher evaluation.",
+        "Require bias audits for algorithms that identify 'educational lag' or recommend training, to ensure equity.",
+        "Ensure transparency in how data and algorithms are used to influence teacher training.",
+        "Implement human review and appeal mechanisms for decisions that affect the professional trajectory of teachers."
+      ]
+    },
+    {
+      "finding_id": "H10",
+      "finding_type": "Implicit - Regulatory Risk/Gap",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R13",
+          "risk_name": "Gradual Loss of Control",
+          "severity_level": "Extreme"
+        }
+      ],
+      "regulatory_domain": "Digital Government, Critical Infrastructure, Operations",
+      "original_fragment": "MAINTAIN AND ADMINISTER THE APPLICATIONS THAT ARE IN PRODUCTION (AVAILABLE TO USERS), AS WELL AS ADMINISTER AND CONTROL THEIR USE ACCORDING TO THE ESTABLISHED RULES AND PROCEDURES, IN ORDER TO IMPROVE THE QUALITY OF SERVICES TO THE USERS OF THE SECRETARIAT.\", \"DETECT NEW REQUIREMENTS AND MAINTAIN THE GROWTH PLAN FOR THE INFRASTRUCTURE AND APPLICATIONS. TO COVER THE FUTURE NEEDS OF THE DIFFERENT USER AREAS.",
+      "document_location": "Secretariat of the Environment and Natural Resources, PUBLIC AND OPEN CALL No. SEMARNAT/2025/13, Position SUBDIRECTOR OF APPLICATIONS IN PRODUCTION, Main Functions",
+      "relevance_analysis": "This position focuses on the maintenance and administration of 'applications in production' and the management of 'infrastructure and applications.' Modern IT operations use AI/ML for automated monitoring, incident response, resource optimization, and system failure prediction. If these applications support critical environmental functions, errors (R1) in AI-driven management could lead to service interruptions or data loss. Increasing automation in these areas could also lead to a gradual loss of human control (R13) over complex IT systems.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Develop policies for the safe and responsible use of AI in the administration of critical systems and applications of SEMARNAT.",
+        "Require security and performance audits for AI systems used in IT operations.",
+        "Establish clear protocols for human intervention and the reversal of automated decisions in case of failures.",
+        "Invest in staff training to supervise and manage AI systems in production environments."
+      ]
+    },
+    {
+      "finding_id": "H11",
+      "finding_type": "Implicit - Regulatory Risk/Gap",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R13",
+          "risk_name": "Gradual Loss of Control",
+          "severity_level": "Extreme"
+        }
+      ],
+      "regulatory_domain": "Digital Government, Critical Infrastructure",
+      "original_fragment": "Implement computer systems to facilitate the tasks that require systematization.\", \"Provide maintenance and/or corrective services to equipment and systems to keep them in good condition and working order.",
+      "document_location": "Secretariat of Agrarian, Territorial and Urban Development, National Agrarian Registry, PUBLIC AND OPEN CALL No. 06-2025, Position HEAD OF AREA OF INFORMATICS, Main Functions of the Position",
+      "relevance_analysis": "This position involves the 'implementation of computer systems' and the 'maintenance of equipment and systems' for the National Agrarian Registry, a critical institution for land rights. AI/ML could be used to automate data entry, document processing, or system maintenance. Errors (R1) in AI systems for agrarian registration could lead to incorrect records, affecting property rights and generating legal disputes. Excessive dependence on complex AI systems for central IT functions could lead to a gradual loss of human control (R13) over critical data and processes.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Establish a regulatory framework for the use of AI in agrarian registry computer systems, with transparency, auditability, and security requirements.",
+        "Require rigorous testing of AI systems to ensure accuracy and prevent errors that affect property rights.",
+        "Ensure human oversight and appeal mechanisms for automated decisions that impact land records.",
+        "Strengthen the cybersecurity of computer systems that handle sensitive agrarian data."
+      ]
+    },
+    {
+      "finding_id": "H12",
+      "finding_type": "Implicit - Regulatory Risk/Gap",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R13",
+          "risk_name": "Gradual Loss of Control",
+          "severity_level": "Extreme"
+        }
+      ],
+      "regulatory_domain": "Employment, Justice (equity in processes), Digital Government",
+      "original_fragment": "The weighted result of the general knowledge examination of the Federal Public Administration and the weighted result of the technical knowledge examination will be summed, in order to obtain the points for the Substage of Knowledge Examinations. The result obtained must be equal to or greater than 60 on a scale of 0 to 100, without decimals. In case of obtaining a result less than 60 in the summation, the system will proceed to discard the candidate.",
+      "document_location": "Secretariat of Finance and Public Credit, PUBLIC AND OPEN CALL No. 1139, BASES FOR PARTICIPATION, 5th. Presentation of Evaluations, paragraph 10",
+      "relevance_analysis": "Multiple calls for public service positions (SHCP, SEMARNAT, SEP, SENER, SECTUR, RAN, SSA, CENSIA, CONAMED, CONASAMA) describe highly automated evaluation processes, including the 'discarding' of candidates based on the sum of exam scores. These systems, which use platforms like 'TrabajaEn' and 'Módulo Generador de Exámenes', likely employ AI/ML for automatic scoring, proctoring, or candidate profiling. This carries significant risks: algorithmic discrimination (R2) if training data or algorithms are biased, which could exclude qualified candidates from diverse backgrounds. Errors (R1) in these automated systems could lead to unfair disqualification. Dependence on automated 'discarding' decisions without a clear human review or appeal mechanism could result in a gradual loss of human control (R13) over fair employment practices.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Develop a specific regulatory framework for the use of AI in personnel selection processes in the public sector, including algorithmic transparency and explainability requirements.",
+        "Implement mandatory bias audits for all AI systems used in candidate evaluation, with special attention to gender equity and non-discrimination.",
+        "Establish mandatory human intervention points and clear appeal mechanisms for automated 'discarding' decisions.",
+        "Invest in the training of human resources personnel to understand and manage the risks of AI in hiring."
+      ]
+    }
+  ],
+  "general_analysis": {
+    "contains_explicit_ai_mention": false,
+    "number_of_explicit_mentions": 0,
+    "number_of_implicit_mentions": 12,
+    "number_of_identified_gaps": 12,
+    "maximum_risk_level": "Extreme",
+    "present_risk_categories": [
+      "R1",
+      "R2",
+      "R3",
+      "R7",
+      "R9",
+      "R10",
+      "R13"
+    ],
+    "requires_urgent_attention": true,
+    "urgency_justification": "The document reveals multiple implicit uses of AI in critical domains such as health, justice, public employment, environmental, and financial management. The absence of explicit regulation for these AI systems, combined with the potential for algorithmic errors, discrimination, privacy invasion, and gradual loss of human control, represents an extreme risk to the fundamental rights of citizens and the stability of institutions, especially in the Mexican context of high informality and digital inequality."
+  },
+  "executive_summary": "This issue of the Official Gazette of the Federation, dated November 5, 2025, although it contains no explicit mentions of 'Artificial Intelligence', reveals a profound and growing dependence on automated systems and advanced data analysis across various Federal Secretariats. The implicit findings range from the digitalization of procedures and personnel evaluation in public calls, to the management of cadastral information, health quality monitoring, and economic analysis for price setting.\n\nThe most critical risks identified are at the 'Extreme' level, mainly due to the potential 'Gradual Loss of Control' (R13) over critical systems in areas such as environmental management and IT infrastructure, as well as 'Very High' risks of 'Authoritarian Surveillance' (R9) in sensitive databases like BANAVIM. Other 'High' risks include 'Malfunctions & Errors' (R1), 'Discrimination & Bias' (R2), and 'Privacy Invasions' (R3) in personnel evaluation processes, health diagnoses, and data management for victims of violence. The lack of specific regulatory frameworks for AI in these domains creates legal vacuums that could have serious consequences for citizens' rights and governance.\n\nUrgent action is recommended to develop comprehensive AI regulation that addresses transparency, auditability, bias mitigation, human oversight, and appeal mechanisms in all identified AI systems. It is crucial for Mexico to establish robust safeguards to protect its citizens, especially vulnerable populations, from the potential negative impacts of AI, while responsibly leveraging its benefits.",
+  "mexican_context": {
+    "special_considerations": [
+      "High labor informality (~60%) and digital inequality in Mexico increase the risk of algorithmic discrimination and hinder access to appeal mechanisms for vulnerable populations.",
+      "Limited resources for regulatory enforcement demand that any AI framework be practical, scalable, and focused on the most critical risks.",
+      "Technological dependence on foreign providers for AI systems could compromise digital sovereignty and auditing capacity.",
+      "The civil law tradition of the Mexican legal system requires AI regulation based on clear principles and fundamental rights, in contrast to more casuistic common law approaches.",
+      "The sensitivity of the data managed in health, gender justice, and agrarian registration, in a context of consolidating democratic institutions, elevates the severity of privacy and surveillance risks."
+    ],
+    "enforcement_capacity": "Medium-Low. The institutional capacity to enforce AI regulation is limited due to the shortage of specialized personnel, technological resources, and budget. The technical complexity of AI could exceed the oversight capacity of existing authorities, making the implementation of safeguards a challenge.",
+    "relevant_precedents": [
+      "Federal Law on Protection of Personal Data Held by Private Parties and General Law on Protection of Personal Data Held by Obligated Subjects (fundamental for addressing R3).",
+      "General Law on Women's Access to a Life Free of Violence (relevant for R2, R3, R9 in the BANAVIM context).",
+      "General Law of National Assets and Agrarian Law (relevant for R1, R2, R3 in the cadastral management context).",
+      "Federal Labor Law and Law of the Professional Career Service in the Federal Public Administration (relevant for R1, R2 in personnel selection processes)."
+    ]
+  }
+}
