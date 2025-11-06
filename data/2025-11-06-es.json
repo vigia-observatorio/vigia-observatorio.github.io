@@ -1,0 +1,79 @@
+{
+  "metadata_documento": {
+    "tipo_documento": "Convenio Específico de Coordinación",
+    "dependencia_emisora": "Secretaría de Salud",
+    "fecha_publicacion": "2025-11-06",
+    "titulo_completo": "CONVENIO Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y la Ciudad de México.",
+    "ambito_aplicacion": "Federal",
+    "sector": "Salud"
+  },
+  "hallazgos_ai": [
+    {
+      "id_hallazgo": "H1",
+      "tipo_hallazgo": "Explícito",
+      "categorias_riesgo": [
+        {
+          "id_riesgo": "R1",
+          "nombre_riesgo": "Malfunctions & Errors",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R2",
+          "nombre_riesgo": "Discrimination & Bias",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R3",
+          "nombre_riesgo": "Privacy Invasions",
+          "nivel_severidad": "Alta"
+        },
+        {
+          "id_riesgo": "R15",
+          "nombre_riesgo": "Unknown & Emerging Risks",
+          "nivel_severidad": "Variable"
+        }
+      ],
+      "dominio_regulatorio": "Salud Pública, Equidad de Género, Prevención de Violencia",
+      "fragmento_original": "Que la persona responsable estatal de las acciones de prevención y atención a la violencia sexual y contra las mujeres pueda acceder a la capacitación “Curso de Inteligencia Artificial para su aplicación en la Salud Publica”, impartida por el Instituto Nacional de Salud Pública",
+      "ubicacion_documento": "ANEXO 4, L00 CENTRO NACIONAL DE EQUIDAD DE GÉNERO, SALUD SEXUAL Y REPRODUCTIVA, NO. PROGRAMA DE ACCIÓN ESPECÍFICO 6 Violencia de Género, ÍNDICE 2.3.2, PARTIDA 33401, DESCRIPCIÓN DEL BIEN / SERVICIO",
+      "analisis_relevancia": "Este fragmento menciona explícitamente un 'Curso de Inteligencia Artificial para su aplicación en la Salud Pública', específicamente para responsables estatales de prevención y atención a la violencia sexual y contra las mujeres. Aunque el hallazgo es sobre capacitación, implica la futura aplicación de IA en un dominio altamente sensible y crítico. La ausencia de un marco regulatorio específico para el uso de IA en este contexto genera riesgos significativos.\n\nRIESGOS IDENTIFICADOS (asociados a la aplicación futura de IA en este dominio):\n- R1 (Malfunctions & Errors): La aplicación de IA en la evaluación de riesgos, diagnóstico o asignación de recursos para víctimas de violencia podría llevar a errores con consecuencias graves, como la falta de protección o la asignación inadecuada de apoyo.\n- R2 (Discrimination & Bias): Los sistemas de IA podrían entrenarse con datos históricos sesgados, perpetuando o amplificando la discriminación contra grupos vulnerables de mujeres (ej. indígenas, de bajos recursos, con ciertas características socioeconómicas), afectando su acceso a la justicia y servicios de protección.\n- R3 (Privacy Invasions): El manejo de datos personales sensibles de víctimas de violencia por sistemas de IA, sin un consentimiento informado robusto, anonimización adecuada o mecanismos de seguridad avanzados, representa un alto riesgo de invasión de la privacidad y posible revictimización.\n- R15 (Unknown & Emerging Risks): La aplicación de IA en un campo tan complejo y humano como la violencia de género puede generar riesgos imprevistos o efectos de segundo orden que no están contemplados en la regulación actual.\n\nGAPS REGULATORIOS CRÍTICOS:\n1. El Convenio no establece salvaguardas, principios éticos o requisitos de transparencia para el diseño, desarrollo o despliegue de sistemas de IA en este ámbito.\n2. No se mencionan mecanismos de auditoría, evaluación de impacto en derechos humanos o análisis de sesgos para las herramientas de IA que se deriven de esta capacitación.\n3. No hay directrices sobre el manejo de datos sensibles de víctimas de violencia por sistemas de IA, ni sobre los derechos de las personas afectadas a impugnar decisiones automatizadas.\n\nCONSIDERACIONES CONTEXTO MEXICANO:\n- La desigualdad digital y la brecha de acceso a la tecnología pueden exacerbar los sesgos algorítmicos y limitar la capacidad de las víctimas para interactuar con sistemas de IA o impugnar sus decisiones.\n- La alta informalidad y las condiciones socioeconómicas diversas pueden generar patrones de datos que los algoritmos podrían interpretar erróneamente, llevando a decisiones discriminatorias.\n- La limitada capacidad de enforcement regulatorio podría dificultar la supervisión efectiva del uso de IA en un sector tan fragmentado como el de salud a nivel estatal y municipal.",
+      "es_gap_regulatorio": true,
+      "recomendaciones": [
+        "Desarrollar un marco ético y regulatorio específico para el uso de IA en servicios de salud pública, especialmente en la atención a víctimas de violencia, antes de la implementación de cualquier sistema.",
+        "Establecer requisitos obligatorios de evaluación de impacto en derechos humanos y análisis de sesgos para cualquier sistema de IA utilizado en este dominio.",
+        "Implementar mecanismos de consentimiento informado claro y revocable para el uso de datos personales sensibles por IA, garantizando la anonimización y seguridad de los datos.",
+        "Crear canales de apelación y revisión humana para decisiones críticas tomadas o asistidas por IA que afecten a las víctimas de violencia.",
+        "Invertir en la capacitación de personal humano para supervisar y auditar sistemas de IA, y para proporcionar apoyo a las víctimas en la interacción con estas tecnologías."
+      ]
+    }
+  ],
+  "analisis_general": {
+    "contiene_mencion_explicita_ai": true,
+    "numero_menciones_explicitas": 1,
+    "numero_menciones_implicitas": 0,
+    "numero_gaps_identificados": 1,
+    "nivel_riesgo_maximo": "Alta",
+    "categorias_riesgo_presentes": [
+      "R1",
+      "R2",
+      "R3",
+      "R15"
+    ],
+    "requiere_atencion_urgente": true,
+    "justificacion_urgencia": "La mención explícita de capacitación en Inteligencia Artificial para su aplicación en la salud pública, específicamente en la prevención y atención a la violencia contra las mujeres, en un contexto de transferencia de recursos federales, es un indicador de que la implementación de IA en este dominio es inminente. La ausencia de un marco regulatorio que aborde los riesgos inherentes (errores, sesgos, privacidad) en un sector tan crítico y sensible como la salud y la protección de víctimas de violencia, genera una vulnerabilidad significativa para los derechos fundamentales de las personas. Es urgente establecer salvaguardas antes de que estas aplicaciones se generalicen."
+  },
+  "sintesis_ejecutiva": "El presente Convenio de Coordinación entre la Secretaría de Salud y la Ciudad de México detalla la transferencia de recursos para diversas acciones de salud pública. Un hallazgo crítico es la mención explícita de un 'Curso de Inteligencia Artificial para su aplicación en la Salud Pública', dirigido a responsables estatales de prevención y atención a la violencia sexual y contra las mujeres. Aunque se trata de una iniciativa de capacitación, esta revela la intención de integrar la IA en un dominio altamente sensible.\n\nLa relevancia de este hallazgo radica en los riesgos significativos que la aplicación de IA en la atención a víctimas de violencia podría generar, incluyendo errores críticos en la evaluación de riesgos (R1), discriminación algorítmica debido a sesgos en los datos (R2), y graves invasiones a la privacidad de información sensible (R3). Además, existen riesgos emergentes e imprevistos (R15) dada la complejidad del campo. El documento no establece ninguna regulación, salvaguarda o principio ético para el uso de IA en estas aplicaciones, lo que constituye un importante gap regulatorio.\n\nSe recomienda urgentemente desarrollar un marco regulatorio específico para el uso de IA en servicios de salud pública, con énfasis en la protección de datos sensibles, la prevención de sesgos y la garantía de revisión humana para decisiones críticas. Esto es crucial en el contexto mexicano, donde las desigualdades digitales y la informalidad pueden exacerbar los impactos negativos de una IA no regulada en poblaciones vulnerables.",
+  "contexto_mexicano": {
+    "consideraciones_especiales": [
+      "La alta informalidad laboral y las desigualdades socioeconómicas en México pueden generar patrones de datos atípicos que los algoritmos de IA podrían interpretar erróneamente, llevando a decisiones discriminatorias en la atención a víctimas de violencia.",
+      "La diversidad cultural y lingüística, especialmente en comunidades indígenas, requiere que cualquier sistema de IA y su regulación consideren la pertinencia cultural y el acceso equitativo, evitando la exclusión de grupos vulnerables.",
+      "La limitada capacidad de enforcement regulatorio en un país en desarrollo podría dificultar la supervisión efectiva y la rendición de cuentas de sistemas de IA complejos, especialmente a nivel estatal y municipal."
+    ],
+    "capacidad_enforcement": "Media-Baja. Aunque existe un marco legal de protección de datos personales (INAI), la capacidad para supervisar y hacer cumplir regulaciones específicas de IA en un sector tan amplio y descentralizado como la salud pública, y en un tema tan delicado como la violencia de género, es limitada. Se requeriría una inversión significativa en recursos humanos y técnicos para el enforcement.",
+    "precedentes_relevantes": [
+      "Ley General de Acceso de las Mujeres a una Vida Libre de Violencia (LGAMVLV), que establece la coordinación para prevenir, atender, sancionar y erradicar la violencia contra las mujeres.",
+      "Ley Federal de Protección de Datos Personales en Posesión de los Particulares y Ley General de Protección de Datos Personales en Posesión de Sujetos Obligados, que establecen principios de privacidad y seguridad de datos, pero no especifican el uso de IA.",
+      "Recomendaciones del Comité para la Eliminación de la Discriminación contra la Mujer (CEDAW) al Estado mexicano sobre el acceso a la justicia y mejora de servicios de apoyo para mujeres víctimas de violencia, lo que subraya la necesidad de que cualquier tecnología implementada no menoscabe estos derechos."
+    ]
+  }
+}

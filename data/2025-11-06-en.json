@@ -1,0 +1,79 @@
+{
+  "document_metadata": {
+    "document_type": "Specific Coordination Agreement",
+    "issuing_agency": "Secretariat of Health",
+    "publication_date": "2025-11-06",
+    "full_title": "SPECIFIC AGREEMENT of Coordination on the transfer of supplies and allocation of federal budgetary resources to carry out actions in public health matters in federative entities, celebrated by the Secretariat of Health and Mexico City.",
+    "scope_of_application": "Federal",
+    "sector": "Health"
+  },
+  "ai_findings": [
+    {
+      "finding_id": "H1",
+      "finding_type": "Explicit",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R3",
+          "risk_name": "Privacy Invasions",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R15",
+          "risk_name": "Unknown & Emerging Risks",
+          "severity_level": "Variable"
+        }
+      ],
+      "regulatory_domain": "Public Health, Gender Equity, Violence Prevention",
+      "original_fragment": "That the state official responsible for actions to prevent and address sexual violence and violence against women can access the training “Artificial Intelligence Course for its application in Public Health”, provided by the National Institute of Public Health",
+      "document_location": "ANNEX 4, L00 NATIONAL CENTER FOR GENDER EQUITY, SEXUAL AND REPRODUCTIVE HEALTH, NO. SPECIFIC ACTION PROGRAM 6 Gender Violence, INDEX 2.3.2, ITEM 33401, DESCRIPTION OF THE ASSET / SERVICE",
+      "relevance_analysis": "This fragment explicitly mentions an 'Artificial Intelligence Course for its application in Public Health,' specifically for state officials responsible for the prevention and care of sexual violence and violence against women. Although the finding is about training, it implies the future application of AI in a highly sensitive and critical domain. The absence of a specific regulatory framework for the use of AI in this context generates significant risks.\n\nIDENTIFIED RISKS (associated with the future application of AI in this domain):\n- R1 (Malfunctions & Errors): The application of AI in risk assessment, diagnosis, or resource allocation for victims of violence could lead to errors with serious consequences, such as lack of protection or inadequate support allocation.\n- R2 (Discrimination & Bias): AI systems could be trained with biased historical data, perpetuating or amplifying discrimination against vulnerable groups of women (e.g., indigenous, low-income, with certain socioeconomic characteristics), affecting their access to justice and protection services.\n- R3 (Privacy Invasions): The handling of sensitive personal data of violence victims by AI systems, without robust informed consent, adequate anonymization, or advanced security mechanisms, represents a high risk of privacy invasion and possible re-victimization.\n- R15 (Unknown & Emerging Risks): The application of AI in a field as complex and human as gender violence can generate unforeseen risks or second-order effects that are not covered by current regulation.\n\nCRITICAL REGULATORY GAPS:\n1. The Agreement does not establish safeguards, ethical principles, or transparency requirements for the design, development, or deployment of AI systems in this area.\n2. No mechanisms are mentioned for auditing, human rights impact assessment, or bias analysis for the AI tools that may result from this training.\n3. There are no guidelines on the handling of sensitive data of violence victims by AI systems, nor on the rights of affected persons to challenge automated decisions.\n\nMEXICAN CONTEXT CONSIDERATIONS:\n- Digital inequality and the gap in access to technology can exacerbate algorithmic biases and limit the ability of victims to interact with AI systems or challenge their decisions.\n- High informality and diverse socioeconomic conditions can generate data patterns that algorithms might misinterpret, leading to discriminatory decisions.\n- Limited regulatory enforcement capacity could hinder the effective oversight of AI use in a sector as fragmented as health at the state and municipal level.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Develop a specific ethical and regulatory framework for the use of AI in public health services, especially in the care of violence victims, before the implementation of any system.",
+        "Establish mandatory human rights impact assessment and bias analysis requirements for any AI system used in this domain.",
+        "Implement clear and revocable informed consent mechanisms for the use of sensitive personal data by AI, ensuring data anonymization and security.",
+        "Create appeal and human review channels for critical decisions made or assisted by AI that affect victims of violence.",
+        "Invest in the training of human personnel to supervise and audit AI systems, and to provide support to victims in interacting with these technologies."
+      ]
+    }
+  ],
+  "general_analysis": {
+    "contains_explicit_ai_mention": true,
+    "number_of_explicit_mentions": 1,
+    "number_of_implicit_mentions": 0,
+    "number_of_identified_gaps": 1,
+    "maximum_risk_level": "High",
+    "present_risk_categories": [
+      "R1",
+      "R2",
+      "R3",
+      "R15"
+    ],
+    "requires_urgent_attention": true,
+    "urgency_justification": "The explicit mention of training in Artificial Intelligence for its application in public health, specifically in the prevention and care of violence against women, in a context of federal resource transfer, is an indicator that the implementation of AI in this domain is imminent. The absence of a regulatory framework that addresses the inherent risks (errors, biases, privacy) in a sector as critical and sensitive as health and the protection of violence victims generates a significant vulnerability for people's fundamental rights. It is urgent to establish safeguards before these applications become widespread."
+  },
+  "executive_summary": "This Coordination Agreement between the Secretariat of Health and Mexico City details the transfer of resources for various public health actions. A critical finding is the explicit mention of an 'Artificial Intelligence Course for its application in Public Health,' aimed at state officials responsible for the prevention and care of sexual violence and violence against women. Although this is a training initiative, it reveals the intention to integrate AI into a highly sensitive domain.\n\nThe relevance of this finding lies in the significant risks that the application of AI in the care of violence victims could generate, including critical errors in risk assessment (R1), algorithmic discrimination due to data biases (R2), and serious privacy invasions of sensitive information (R3). Furthermore, there are emerging and unforeseen risks (R15) given the complexity of the field. The document establishes no regulation, safeguard, or ethical principle for the use of AI in these applications, which constitutes an important regulatory gap.\n\nIt is urgently recommended to develop a specific regulatory framework for the use of AI in public health services, with an emphasis on the protection of sensitive data, the prevention of biases, and the guarantee of human review for critical decisions. This is crucial in the Mexican context, where digital inequalities and informality can exacerbate the negative impacts of unregulated AI on vulnerable populations.",
+  "mexican_context": {
+    "special_considerations": [
+      "High labor informality and socioeconomic inequalities in Mexico can generate atypical data patterns that AI algorithms might misinterpret, leading to discriminatory decisions in the care of violence victims.",
+      "Cultural and linguistic diversity, especially in indigenous communities, requires that any AI system and its regulation consider cultural relevance and equitable access, avoiding the exclusion of vulnerable groups.",
+      "Limited regulatory enforcement capacity in a developing country could hinder effective oversight and accountability of complex AI systems, especially at the state and municipal level."
+    ],
+    "enforcement_capacity": "Medium-Low. Although a legal framework for the protection of personal data exists (INAI), the capacity to supervise and enforce specific AI regulations in a sector as broad and decentralized as public health, and on a topic as delicate as gender violence, is limited. A significant investment in human and technical resources would be required for enforcement.",
+    "relevant_precedents": [
+      "General Law on Women's Access to a Life Free of Violence (LGAMVLV), which establishes coordination for the prevention, care, punishment, and eradication of violence against women.",
+      "Federal Law on Protection of Personal Data Held by Private Parties and General Law on Protection of Personal Data Held by Obligated Subjects, which establish principles of privacy and data security, but do not specify the use of AI.",
+      "Recommendations from the Committee on the Elimination of Discrimination against Women (CEDAW) to the Mexican State regarding access to justice and improvement of support services for women victims of violence, which underscores the need for any implemented technology not to undermine these rights."
+    ]
+  }
+}
