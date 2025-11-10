@@ -1,0 +1,241 @@
+{
+  "document_metadata": {
+    "document_type": "Official Gazette of the Federation",
+    "issuing_agency": "Various (Secretariat of Health, Attorney General's Office of the State of Guanajuato, etc.)",
+    "publication_date": "2025-11-10",
+    "full_title": "OFFICIAL GAZETTE Monday, November 10, 2025",
+    "scope_of_application": "Federal",
+    "sector": "Health, Justice, Environment, Education, Telecommunications"
+  },
+  "ai_findings": [
+    {
+      "finding_id": "H1",
+      "finding_type": "Explicit",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R3",
+          "risk_name": "Privacy Invasions",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R13",
+          "risk_name": "Gradual Loss of Control",
+          "severity_level": "Extreme"
+        },
+        {
+          "risk_id": "R15",
+          "risk_name": "Unknown & Emerging Risks",
+          "severity_level": "Extreme"
+        }
+      ],
+      "regulatory_domain": "Public Health, Medical Diagnosis, Clinical Research",
+      "original_fragment": "Another important point is to promote research lines in the area of artificial intelligence, not only because it can accelerate diagnoses, but because it can generate social prediction models that help identify potential clinical risk situations in women.",
+      "document_location": "Program of the National Institute of Perinatology Isidro Espinosa de los Reyes 2025-2030, Section 5, Long-term Vision (page 325)",
+      "relevance_analysis": "This fragment explicitly mentions the intention to foster research in artificial intelligence to accelerate diagnoses and generate 'social prediction models' of clinical risk in women. This implies the use of AI in critical health areas, where errors or biases can have serious consequences. The mention of 'social prediction models' suggests the processing of sensitive data that could infer personal or socioeconomic characteristics, which raises the risks of discrimination (R2) and privacy (R3). A malfunction (R1) in a diagnosis or clinical risk prediction can have a direct and severe impact on patients' health. The delegation of 'prediction' tasks to AI without a clear oversight framework could lead to a gradual loss of control (R13). The lack of a specific regulatory framework for AI in clinical diagnosis and prediction in this document represents a significant gap.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Develop ethical and regulatory guidelines for the use of AI in diagnosis and clinical risk prediction, including transparency and explainability requirements.",
+        "Establish mandatory audit mechanisms to detect and mitigate algorithmic biases in social and clinical prediction models.",
+        "Implement robust safeguards for the privacy of sensitive data used in these models, ensuring informed consent and anonymization.",
+        "Define clear protocols for human oversight of AI-assisted decisions in clinical settings, maintaining final responsibility with healthcare professionals.",
+        "Conduct human rights and equity impact assessments before the deployment of any AI system in health."
+      ]
+    },
+    {
+      "finding_id": "H2",
+      "finding_type": "Explicit",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "Extreme"
+        },
+        {
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "Extreme"
+        },
+        {
+          "risk_id": "R3",
+          "risk_name": "Privacy Invasions",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R13",
+          "risk_name": "Gradual Loss of Control",
+          "severity_level": "Extreme"
+        },
+        {
+          "risk_id": "R15",
+          "risk_name": "Unknown & Emerging Risks",
+          "severity_level": "Extreme"
+        }
+      ],
+      "regulatory_domain": "Public Health, Medical Diagnosis, Treatment, Clinical Research, Decision Making",
+      "original_fragment": "Strategy 4.5.- Create the artificial intelligence Unit for complex clinical decision-making, allowing to predict and prevent prevalent perinatal complications. Specific actions: 4.5.1. Design and implement clinical simulations based on artificial intelligence to strengthen perinatal care strategies. 4.5.2. Strengthen the Department of Bioinformatics and Statistical Analysis to collaborate with the clinical area in the creation of artificial intelligence algorithms that allow predicting and preventing prevalent perinatal complications (hypertensive diseases, obstetric hemorrhage, maternal death, gestational diabetes, premature birth, among others). 4.5.3. Create and promote the Laboratory of Applied Artificial Intelligence to Health to train institute researchers in advanced data analysis strategies and artificial intelligence algorithms.",
+      "document_location": "Program of the National Institute of Perinatology Isidro Espinosa de los Reyes 2025-2030, Section 7, Strategies and action lines (page 332)",
+      "relevance_analysis": "This finding details the creation of a unit and concrete actions to use AI in 'complex clinical decision-making' and to 'predict and prevent prevalent perinatal complications'. This represents a very high-risk use of AI, as it directly impacts the life and health of mothers and neonates. The creation of algorithms to predict critical conditions such as obstetric hemorrhage or maternal death, while seeking to improve care, carries extreme risks if the algorithms fail (R1) or introduce biases (R2) that affect specific demographic groups. The complexity of these systems and the delegation of 'decision' tasks to AI pose a risk of gradual loss of control (R13) if there is no effective human oversight and reversal mechanisms. The Mexican context of digital inequality and limited access to specialists could exacerbate the risks if AI becomes the primary or only decision point in remote areas.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Establish a specific regulatory framework for AI in clinical decision-making, including model certification, robustness testing, and equity impact analysis.",
+        "Implement a mandatory 'human-in-the-loop' system for all critical AI-assisted decisions, with clear assignment of legal responsibility.",
+        "Develop data interoperability and portability standards to facilitate the audit and independent research of algorithms.",
+        "Create an AI ethics committee in health with multidisciplinary and civil society representation to oversee the development and deployment of these units.",
+        "Ensure that AI training for health personnel includes modules on ethics, biases, and limitations of the technology."
+      ]
+    },
+    {
+      "finding_id": "H3",
+      "finding_type": "Explicit",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "Extreme"
+        },
+        {
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "Extreme"
+        },
+        {
+          "risk_id": "R3",
+          "risk_name": "Privacy Invasions",
+          "severity_level": "Extreme"
+        },
+        {
+          "risk_id": "R15",
+          "risk_name": "Unknown & Emerging Risks",
+          "severity_level": "Extreme"
+        }
+      ],
+      "regulatory_domain": "Public Health, Oncological Treatment, Genomic Research",
+      "original_fragment": "Action line 3.1.4 Develop predictive models of response to therapy using artificial intelligence applied to multiomics data.",
+      "document_location": "Institutional Program 2025-2030 of the National Institute of Cancerology, Section 7, Strategies and specific actions (page 355)",
+      "relevance_analysis": "This fragment describes the development of AI for 'predictive models of response to therapy' using 'multiomics data' in the oncological context. This implies the use of AI in one of the most sensitive areas of medicine, where treatment decisions are critical for patient survival. The risks are extremely high: an error in the prediction (R1) could lead to ineffective or harmful treatments. The use of 'multiomics data' (genomic, proteomic, etc.) is highly sensitive and personal, which increases the risk of privacy invasions (R3) and the possibility of biases (R2) if the training data are not representative of the genetic diversity of the Mexican population. The complexity of these data and models also introduces emerging risks (R15).",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Establish a regulatory framework for AI in oncological treatments, including independent model validation and traceability of decisions.",
+        "Implement strict privacy and security protocols for the management of multiomics data, with explicit consent and anonymization/pseudonymization mechanisms.",
+        "Require bias and equity analyses in the predictive models, especially considering the genetic and socioeconomic diversity of the Mexican population.",
+        "Define legal responsibility in case of adverse outcomes derived from AI recommendations.",
+        "Promote research in explainable AI (XAI) so that health professionals can understand the basis of model recommendations."
+      ]
+    },
+    {
+      "finding_id": "H4",
+      "finding_type": "Explicit",
+      "risk_categories": [
+        {
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R3",
+          "risk_name": "Privacy Invasions",
+          "severity_level": "High"
+        },
+        {
+          "risk_id": "R15",
+          "risk_name": "Unknown & Emerging Risks",
+          "severity_level": "Medium-High"
+        }
+      ],
+      "regulatory_domain": "Public Health, Epidemiology, Data Analysis, Education",
+      "original_fragment": "Likewise, the ESPM has expanded its academic portfolio with programs in face-to-face, online and blended modalities, specialized diplomas and update courses that address emerging issues such as global health, climate change and health, artificial intelligence applied to epidemiology, health risk management and advanced data analysis for decision-making.",
+      "document_location": "Institutional Program 2025-2030 of the National Institute of Public Health, Section 6.3, Relevance of Priority Objective 3 (page 373)",
+      "relevance_analysis": "This fragment highlights the inclusion of 'artificial intelligence applied to epidemiology' and 'advanced data analysis for decision-making' in academic programs. This indicates preparation for the use of AI in public health policy formulation and health risk management. Risks include errors in epidemiological predictions (R1) that could lead to inadequate responses to health crises, or biases (R2) in the identification of at-risk populations, affecting equity in resource distribution or interventions. The management of large volumes of public health data also raises privacy concerns (R3). Although it is for training, the future application of this knowledge in the public sector is imminent and requires regulatory attention.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Develop guidelines for the ethical use of AI in epidemiology and public health, including transparency about the data used and the algorithms.",
+        "Establish mechanisms for the review and validation of AI models used for decision-making in public health, especially in resource allocation or the identification of vulnerable populations.",
+        "Ensure the protection of the privacy of the population's health data, with special attention to anonymization and consent.",
+        "Promote research on the social and ethical impacts of AI in public health in the Mexican context, considering digital inequality and access to technology."
+      ]
+    },
+    {
+      "finding_id": "H5",
+      "finding_type": "Implicit - Regulatory Risk/Gap",
+      "risk_categories": [
+        {
+          "risk_id": "R3",
+          "risk_name": "Privacy Invasions",
+          "severity_level": "Very High"
+        },
+        {
+          "risk_id": "R9",
+          "risk_name": "Authoritarian Surveillance",
+          "severity_level": "Very High"
+        },
+        {
+          "risk_id": "R15",
+          "risk_name": "Unknown & Emerging Risks",
+          "severity_level": "High"
+        }
+      ],
+      "regulatory_domain": "Public Security, Administration of Justice, Telecommunications, Surveillance",
+      "original_fragment": "Article 183. Telecommunications concessionaires and, where applicable, authorized parties determined by the Commission, must: I. Collaborate with security, justice administration, and prosecution instances in the real-time geographical location of terminal equipment, under the terms established by law. Any omission or contempt of these provisions will be sanctioned by the authority, under the terms provided by the applicable criminal legislation. ... II. Maintain a record and control of communications made from any type of terminal equipment or line that uses its own or leased numbering, under any modality, that allows the precise identification of the following data: ... g) The digital location of the geographical positioning of telephone lines, and h) The obligation of data retention will begin to be counted from the date the communication occurred. For these purposes, the concessionaire and, where applicable, the authorized party must retain the data referred to in the preceding paragraph for the first twelve months in systems that allow their consultation and delivery in real time to the competent authorities, through electronic means.",
+      "document_location": "Attorney General's Office of the State of Guanajuato, AGREEMENT 10/2025–FGEG, Article 183 of the Law on Telecommunications and Broadcasting (pages 430-431)",
+      "relevance_analysis": "This fragment, although it does not explicitly mention 'AI', describes a legal mandate for telecommunications concessionaires to collaborate with security and justice instances in the 'real-time geographical location' and the 'retention of a record and control of communications' with the capacity to 'precisely identify' data and 'consult and deliver in real time to the competent authorities, through electronic means'. The scale and nature of this collection and analysis of massive data ('big data') to 'precisely identify' and 'real-time location' strongly suggest the use of advanced algorithms, including potentially AI for profiling, predictive policing, or behavior pattern analysis. This represents a very high risk of privacy invasion (R3) and authoritarian surveillance (R9), especially in a context where resources for regulatory enforcement are limited and digital inequality is significant. The absence of mention of specific safeguards for the use of AI in this context, or transparency about the algorithms used, constitutes a critical regulatory gap.",
+      "is_regulatory_gap": true,
+      "recommendations": [
+        "Establish a clear regulatory framework for the use of AI in surveillance and data analysis of telecommunications by security and justice authorities.",
+        "Require transparency about the algorithms used for geographical location, profiling, and pattern identification, as well as independent audit mechanisms.",
+        "Implement strict safeguards for the protection of personal data and privacy, including clear limits on the retention and use of information.",
+        "Establish mechanisms for judicial and civil oversight to prevent the abuse of these technologies and guarantee respect for human rights.",
+        "Conduct human rights impact assessments before the implementation of any AI system in this domain."
+      ]
+    }
+  ],
+  "general_analysis": {
+    "contains_explicit_ai_mention": true,
+    "number_of_explicit_mentions": 4,
+    "number_of_implicit_mentions": 1,
+    "number_of_identified_gaps": 5,
+    "maximum_risk_level": "Extreme",
+    "present_risk_categories": [
+      "R1",
+      "R2",
+      "R3",
+      "R9",
+      "R13",
+      "R15"
+    ],
+    "requires_urgent_attention": true,
+    "urgency_justification": "The findings identify the explicit use of Artificial Intelligence in critical domains such as health (diagnosis, treatment, prediction of perinatal and oncological risk) and the implicit use of advanced technologies in public security (mass surveillance and real-time location). These uses, without an explicit regulatory framework that addresses the risks of malfunction, discrimination, privacy invasion, and loss of control, have the potential to affect fundamental rights and democratic stability. The imminent implementation of these technologies in sensitive areas requires urgent regulatory attention to mitigate the identified risks."
+  },
+  "executive_summary": "This Official Gazette of the Federation contains several documents from various Secretariats. The most critical findings relate to the Secretariat of Health and the Attorney General's Office of the State of Guanajuato. The National Institute of Perinatology (INPer) and the National Institute of Cancerology (INCan) explicitly mention the development and application of Artificial Intelligence to accelerate diagnoses, generate social prediction models of clinical risk in women, and develop predictive models of response to therapy using multiomics data. These applications, while seeking to improve health outcomes, pose extreme risks related to malfunction, algorithmic discrimination, privacy invasions of highly sensitive health data, and a possible gradual loss of human control over complex clinical decisions. The National Institute of Public Health (INSP) also plans to integrate AI into epidemiology and advanced data analysis for public health decision-making, which carries similar risks.\n\nFurthermore, the Attorney General's Office of the State of Guanajuato describes legal mandates for telecommunications providers to collaborate in real-time geographical location and extensive retention of communications data for security and justice purposes. Although AI is not explicitly named, the nature of these activities strongly suggests the use of advanced analytical algorithms, which heightens the risks of privacy invasions and authoritarian surveillance.\n\nThe main regulatory gap in all these findings is the absence of explicit frameworks, ethical guidelines, and oversight mechanisms to govern the development, implementation, and impact of these AI technologies. Urgent action is recommended to establish these safeguards, especially considering the Mexican context of limited resources for law enforcement, digital inequality, and the potential for systematic abuse of such powerful technologies.",
+  "mexican_context": {
+    "special_considerations": [
+      "High labor informality and digital inequality in Mexico can exacerbate algorithmic biases in social and clinical prediction models, disproportionately affecting vulnerable populations.",
+      "Limited resources for regulatory enforcement and technical oversight in the Mexican public sector increase vulnerability to the deployment of high-risk AI systems without adequate safeguards.",
+      "The civil law system requires a proactive adaptation to address the ethical and legal challenges of AI, unlike common law systems that may rely more on jurisprudence.",
+      "Technological dependence on foreign providers for AI solutions could limit digital sovereignty and the ability to audit or control the underlying algorithms.",
+      "The risk of political or authoritarian use of AI-enabled surveillance technologies is elevated in a context of consolidating democratic institutions."
+    ],
+    "enforcement_capacity": "Medium-Low. Although institutions like the INAI exist for personal data protection, the technical and budgetary capacity to audit and oversee the use of AI in complex domains such as health and security is limited. The lack of specific frameworks for AI complicates the enforcement of existing regulations.",
+    "relevant_precedents": [
+      "Federal Law on the Protection of Personal Data Held by Private Parties (LFPDPPP)",
+      "General Law on the Protection of Personal Data Held by Obligated Subjects (LGPDPPSO)",
+      "Political Constitution of the United Mexican States (Art. 4° right to health, Art. 16 privacy)",
+      "General Health Law",
+      "Law on Telecommunications and Broadcasting (for communications surveillance)"
+    ]
+  }
+}

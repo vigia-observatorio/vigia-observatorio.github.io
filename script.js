@@ -797,7 +797,7 @@ function initializeApp() {
     const findingsContainer = document.getElementById('findings');
     if (findingsContainer) {
         // Trigger load of default date
-        loadAnalysisOnInit('2025-11-07');
+        loadAnalysisOnInit('2025-11-10');
     }
 }
 
