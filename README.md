@@ -245,4 +245,4 @@ Para más información sobre VIGÍA y el análisis de riesgos de IA en regulaci�
 
 **Última actualización**: 3 de noviembre de 2025
 **Versión**: 1.0.0
-**Desarrollado por Max Pinelo y Pilar Moncada en colaboración con AI Safety Mexico**
+**Desarrollado por [Max Pinelo](https://www.linkedin.com/in/jason-pinelo-14a6a81a5/) y [Pilar Moncada](https://www.linkedin.com/in/pmoncadasantana/) en colaboración con AI Safety Mexico**
