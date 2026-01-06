@@ -254,11 +254,11 @@
     }
   ],
   "general_analysis": {
-    "contiene_mencion_explicita_ai": false,
-    "numero_menciones_explicitas": 0,
-    "numero_menciones_implicitas": 8,
-    "numero_gaps_identificados": 8,
-    "nivel_riesgo_maximo": "Very High",
+    "contains_explicit_ai_mention": false,
+    "number_of_explicit_mentions": 0,
+    "number_of_implicit_mentions": 8,
+    "number_of_identified_gaps": 8,
+    "maximum_risk_level": "Very High",
     "present_risk_categories": [
       "R1",
       "R2",
@@ -269,7 +269,7 @@
       "R10",
       "R13"
     ],
-    "requiere_atencion_urgente": true,
+    "requires_urgent_attention": true,
     "urgency_justification": "Multiple risks of 'Very High' and 'Extreme' severity are identified in critical domains such as national identification with biometric data, anti-corruption fight with patrimonial verification, and demographic and migratory analysis. These risks, if not addressed urgently, have the potential to violate fundamental rights, generate algorithmic discrimination, invade the privacy of millions of citizens, and undermine trust in public institutions, with serious social and economic consequences in the Mexican context."
   },
   "executive_summary": "This analysis of the Official Gazette of the Federation of November 12, 2025, reveals a total absence of explicit mentions of Artificial Intelligence (AI). However, a detailed forensic inspection identifies numerous implicit applications of AI technologies in various sectors of the Federal Public Administration, particularly in areas of Digital Government, Financial, Anti-Corruption, Demography, Culture, Tourism, and Environment. These applications are manifested through terms such as 'advanced data analysis', 'automation systems', 'computer platforms', 'biometric data', 'predictive models', and 'geographic information systems'.\n\nThe most critical risks identified, with 'Very High' or 'Extreme' severity, are concentrated in the digitalization of procedures and national identification with biometric data (SEDATU), where risks of errors, discrimination, privacy invasion, and loss of control are anticipated. Similarly, in the Secretariat of Anti-Corruption and Good Governance, the functions of patrimonial verification and fraud detection involve a high risk of algorithmic biases, false positives, and undue surveillance. Other significant risks include disinformation and copyright infringement in the cultural sector (FCE), and discrimination in demographic (SEGOB) and financial (SHCP) analyses.\n\nThe main conclusion is the existence of a critical 'regulatory gap': AI is already being implemented or its use is imminent in sensitive state functions, but current regulations do not explicitly address or regulate it. This leaves citizens and institutions exposed to the inherent risks of AI without the necessary safeguards. Urgent action is required to develop specific regulatory frameworks that guarantee transparency, fairness, data protection, and human oversight in the deployment of AI in the Mexican public sector.",

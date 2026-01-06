@@ -13,24 +13,24 @@
       "finding_type": "Explicit",
       "risk_categories": [
         {
-          "id_riesgo": "R7",
-          "nombre_riesgo": "Labor Displacement",
-          "nivel_severidad": "Very High"
+          "risk_id": "R7",
+          "risk_name": "Labor Displacement",
+          "severity_level": "Very High"
         },
         {
-          "id_riesgo": "R10",
-          "nombre_riesgo": "Concentration of Power",
-          "nivel_severidad": "High"
+          "risk_id": "R10",
+          "risk_name": "Concentration of Power",
+          "severity_level": "High"
         },
         {
-          "id_riesgo": "R2",
-          "nombre_riesgo": "Discrimination & Bias",
-          "nivel_severidad": "High"
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "High"
         },
         {
-          "id_riesgo": "R3",
-          "nombre_riesgo": "Privacy Invasions",
-          "nivel_severidad": "High"
+          "risk_id": "R3",
+          "risk_name": "Privacy Invasions",
+          "severity_level": "High"
         }
       ],
       "regulatory_domain": "Education, Professional Training, Talent Development",
@@ -38,7 +38,7 @@
       "document_location": "Page 142, Institutional Program of the National College of Professional Technical Education 2025-2030, Section 5. Diagnosis of the current situation and long-term vision",
       "relevance_analysis": "The explicit mention of 'Data Science and Artificial Intelligence' as a career offered by CONALEP is a direct finding. It indicates that the Mexican State is investing in AI talent development, which is crucial for technological progress and reducing technological dependence (R10). However, in the Mexican context, where digital inequality is significant and labor informality is high, it is essential that this training includes an ethical and risk perspective. If future professionals are not trained to identify and mitigate algorithmic biases (R2) or protect data privacy (R3), they could inadvertently contribute to the amplification of inequalities or errors (R1) in future AI applications, which could, in turn, accelerate labor displacement (R7) if not accompanied by reskilling policies. The lack of specific regulation on the ethical curriculum in AI is a gap.",
       "is_regulatory_gap": true,
-      "recomendations": [
+      "recommendations": [
         "Establish mandatory curriculum guidelines for the inclusion of modules on AI ethics, algorithmic bias, privacy, and security-by-design in all AI-related careers and technical tracks.",
         "Promote AI research and development with a focus on solving social problems and reducing inequality in Mexico.",
         "Create scholarship and support programs for students from marginalized communities interested in these careers, to mitigate the digital divide."
@@ -49,24 +49,24 @@
       "finding_type": "Explicit",
       "risk_categories": [
         {
-          "id_riesgo": "R7",
-          "nombre_riesgo": "Labor Displacement",
-          "nivel_severidad": "Very High"
+          "risk_id": "R7",
+          "risk_name": "Labor Displacement",
+          "severity_level": "Very High"
         },
         {
-          "id_riesgo": "R10",
-          "nombre_riesgo": "Concentration of Power",
-          "nivel_severidad": "High"
+          "risk_id": "R10",
+          "risk_name": "Concentration of Power",
+          "severity_level": "High"
         },
         {
-          "id_riesgo": "R2",
-          "nombre_riesgo": "Discrimination & Bias",
-          "nivel_severidad": "High"
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "High"
         },
         {
-          "id_riesgo": "R3",
-          "nombre_riesgo": "Privacy Invasions",
-          "nivel_severidad": "High"
+          "risk_id": "R3",
+          "risk_name": "Privacy Invasions",
+          "severity_level": "High"
         }
       ],
       "regulatory_domain": "Education, Professional Training, Talent Development",
@@ -74,7 +74,7 @@
       "document_location": "Page 142, Institutional Program of the National College of Professional Technical Education 2025-2030, Section 5. Diagnosis of the current situation and long-term vision",
       "relevance_analysis": "The inclusion of 'Artificial Intelligence' as a specific technical track reinforces CONALEP's commitment to training in this area. This is positive for the country's competitiveness but underscores the need for regulatory oversight over the content of these tracks, especially concerning ethics, security, and the social impact of AI. Technical training, often more focused on practical application, might omit ethical and social impact considerations. This is a regulatory gap. Without adequate supervision, future technicians could implement AI solutions that generate errors (R1), discriminate (R2), or invade privacy (R3), especially in sensitive sectors like financial services or healthcare, and contribute to labor displacement (R7).",
       "is_regulatory_gap": true,
-      "recomendations": [
+      "recommendations": [
         "Ensure that technical tracks in AI include a strong component of responsible, ethical, and secure use of the technology, adapted to the specific applications of the track.",
         "Promote collaboration with the industry so that training programs reflect best practices in Responsible AI.",
         "Develop competency certifications that include ethical and responsibility criteria in the use of AI."
@@ -85,29 +85,29 @@
       "finding_type": "Explicit",
       "risk_categories": [
         {
-          "id_riesgo": "R1",
-          "nombre_riesgo": "Malfunctions & Errors",
-          "nivel_severidad": "High"
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
         },
         {
-          "id_riesgo": "R4",
-          "nombre_riesgo": "Disinformation & Deepfakes",
-          "nivel_severidad": "Very High"
+          "risk_id": "R4",
+          "risk_name": "Disinformation & Deepfakes",
+          "severity_level": "Very High"
         },
         {
-          "id_riesgo": "R5",
-          "nombre_riesgo": "Copyright Infringement",
-          "nivel_severidad": "Medium-High"
+          "risk_id": "R5",
+          "risk_name": "Copyright Infringement",
+          "severity_level": "Medium-High"
         },
         {
-          "id_riesgo": "R15",
-          "nombre_riesgo": "Unknown & Emerging Risks",
-          "nivel_severidad": "Extreme-Unknown"
+          "risk_id": "R15",
+          "risk_name": "Unknown & Emerging Risks",
+          "severity_level": "Extreme-Unknown"
         },
         {
-          "id_riesgo": "R2",
-          "nombre_riesgo": "Discrimination & Bias",
-          "nivel_severidad": "High"
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "High"
         }
       ],
       "regulatory_domain": "Education, Technological Infrastructure, Educational Innovation",
@@ -115,7 +115,7 @@
       "document_location": "Page 150, Institutional Program of the National College of Professional Technical Education 2025-2030, Section 5. Diagnosis of the current situation and long-term vision",
       "relevance_analysis": "The integration of 'generative AI' in digital laboratories is an educational innovation that can enhance learning. However, this technology is emerging and carries significant risks. In the Mexican context, the lack of clear guidelines for its use in education is a gap. There is a risk that students may generate false content (R4) or infringe copyrights (R5) without full awareness of the implications. Furthermore, if generative models are not well-curated, they can perpetuate biases (R2) or produce erroneous information (R1), affecting the quality of education and the students' critical capacity. The emerging risks (R15) associated with this technology are not yet fully understood.",
       "is_regulatory_gap": true,
-      "recomendations": [
+      "recommendations": [
         "Develop a code of conduct and clear guidelines for the use of generative AI in educational settings, including attribution, information verification, and plagiarism prevention.",
         "Train teachers and students on the risks of generative AI, such as disinformation, bias, and ethical implications.",
         "Establish mechanisms to audit and evaluate the quality and equity of generative AI models used in education."
@@ -126,24 +126,24 @@
       "finding_type": "Implicit - Technology",
       "risk_categories": [
         {
-          "id_riesgo": "R1",
-          "nombre_riesgo": "Malfunctions & Errors",
-          "nivel_severidad": "High"
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
         },
         {
-          "id_riesgo": "R2",
-          "nombre_riesgo": "Discrimination & Bias",
-          "nivel_severidad": "High"
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "High"
         },
         {
-          "id_riesgo": "R3",
-          "nombre_riesgo": "Privacy Invasions",
-          "nivel_severidad": "High"
+          "risk_id": "R3",
+          "risk_name": "Privacy Invasions",
+          "severity_level": "High"
         },
         {
-          "id_riesgo": "R10",
-          "nombre_riesgo": "Concentration of Power",
-          "nivel_severidad": "High"
+          "risk_id": "R10",
+          "risk_name": "Concentration of Power",
+          "severity_level": "High"
         }
       ],
       "regulatory_domain": "Education, Digital Infrastructure",
@@ -151,7 +151,7 @@
       "document_location": "Page 158, Institutional Program of the National College of Professional Technical Education 2025-2030, Strategy 1.3, Action Line 1.3.4",
       "relevance_analysis": "The term 'TICCAD' (Information, Communication, Knowledge, and Digital Learning Technologies) is a bureaucratic euphemism that, in 2025, almost certainly implies the integration of AI-based tools for personalized learning, automated assessment, or content management. The lack of specificity about AI in this context is a regulatory gap. In Mexico, the implementation of these technologies without a clear framework can lead to massive data collection from students without informed consent (R3), the amplification of educational biases (R2) if algorithms are not equitable, and dependence on foreign technology providers (R10), affecting digital sovereignty and equity in access to education. Errors in these systems (R1) can also negatively impact learning.",
       "is_regulatory_gap": true,
-      "recomendations": [
+      "recommendations": [
         "Demand transparency regarding the AI components in the 'TICCAD' used in the curriculum.",
         "Implement robust personal data protection policies for students, aligned with the LFPDPPP (Federal Law on Protection of Personal Data Held by Private Parties), for any TICCAD/AI system.",
         "Conduct algorithmic impact assessments to identify and mitigate biases in TICCAD/AI tools.",
@@ -163,19 +163,19 @@
       "finding_type": "Implicit - Technology",
       "risk_categories": [
         {
-          "id_riesgo": "R1",
-          "nombre_riesgo": "Malfunctions & Errors",
-          "nivel_severidad": "High"
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
         },
         {
-          "id_riesgo": "R2",
-          "nombre_riesgo": "Discrimination & Bias",
-          "nivel_severidad": "High"
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "High"
         },
         {
-          "id_riesgo": "R10",
-          "nombre_riesgo": "Concentration of Power",
-          "nivel_severidad": "High"
+          "risk_id": "R10",
+          "risk_name": "Concentration of Power",
+          "severity_level": "High"
         }
       ],
       "regulatory_domain": "Education, Teacher Training",
@@ -183,7 +183,7 @@
       "document_location": "Page 145, Institutional Program of the National College of Professional Technical Education 2025-2030, Section 5. Diagnosis of the current situation and long-term vision",
       "relevance_analysis": "The mention of 'technological tools for learning' is a broad term that, in the context of 2025, may refer to AI systems (e.g., intelligent tutors, adaptive assessment systems). The lack of specification creates a regulatory gap. If these tools incorporate AI, it is essential to evaluate their impacts on educational equity and learning quality. Errors (R1) or biases (R2) in these tools can affect academic performance or disadvantage certain groups of students. In Mexico, the implementation of these tools must consider the digital divide and ensure that inequalities in access to quality education are not deepened, nor dependence on providers (R10) created.",
       "is_regulatory_gap": true,
-      "recomendations": [
+      "recommendations": [
         "Develop an inventory and evaluation of the 'technological tools' used, identifying those with AI components.",
         "Establish quality, equity, and transparency criteria for the selection and use of AI tools in learning.",
         "Train teachers to critically evaluate and manage the risks of AI in their pedagogical practices."
@@ -194,24 +194,24 @@
       "finding_type": "Implicit - Technology",
       "risk_categories": [
         {
-          "id_riesgo": "R1",
-          "nombre_riesgo": "Malfunctions & Errors",
-          "nivel_severidad": "High"
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
         },
         {
-          "id_riesgo": "R2",
-          "nombre_riesgo": "Discrimination & Bias",
-          "nivel_severidad": "High"
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "High"
         },
         {
-          "id_riesgo": "R7",
-          "nombre_riesgo": "Labor Displacement",
-          "nivel_severidad": "Very High"
+          "risk_id": "R7",
+          "risk_name": "Labor Displacement",
+          "severity_level": "Very High"
         },
         {
-          "id_riesgo": "R10",
-          "nombre_riesgo": "Concentration of Power",
-          "nivel_severidad": "High"
+          "risk_id": "R10",
+          "risk_name": "Concentration of Power",
+          "severity_level": "High"
         }
       ],
       "regulatory_domain": "Labor Training, Continuing Education",
@@ -219,7 +219,7 @@
       "document_location": "Page 148, Institutional Program of the National College of Professional Technical Education 2025-2030, Section 5. Diagnosis of the current situation and long-term vision",
       "relevance_analysis": "The 'incorporation of new technologies' in labor training, including online training, is an area where AI can play an important role (e.g., virtual tutors, personalization of learning paths). The lack of specific regulation on AI in this area is a gap. In a country with high labor informality (~60%), training is key for reskilling, but if AI systems are biased (R2) or prone to errors (R1), they could generate a poorly trained workforce or exclude certain groups. Furthermore, dependence on external platforms (R10) can be a problem, and training in new technologies can accelerate labor displacement (R7) if not managed appropriately.",
       "is_regulatory_gap": true,
-      "recomendations": [
+      "recommendations": [
         "Establish quality, accessibility, and equity standards for online training platforms that use AI.",
         "Ensure that training in new technologies (including AI) is aligned with labor reskilling programs to mitigate displacement (R7).",
         "Promote digital inclusion and equitable access to these platforms for all workers, regardless of their socioeconomic level."
@@ -230,24 +230,24 @@
       "finding_type": "Implicit - Technology",
       "risk_categories": [
         {
-          "id_riesgo": "R7",
-          "nombre_riesgo": "Labor Displacement",
-          "nivel_severidad": "Very High"
+          "risk_id": "R7",
+          "risk_name": "Labor Displacement",
+          "severity_level": "Very High"
         },
         {
-          "id_riesgo": "R1",
-          "nombre_riesgo": "Malfunctions & Errors",
-          "nivel_severidad": "High"
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
         },
         {
-          "id_riesgo": "R2",
-          "nombre_riesgo": "Discrimination & Bias",
-          "nivel_severidad": "High"
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "High"
         },
         {
-          "id_riesgo": "R3",
-          "nombre_riesgo": "Privacy Invasions",
-          "nivel_severidad": "High"
+          "risk_id": "R3",
+          "risk_name": "Privacy Invasions",
+          "severity_level": "High"
         }
       ],
       "regulatory_domain": "Public Administration, Education, Operational Efficiency",
@@ -255,7 +255,7 @@
       "document_location": "Page 165, Institutional Program of the National College of Professional Technical Education 2025-2030, Strategy 4.4, Action Line 4.4.3",
       "relevance_analysis": "The 'automation of administrative processes' at CONALEP, while aiming for efficiency, presents a Very High risk of labor displacement (R7) for administrative personnel, a critical issue in the context of high informality in Mexico. If this automation involves decisions about personnel or resources, algorithmic errors (R1) or biases (R2) could have serious consequences. Moreover, if these systems handle sensitive student or staff data, automation without adequate safeguards can generate privacy risks (R3). The lack of a framework addressing the labor impact and the need for human oversight in these processes is a regulatory gap.",
       "is_regulatory_gap": true,
-      "recomendations": [
+      "recommendations": [
         "Require labor impact studies and reskilling or relocation plans for personnel affected by automation.",
         "Establish mandatory human oversight requirements for all critical decisions made by automated systems.",
         "Implement bias audits and algorithmic transparency for administrative automation systems.",
@@ -267,19 +267,19 @@
       "finding_type": "Implicit - Technology",
       "risk_categories": [
         {
-          "id_riesgo": "R1",
-          "nombre_riesgo": "Malfunctions & Errors",
-          "nivel_severidad": "High"
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
         },
         {
-          "id_riesgo": "R15",
-          "nombre_riesgo": "Unknown & Emerging Risks",
-          "nivel_severidad": "Extreme-Unknown"
+          "risk_id": "R15",
+          "risk_name": "Unknown & Emerging Risks",
+          "severity_level": "Extreme-Unknown"
         },
         {
-          "id_riesgo": "R10",
-          "nombre_riesgo": "Concentration of Power",
-          "nivel_severidad": "High"
+          "risk_id": "R10",
+          "risk_name": "Concentration of Power",
+          "severity_level": "High"
         }
       ],
       "regulatory_domain": "Education, Technological Innovation",
@@ -287,7 +287,7 @@
       "document_location": "Page 165, Institutional Program of the National College of Professional Technical Education 2025-2030, Strategy 4.4, Action Line 4.4.7",
       "relevance_analysis": "Investment in 'virtual laboratories for augmented reality and robotics' is a technological innovation initiative in education. Although AI is not explicitly mentioned, these technologies often integrate with it (e.g., AI for robot control, natural language processing in AR). The lack of guidelines on the safety and ethics of these technologies in the classroom is a gap. Risks include potential technical failures (R1) that affect learning or safety, and the need to ensure that these tools do not create new forms of digital exclusion or technological dependence (R10). The emerging risks (R15) associated with the interaction of these technologies with AI are still uncertain.",
       "is_regulatory_gap": true,
-      "recomendations": [
+      "recommendations": [
         "Develop guidelines for the safe and ethical implementation of robotics and augmented reality technologies in education.",
         "Evaluate the pedagogical and social impact of these technologies, ensuring they promote equity and do not exacerbate digital divides.",
         "Train teachers in the use and maintenance of these technologies, as well as in the identification of potential risks."
@@ -298,14 +298,14 @@
       "finding_type": "Implicit - Risk/Regulatory Gap",
       "risk_categories": [
         {
-          "id_riesgo": "R1",
-          "nombre_riesgo": "Malfunctions & Errors",
-          "nivel_severidad": "High"
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
         },
         {
-          "id_riesgo": "R2",
-          "nombre_riesgo": "Discrimination & Bias",
-          "nivel_severidad": "High"
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "High"
         }
       ],
       "regulatory_domain": "Statistics, Economy, Data Analysis",
@@ -313,7 +313,7 @@
       "document_location": "Page 220, National Institute of Statistics and Geography",
       "relevance_analysis": "The process of 'product chaining' for the National Consumer Price Index (INPC) is a highly complex task that, in 2025, is very likely to involve AI/ML algorithms to analyze large volumes of data and consumption patterns. The absence of explicit mention of AI and transparency regarding the algorithmic methodology is a critical regulatory gap. Errors (R1) or biases (R2) in these algorithms could distort the INPC, affecting monetary policy decisions, wages, and contracts, with a massive economic impact in the Mexican context. The lack of capacity for auditing these systems by society or external bodies is a risk.",
       "is_regulatory_gap": true,
-      "recomendations": [
+      "recommendations": [
         "Require INEGI to publish a detailed methodology used for product chaining, including any AI/ML component.",
         "Establish an independent and periodic auditing mechanism for the INPC algorithms to ensure their accuracy, representativeness, and absence of bias.",
         "Guarantee the transparency and explainability of algorithmic decisions that impact key economic indicators."
@@ -324,24 +324,24 @@
       "finding_type": "Implicit - Risk/Regulatory Gap",
       "risk_categories": [
         {
-          "id_riesgo": "R1",
-          "nombre_riesgo": "Malfunctions & Errors",
-          "nivel_severidad": "High"
+          "risk_id": "R1",
+          "risk_name": "Malfunctions & Errors",
+          "severity_level": "High"
         },
         {
-          "id_riesgo": "R2",
-          "nombre_riesgo": "Discrimination & Bias",
-          "nivel_severidad": "High"
+          "risk_id": "R2",
+          "risk_name": "Discrimination & Bias",
+          "severity_level": "High"
         },
         {
-          "id_riesgo": "R3",
-          "nombre_riesgo": "Privacy Invasions",
-          "nivel_severidad": "High"
+          "risk_id": "R3",
+          "risk_name": "Privacy Invasions",
+          "severity_level": "High"
         },
         {
-          "id_riesgo": "R13",
-          "nombre_riesgo": "Gradual Loss of Control",
-          "nivel_severidad": "Extreme"
+          "risk_id": "R13",
+          "risk_name": "Gradual Loss of Control",
+          "severity_level": "Extreme"
         }
       ],
       "regulatory_domain": "Anti-Corruption, Auditing, Administrative Justice",
@@ -349,7 +349,7 @@
       "document_location": "Page 274, Superior Audit Office of the Federation",
       "relevance_analysis": "The detection of 'serious administrative offenses' and 'related private acts' by the Superior Audit Office of the Federation (ASF) is a high-risk domain where AI/ML could be used for predictive analysis or anomaly detection in large volumes of data. The absence of AI mention in this context is a critical regulatory gap. If algorithms are used, there is a Very High risk of errors (R1) leading to unfair accusations, or biases (R2) disproportionately affecting certain individuals or companies. This could violate fundamental rights such as due process and the presumption of innocence, and undermine trust in democratic institutions. Limited enforcement capacity and the civil law tradition in Mexico make algorithmic transparency and explainability even more important. Excessive automation could lead to a gradual loss of control (R13) over administrative justice.",
       "is_regulatory_gap": true,
-      "recomendations": [
+      "recommendations": [
         "Develop a specific regulatory framework for the use of AI/ML in auditing and detecting administrative offenses by the ASF.",
         "Require full transparency on the algorithms used, including their design, training data, performance metrics, and decision criteria.",
         "Implement independent and mandatory audits of AI systems to detect and mitigate biases and errors.",
